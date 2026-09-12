@@ -4,7 +4,7 @@ Research code, benchmark inputs, and archived numerical evidence for **Coupled e
 
 **Authors:** Yuan Gan, Zhen Cao, Ruby Feng, and Wei Li.  
 **Contact:** ganyuan@hnu.edu.cn  
-**Prepared version:** 1.0.0. The associated manuscript is being prepared for *Electric Power Systems Research*.
+**Version:** 1.0.1.
 
 **Repository:** https://github.com/ganyuan8888888/Electric-Carbon-Flexibility
 
