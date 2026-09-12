@@ -1,0 +1,9 @@
+LP_SEED {'values': array([0.99233094, 0.98640317, 0.97573463, 0.98735234, 0.991893  ,
+       0.98612045, 0.99145205, 0.98734777, 0.98640317, 0.98640317,
+       1.01209531, 0.98021515, 0.97268981, 0.97573097, 0.99145205,
+       0.98149081, 0.98640317, 0.99324874, 0.98640317, 0.98082515]), 'selected': 10, 'elapsed_s': 8.614336099999491}
+C:\Users\Ganyu\Documents\英语论文\_work\epsr_industrial_carbon_20260908\scripts\benchmark_clusters_v38.py:55: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  lp=linprog([0.]*self.groups+[1.],A_ub=matrix,b_ub=-a,bounds=[(0.,1.)]*self.groups+[(0.,None)],method='highs',options={'threads':1})
+INITIAL_POLISH {'sweeps': 3, 'elapsed_s': 0.22687449998920783, 'upper': 1.0122235569689046}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [10], 'fixed_quota': False, 'status': 'optimal', 'value': 1.0122235569689046, 'bound': 1.0122235569689046, 'seconds': 1.096824900014326, 'binaries': 1313, 'max_constraint_violation': 2.220446049250313e-16, 'mip_nodes': 1}
+FORMAL_RESULT {'status': 'optimal', 'objective': 1.0122235569689046, 'bound': 1.0122235569689046, 'all_scenario_witness_upper': 1.0122235569689046, 'date': '2020-04-07', 'regions': 4, 'parks': 24, 'scenarios': 20, 'method': 'reuse', 'elapsed_s': 10.31158239999786, 'MILP_calls': 1, 'LP_calls': 40, 'cache_hits': 20, 'initial_polish': {'sweeps': 3, 'elapsed_s': 0.22687449998920783, 'upper': 1.0122235569689046}, 'cells': 45384, 'implementation': 'v39 proposed'}

@@ -1,0 +1,377 @@
+{
+  "status": "optimal",
+  "runtime_s": 10.721673299998656,
+  "master_objective": 45242.2820686115,
+  "master_reuse_calls": 1,
+  "library_scope": "certified_priority_v21",
+  "canonical_objective_offset": 0.0,
+  "generation_emission_t": 45242.28206861151,
+  "curtailment_mwh": 0.0,
+  "objective_actual": 1453215.218523476,
+  "carbon_balance_residual": 5.684341886080802e-14,
+  "attribution_conservation_residual": 7.275957614183426e-12,
+  "primal_audit": {
+    "passed": true,
+    "tolerance": 1e-05,
+    "checks": {
+      "total_power_balance_mw": 3.893774191965349e-12,
+      "nodal_dc_balance_mw": 8.327560863108374e-12,
+      "line_capacity_excess_mw": 2.842170943040401e-14,
+      "generation_lower_excess_mw": 1.4210854715202004e-14,
+      "generation_upper_excess_mw": -0.0,
+      "generation_ramp_excess_mw": 0.0,
+      "renewable_lower_excess_mw": 0.0,
+      "renewable_upper_excess_mw": -0.0,
+      "library_interface_error_mw": 0.0,
+      "weight_sum_error": 0.0,
+      "weight_bound_excess": -0.0,
+      "inadmissible_branch_weight": 0.0,
+      "commitment_integrality_error": 0.0,
+      "branch_integrality_error": 0.0
+    },
+    "integral_required": true,
+    "weight_fractionality": 0.0
+  },
+  "total_metric_caps": {
+    "cost": 1453215.218523461,
+    "source_emissions": 45242.28206875345,
+    "curtailment": 1e-07
+  },
+  "total_metric_excess": {
+    "objective_actual": 1.5133991837501526e-08,
+    "generation_emission_t": 0.0,
+    "curtailment_mwh": 0.0
+  },
+  "total_metric_feasible": true,
+  "emission_scalarization_price": 0.0,
+  "worst_total_ratio": 0.9976280076958208,
+  "normalized_minimax_master_bound": 1453215.218522422,
+  "history": [
+    {
+      "start": 0,
+      "iteration": 0,
+      "objective": 1453215.218522461,
+      "violation": 0.0,
+      "objective_actual": 1453215.218522461,
+      "generation_emission_t": 45242.28206865345,
+      "curtailment_mwh": -1.1613973671664723e-14
+    },
+    {
+      "start": 0,
+      "iteration": 1,
+      "objective": 1453215.218522461,
+      "violation": 0.0,
+      "objective_actual": 1453215.218522461,
+      "generation_emission_t": 45242.28206865345,
+      "curtailment_mwh": -1.1613973671664723e-14
+    },
+    {
+      "start": 0,
+      "iteration": 2,
+      "objective": 1453215.218522461,
+      "violation": 0.0,
+      "objective_actual": 1453215.218522461,
+      "generation_emission_t": 45242.28206865345,
+      "curtailment_mwh": -1.1613973671664723e-14
+    },
+    {
+      "start": 0,
+      "iteration": 3,
+      "objective": 1453215.218522461,
+      "violation": 0.0,
+      "objective_actual": 1453215.218522461,
+      "generation_emission_t": 45242.28206865345,
+      "curtailment_mwh": -1.1613973671664723e-14
+    },
+    {
+      "start": 0,
+      "iteration": 4,
+      "objective": 1453215.218522461,
+      "violation": 0.0,
+      "objective_actual": 1453215.218522461,
+      "generation_emission_t": 45242.28206865345,
+      "curtailment_mwh": -1.1613973671664723e-14
+    },
+    {
+      "start": 0,
+      "iteration": 5,
+      "objective": 1453215.218522461,
+      "violation": 0.0,
+      "objective_actual": 1453215.218522461,
+      "generation_emission_t": 45242.28206865345,
+      "curtailment_mwh": -1.1613973671664723e-14
+    },
+    {
+      "start": 0,
+      "iteration": 6,
+      "objective": 1453215.218522461,
+      "violation": 0.0,
+      "objective_actual": 1453215.218522461,
+      "generation_emission_t": 45242.28206865345,
+      "curtailment_mwh": -1.1613973671664723e-14
+    },
+    {
+      "start": 0,
+      "iteration": 7,
+      "objective": 1453215.218522461,
+      "violation": 0.0,
+      "objective_actual": 1453215.218522461,
+      "generation_emission_t": 45242.28206865345,
+      "curtailment_mwh": -1.1613973671664723e-14
+    },
+    {
+      "start": 0,
+      "iteration": 8,
+      "objective": 1453215.218522461,
+      "violation": 0.0,
+      "objective_actual": 1453215.218522461,
+      "generation_emission_t": 45242.28206865345,
+      "curtailment_mwh": -1.1613973671664723e-14
+    },
+    {
+      "start": 1,
+      "iteration": 0,
+      "objective": 1454721.3848565328,
+      "violation": 0.0,
+      "objective_actual": 1454721.3848565328,
+      "generation_emission_t": 45289.172853413846,
+      "curtailment_mwh": 0.0
+    },
+    {
+      "start": 1,
+      "iteration": 1,
+      "objective": 1454721.3848555153,
+      "violation": 0.0,
+      "objective_actual": 1454721.3848555153,
+      "generation_emission_t": 45289.172853455544,
+      "curtailment_mwh": -6.284903153463972e-15
+    },
+    {
+      "start": 1,
+      "iteration": 2,
+      "objective": 1454721.3848555153,
+      "violation": 0.0,
+      "objective_actual": 1454721.3848555153,
+      "generation_emission_t": 45289.172853455544,
+      "curtailment_mwh": -6.284903153463972e-15
+    },
+    {
+      "start": 1,
+      "iteration": 3,
+      "objective": 1454721.3848555153,
+      "violation": 0.0,
+      "objective_actual": 1454721.3848555153,
+      "generation_emission_t": 45289.172853455544,
+      "curtailment_mwh": -6.284903153463972e-15
+    },
+    {
+      "start": 1,
+      "iteration": 4,
+      "objective": 1454721.3848555153,
+      "violation": 0.0,
+      "objective_actual": 1454721.3848555153,
+      "generation_emission_t": 45289.172853455544,
+      "curtailment_mwh": -6.284903153463972e-15
+    },
+    {
+      "start": 1,
+      "iteration": 5,
+      "objective": 1454721.3848555153,
+      "violation": 0.0,
+      "objective_actual": 1454721.3848555153,
+      "generation_emission_t": 45289.172853455544,
+      "curtailment_mwh": -6.284903153463972e-15
+    },
+    {
+      "start": 1,
+      "iteration": 6,
+      "objective": 1454721.3848555153,
+      "violation": 0.0,
+      "objective_actual": 1454721.3848555153,
+      "generation_emission_t": 45289.172853455544,
+      "curtailment_mwh": -6.284903153463972e-15
+    },
+    {
+      "start": 1,
+      "iteration": 7,
+      "objective": 1454721.3848555153,
+      "violation": 0.0,
+      "objective_actual": 1454721.3848555153,
+      "generation_emission_t": 45289.172853455544,
+      "curtailment_mwh": -6.284903153463972e-15
+    },
+    {
+      "start": 1,
+      "iteration": 8,
+      "objective": 1454721.3848555153,
+      "violation": 0.0,
+      "objective_actual": 1454721.3848555153,
+      "generation_emission_t": 45289.172853455544,
+      "curtailment_mwh": -6.284903153463972e-15
+    },
+    {
+      "start": 1,
+      "iteration": 9,
+      "objective": 1454721.3848555153,
+      "violation": 0.0,
+      "objective_actual": 1454721.3848555153,
+      "generation_emission_t": 45289.172853455544,
+      "curtailment_mwh": -6.284903153463972e-15
+    }
+  ],
+  "budget_violation_t": 0.0,
+  "carbon_feasible": true,
+  "total_runtime_s": 169.23984080000082,
+  "_arrays_sha256": "5448d24f83800f5e9f189113e864d197cbd5ecc0340bd6bb1d82b82e1a874623",
+  "relaxation_lower_bound": 45242.2820686115,
+  "source_emission_history": [
+    {
+      "start": 0,
+      "iteration": 0,
+      "objective_actual": 1453215.218522461,
+      "generation_emission_t": 45242.28206865345,
+      "curtailment_mwh": -1.1613973671664723e-14,
+      "budget_excess_t": 0.0
+    },
+    {
+      "start": 0,
+      "iteration": 1,
+      "objective_actual": 1453215.218522461,
+      "generation_emission_t": 45242.28206865345,
+      "curtailment_mwh": -1.1613973671664723e-14,
+      "budget_excess_t": 0.0
+    },
+    {
+      "start": 0,
+      "iteration": 2,
+      "objective_actual": 1453215.218522461,
+      "generation_emission_t": 45242.28206865345,
+      "curtailment_mwh": -1.1613973671664723e-14,
+      "budget_excess_t": 0.0
+    },
+    {
+      "start": 0,
+      "iteration": 3,
+      "objective_actual": 1453215.218522461,
+      "generation_emission_t": 45242.28206865345,
+      "curtailment_mwh": -1.1613973671664723e-14,
+      "budget_excess_t": 0.0
+    },
+    {
+      "start": 0,
+      "iteration": 4,
+      "objective_actual": 1453215.218522461,
+      "generation_emission_t": 45242.28206865345,
+      "curtailment_mwh": -1.1613973671664723e-14,
+      "budget_excess_t": 0.0
+    },
+    {
+      "start": 0,
+      "iteration": 5,
+      "objective_actual": 1453215.218522461,
+      "generation_emission_t": 45242.28206865345,
+      "curtailment_mwh": -1.1613973671664723e-14,
+      "budget_excess_t": 0.0
+    },
+    {
+      "start": 0,
+      "iteration": 6,
+      "objective_actual": 1453215.218522461,
+      "generation_emission_t": 45242.28206865345,
+      "curtailment_mwh": -1.1613973671664723e-14,
+      "budget_excess_t": 0.0
+    },
+    {
+      "start": 0,
+      "iteration": 7,
+      "objective_actual": 1453215.218522461,
+      "generation_emission_t": 45242.28206865345,
+      "curtailment_mwh": -1.1613973671664723e-14,
+      "budget_excess_t": 0.0
+    },
+    {
+      "start": 0,
+      "iteration": 8,
+      "objective_actual": 1453215.218522461,
+      "generation_emission_t": 45242.28206865345,
+      "curtailment_mwh": -1.1613973671664723e-14,
+      "budget_excess_t": 0.0
+    },
+    {
+      "start": 1,
+      "iteration": 0,
+      "objective_actual": 1453215.218523476,
+      "generation_emission_t": 45242.28206861151,
+      "curtailment_mwh": 0.0,
+      "budget_excess_t": 0.0
+    },
+    {
+      "start": 1,
+      "iteration": 1,
+      "objective_actual": 1453215.218523476,
+      "generation_emission_t": 45242.28206861151,
+      "curtailment_mwh": 0.0,
+      "budget_excess_t": 0.0
+    },
+    {
+      "start": 1,
+      "iteration": 2,
+      "objective_actual": 1453215.218523476,
+      "generation_emission_t": 45242.28206861151,
+      "curtailment_mwh": 0.0,
+      "budget_excess_t": 0.0
+    },
+    {
+      "start": 1,
+      "iteration": 3,
+      "objective_actual": 1453215.218523476,
+      "generation_emission_t": 45242.28206861151,
+      "curtailment_mwh": 0.0,
+      "budget_excess_t": 0.0
+    },
+    {
+      "start": 1,
+      "iteration": 4,
+      "objective_actual": 1453215.218523476,
+      "generation_emission_t": 45242.28206861151,
+      "curtailment_mwh": 0.0,
+      "budget_excess_t": 0.0
+    },
+    {
+      "start": 1,
+      "iteration": 5,
+      "objective_actual": 1453215.218523476,
+      "generation_emission_t": 45242.28206861151,
+      "curtailment_mwh": 0.0,
+      "budget_excess_t": 0.0
+    },
+    {
+      "start": 1,
+      "iteration": 6,
+      "objective_actual": 1453215.218523476,
+      "generation_emission_t": 45242.28206861151,
+      "curtailment_mwh": 0.0,
+      "budget_excess_t": 0.0
+    },
+    {
+      "start": 1,
+      "iteration": 7,
+      "objective_actual": 1453215.218523476,
+      "generation_emission_t": 45242.28206861151,
+      "curtailment_mwh": 0.0,
+      "budget_excess_t": 0.0
+    },
+    {
+      "start": 1,
+      "iteration": 8,
+      "objective_actual": 1453215.218523476,
+      "generation_emission_t": 45242.28206861151,
+      "curtailment_mwh": 0.0,
+      "budget_excess_t": 0.0
+    }
+  ],
+  "source_emission_refinement_applied": true,
+  "source_emission_refinement_version": 2,
+  "source_emission_refinement_runtime_s": 87.4555509999991,
+  "refinement_scope": "Minimize actual source emissions within the accepted minimax metric level; retain original cost/curtailment caps, production, recovery, stability and industrial carbon budgets."
+}

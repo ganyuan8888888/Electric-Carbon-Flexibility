@@ -1,0 +1,201 @@
+{
+  "date": "2020-11-29",
+  "lower_ratio": 1.1188558756737956,
+  "upper_ratio": 1.1188558756737956,
+  "q": [
+    450.399539067946,
+    13.07970601556469,
+    425.8958348935289,
+    270.3629807662284,
+    167.4217477940635,
+    129.59016394166457
+  ],
+  "u": [
+    0.2,
+    0.2,
+    0.2,
+    0.20000000000000004,
+    0.2,
+    0.2
+  ],
+  "outer_trace": [
+    {
+      "iteration": 1,
+      "lower_ratio": 0.9672306514224945,
+      "upper_ratio": 1.1188558756737956,
+      "feasibility_scenario": 1,
+      "active_scenarios": [
+        0
+      ],
+      "elapsed_s": 0.10500909999245778
+    },
+    {
+      "iteration": 2,
+      "lower_ratio": 1.1188558756737956,
+      "upper_ratio": 1.1188558756737956,
+      "feasibility_scenario": 2,
+      "active_scenarios": [
+        0,
+        1
+      ],
+      "elapsed_s": 0.19579019999946468
+    },
+    {
+      "iteration": 3,
+      "lower_ratio": 1.1188558756737956,
+      "upper_ratio": 1.1188558756737956,
+      "relative_gap": 0.0,
+      "active_scenarios": [
+        0,
+        1,
+        2
+      ],
+      "worst_scenario": 1,
+      "inner_patterns": 3,
+      "elapsed_s": 2.381142300000647
+    }
+  ],
+  "inner_trace": [
+    {
+      "outer_iteration": 3,
+      "inner_iteration": 1,
+      "lower_ratio": 0.9672306514224945,
+      "upper_ratio": Infinity,
+      "upper_is_infinite": true,
+      "solved_scenario": 0,
+      "worst_scenario": 1,
+      "patterns": 1,
+      "reused_patterns": 0,
+      "initial_upper": Infinity,
+      "eligible_cells": [
+        10,
+        1,
+        222,
+        294,
+        314
+      ],
+      "elapsed_s": 0.05975280000711791
+    },
+    {
+      "outer_iteration": 3,
+      "inner_iteration": 2,
+      "lower_ratio": 1.1188558756737956,
+      "upper_ratio": Infinity,
+      "upper_is_infinite": true,
+      "solved_scenario": 1,
+      "worst_scenario": 3,
+      "patterns": 2,
+      "reused_patterns": 0,
+      "initial_upper": Infinity,
+      "eligible_cells": [
+        10,
+        1,
+        222,
+        294,
+        314
+      ],
+      "elapsed_s": 0.07378299999982119
+    },
+    {
+      "outer_iteration": 3,
+      "inner_iteration": 3,
+      "lower_ratio": 1.1188558756737956,
+      "upper_ratio": 1.1188558756737956,
+      "upper_is_infinite": false,
+      "solved_scenario": 3,
+      "worst_scenario": 1,
+      "patterns": 3,
+      "reused_patterns": 0,
+      "initial_upper": Infinity,
+      "eligible_cells": [
+        10,
+        1,
+        222,
+        294,
+        314
+      ],
+      "elapsed_s": 0.3765406000020448
+    }
+  ],
+  "elapsed_s": 2.381149299995741,
+  "LP_calls": 12,
+  "MIP_calls": 6,
+  "initialization": {
+    "u": [
+      0.2,
+      0.2,
+      0.2,
+      0.20000000000000004,
+      0.2,
+      0.2
+    ],
+    "upper": 1.1188558756737956,
+    "plans": {
+      "0": {
+        "cell_id": 0,
+        "key": [
+          "constant",
+          "constant_cost",
+          "constant_cost",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 1.0563596988643669
+      },
+      "1": {
+        "cell_id": 0,
+        "key": [
+          "scenario_adaptive",
+          "scenario_adaptive_carbon_cap_anchor",
+          "scenario_adaptive_carbon_cap_anchor",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 1.1188558756737956
+      },
+      "2": {
+        "cell_id": 0,
+        "key": [
+          "constant",
+          "constant_price25",
+          "constant_price25",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 1.0265740982403682
+      },
+      "3": {
+        "cell_id": 0,
+        "key": [
+          "constant",
+          "constant_price25",
+          "constant_price25",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 1.0476896645984843
+      },
+      "4": {
+        "cell_id": 0,
+        "key": [
+          "constant",
+          "constant_cost",
+          "constant_cost",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 0.9077897325080345
+      }
+    },
+    "rule": "First admitted certified cell in each scenario at q=qbar; independent LP along each cell. No use of the robust optimum.",
+    "elapsed_s": 0.010817600006703287
+  },
+  "cache_hits": 7,
+  "reused_pattern_instances": 0,
+  "independent_validation": "Compared with the separately solved full MILP in this benchmark repeat."
+}

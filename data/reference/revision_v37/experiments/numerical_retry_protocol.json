@@ -1,0 +1,6 @@
+{
+  "scope": "Every method-case record whose backend status is solver_error receives up to two cold repetitions of the identical five-iteration candidate search. Verified or normally completed searches are not repeated.",
+  "reason": "Distinguish backend numerical failures from completed recourse searches; the same rule applies to M1, M4-N and M4.",
+  "inputs": "Original source/load trajectory, frozen first-stage quota, industrial mode scope, initial seed and search settings are unchanged.",
+  "storage": "Initial records are immutable. Repetitions are saved separately under oos_numerical_retry; unresolved repetitions remain in the denominator."
+}

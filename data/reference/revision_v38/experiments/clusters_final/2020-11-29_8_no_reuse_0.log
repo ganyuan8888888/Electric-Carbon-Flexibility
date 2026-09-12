@@ -1,0 +1,7 @@
+C:\Users\Ganyu\Documents\英语论文\_work\epsr_industrial_carbon_20260908\scripts\benchmark_clusters_v38.py:55: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  lp=linprog([0.]*self.groups+[1.],A_ub=matrix,b_ub=-a,bounds=[(0.,1.)]*self.groups+[(0.,None)],method='highs',options={'threads':1})
+SOLVE 2020-11-29 8 reuse False {'scenarios': [0], 'fixed_quota': False, 'status': 'optimal', 'value': 0.9908596220743305, 'bound': 0.9908596220743304, 'seconds': 7.304231399990385, 'binaries': 4475, 'max_constraint_violation': 8.881784197001252e-16, 'mip_nodes': 1}
+C:\Users\Ganyu\Documents\英语论文\_work\epsr_industrial_carbon_20260908\tmp\evidence_runtime\numpy\_core\fromnumeric.py:83: RuntimeWarning: invalid value encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+SOLVE 2020-11-29 8 reuse False {'scenarios': [0, 1, 2, 3, 4], 'fixed_quota': False, 'status': 'optimal', 'value': 0.9908596220743305, 'bound': 0.9908596220743305, 'seconds': 26.757196099992143, 'binaries': 27400, 'max_constraint_violation': 4.440892098500626e-16, 'mip_nodes': 1}
+FINAL RESULT {'status': 'optimal', 'objective': 0.9908596220743305, 'bound': 0.9908596220743305, 'gap': 0.0, 'date': '2020-11-29', 'regions': 8, 'parks': 48, 'buses': 632, 'branches': 1008, 'scenarios': 5, 'method': 'no_reuse', 'repeat': 0, 'elapsed_s': 34.31115650001448, 'cells': 27400, 'MILP_calls': 2, 'LP_calls': 5, 'cache_hits': 0}

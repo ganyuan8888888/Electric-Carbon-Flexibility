@@ -1,0 +1,45 @@
+V39B_FORMAL 2020-04-07 5 0
+V39B_FORMAL 2020-04-07 10 0
+V39B_FORMAL 2020-04-07 20 0
+V39B_FORMAL 2020-04-07 40 0
+V39B_FORMAL 2020-10-17 5 0
+V39B_FORMAL 2020-10-17 10 0
+V39B_FORMAL 2020-10-17 20 0
+V39B_FORMAL 2020-10-17 40 0
+V39B_FORMAL 2020-11-29 5 0
+V39B_FORMAL 2020-11-29 10 0
+V39B_FORMAL 2020-11-29 20 0
+V39B_FORMAL 2020-11-29 40 0
+ALL_V39B_PROPOSED_COMPLETE
+PROPOSED_REVISION_BATCH 0
+C:\Users\Ganyu\Documents\英语论文\_work\epsr_industrial_carbon_20260908\scripts\benchmark_clusters_v38.py:55: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  lp=linprog([0.]*self.groups+[1.],A_ub=matrix,b_ub=-a,bounds=[(0.,1.)]*self.groups+[(0.,None)],method='highs',options={'threads':1})
+SOLVE 2020-04-07 4 reuse False {'scenarios': [0], 'fixed_quota': False, 'status': 'optimal', 'value': 0.9924566817129226, 'bound': 0.9924566817129226, 'seconds': 1.7296090000018012, 'binaries': 1620, 'max_constraint_violation': 6.661338147750939e-16, 'mip_nodes': 1}
+C:\Users\Ganyu\Documents\英语论文\_work\epsr_industrial_carbon_20260908\tmp\evidence_runtime\numpy\_core\fromnumeric.py:83: RuntimeWarning: invalid value encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+SOLVE 2020-04-07 4 reuse False {'scenarios': [0, 1, 2, 3, 6, 8, 9, 12, 13, 14, 16, 17, 18, 19, 20, 22, 24, 28, 29, 33, 36, 37], 'fixed_quota': False, 'status': 'optimal', 'value': 1.009163583352602, 'bound': 1.009163583352602, 'seconds': 245.56002599999192, 'binaries': 47342, 'max_constraint_violation': 3.0704944337968387e-21, 'mip_nodes': 203}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [4], 'fixed_quota': True, 'status': 'optimal', 'value': 0.9938374536332971, 'bound': 0.9938374536332971, 'seconds': 5.700001499993959, 'binaries': 1549, 'max_constraint_violation': 3.4416913763379853e-15, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [5], 'fixed_quota': True, 'status': 'optimal', 'value': 0.9880635318426622, 'bound': 0.9880635318426622, 'seconds': 8.287199200014584, 'binaries': 2042, 'max_constraint_violation': 8.881784197001252e-16, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [7], 'fixed_quota': True, 'status': 'optimal', 'value': 0.9927314269396004, 'bound': 0.9927314269396004, 'seconds': 6.010442500002682, 'binaries': 1336, 'max_constraint_violation': 1.7763568394002505e-15, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [10], 'fixed_quota': True, 'status': 'optimal', 'value': 1.0122235569689044, 'bound': 1.0122235569689044, 'seconds': 0.5087870999996085, 'binaries': 641, 'max_constraint_violation': 0.0, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [11], 'fixed_quota': True, 'status': 'optimal', 'value': 0.9833077268200936, 'bound': 0.9833077268200936, 'seconds': 4.030814400000963, 'binaries': 3148, 'max_constraint_violation': 1.1102230246251565e-16, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [15], 'fixed_quota': True, 'status': 'optimal', 'value': 0.9875988178813014, 'bound': 0.9875988178813014, 'seconds': 1.2469188999966718, 'binaries': 1143, 'max_constraint_violation': 5.551115123125783e-16, 'mip_nodes': 3}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [25], 'fixed_quota': True, 'status': 'optimal', 'value': 1.0071740331799477, 'bound': 1.0071740331799477, 'seconds': 1.9443268000031821, 'binaries': 1344, 'max_constraint_violation': 0.0, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [27], 'fixed_quota': True, 'status': 'optimal', 'value': 0.9893264098146459, 'bound': 0.9893264098146459, 'seconds': 0.6934655999939423, 'binaries': 811, 'max_constraint_violation': 0.0, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [31], 'fixed_quota': True, 'status': 'optimal', 'value': 1.0122235569689046, 'bound': 1.0122235569689046, 'seconds': 0.5328436999989208, 'binaries': 647, 'max_constraint_violation': 0.0, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [32], 'fixed_quota': True, 'status': 'optimal', 'value': 1.0062950308275818, 'bound': 1.0062950308275818, 'seconds': 1.810823400010122, 'binaries': 1231, 'max_constraint_violation': 2.220446049250313e-16, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [34], 'fixed_quota': True, 'status': 'optimal', 'value': 1.0062950308275818, 'bound': 1.0062950308275818, 'seconds': 1.7840442000015173, 'binaries': 1224, 'max_constraint_violation': 2.220446049250313e-16, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [35], 'fixed_quota': True, 'status': 'optimal', 'value': 0.9943793447143998, 'bound': 0.9943793447143998, 'seconds': 0.38150769998901524, 'binaries': 536, 'max_constraint_violation': 0.0, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse False {'scenarios': [0, 1, 2, 3, 6, 8, 9, 12, 13, 14, 16, 17, 18, 19, 20, 22, 24, 28, 29, 33, 36, 37, 31], 'fixed_quota': False, 'status': 'optimal', 'value': 1.012223556968905, 'bound': 1.012223556968905, 'seconds': 99.88202089999686, 'binaries': 48655, 'max_constraint_violation': 3.6490570673461834e-11, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [4], 'fixed_quota': True, 'status': 'optimal', 'value': 1.0011731786774165, 'bound': 1.0011731786774165, 'seconds': 3.5746622000006028, 'binaries': 1976, 'max_constraint_violation': 7.993605777301127e-15, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [5], 'fixed_quota': True, 'status': 'optimal', 'value': 0.995518291430456, 'bound': 0.995518291430456, 'seconds': 4.768225999985589, 'binaries': 2631, 'max_constraint_violation': 0.0, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [7], 'fixed_quota': True, 'status': 'optimal', 'value': 0.9955270854775676, 'bound': 0.9955270854775676, 'seconds': 5.83803519999492, 'binaries': 1841, 'max_constraint_violation': 2.220446049250313e-16, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [10], 'fixed_quota': True, 'status': 'optimal', 'value': 1.0122235569689046, 'bound': 1.0122235569689046, 'seconds': 0.3132101999945007, 'binaries': 962, 'max_constraint_violation': 4.440892098500626e-16, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [15], 'fixed_quota': True, 'status': 'optimal', 'value': 0.9921654469881332, 'bound': 0.9921654469881332, 'seconds': 1.6607447999995202, 'binaries': 1566, 'max_constraint_violation': 6.439293542825908e-15, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [25], 'fixed_quota': True, 'status': 'optimal', 'value': 1.011680842519813, 'bound': 1.011680842519813, 'seconds': 1.8945932999777142, 'binaries': 1504, 'max_constraint_violation': 8.881784197001252e-16, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [26], 'fixed_quota': True, 'status': 'optimal', 'value': 0.9955270854775674, 'bound': 0.9955270854775674, 'seconds': 2.558451100019738, 'binaries': 1842, 'max_constraint_violation': 5.573319583618286e-14, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [27], 'fixed_quota': True, 'status': 'optimal', 'value': 0.9975883064729383, 'bound': 0.9975883064729383, 'seconds': 1.3745549999875948, 'binaries': 1249, 'max_constraint_violation': 2.220446049250313e-16, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [32], 'fixed_quota': True, 'status': 'optimal', 'value': 1.0063609153502229, 'bound': 1.0063609153502229, 'seconds': 2.1816281999927014, 'binaries': 1614, 'max_constraint_violation': 0.0, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [34], 'fixed_quota': True, 'status': 'optimal', 'value': 1.0063609153502227, 'bound': 1.0063609153502227, 'seconds': 2.0590911000035703, 'binaries': 1582, 'max_constraint_violation': 2.220446049250313e-16, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [35], 'fixed_quota': True, 'status': 'optimal', 'value': 0.991577679360557, 'bound': 0.991577679360557, 'seconds': 1.2301947000087239, 'binaries': 1173, 'max_constraint_violation': 0.0, 'mip_nodes': 1}
+FORMAL_RESULT {'status': 'optimal', 'objective': 1.0122235569689046, 'bound': 1.012223556968905, 'date': '2020-04-07', 'regions': 4, 'parks': 24, 'scenarios': 40, 'method': 'no_reuse', 'elapsed_s': 408.480645899981, 'MILP_calls': 26, 'LP_calls': 127, 'cache_hits': 777, 'initial_polish': None, 'cells': 86604, 'implementation': 'unchanged v38 comparator', 'implementation_hashes': {'benchmark_clusters_v38.py': '228d54ad7c124829b09d16ed9c3183973d4f37805d920480bde96e02aa7b703d', 'benchmark_presolved_v38.py': '9541c6631f8d6c9c78a2a625d3e14c21c7b0ec8037570a6ec464723796d39e44', 'benchmark_final_v38.py': 'dc7ebc4dbbe19ef7fd245f77b6fb17723ee23a00660bd54e72f4ac7141aa0941', 'benchmark_joint_v39.py': '85ef24fba7e315d5bc3cc6090ec01ebc3140e539050b58c9802b32f13e3b9faa'}}

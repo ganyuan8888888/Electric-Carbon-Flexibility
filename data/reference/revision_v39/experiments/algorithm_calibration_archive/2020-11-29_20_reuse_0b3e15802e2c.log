@@ -1,0 +1,13 @@
+C:\Users\Ganyu\Documents\英语论文\_work\epsr_industrial_carbon_20260908\tmp\evidence_runtime\numpy\_core\fromnumeric.py:83: RuntimeWarning: invalid value encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+LP_SEED {'values': array([1.00265317, 0.97461383, 0.93670753, 0.97264538, 0.97906607,
+       0.95102673, 1.00462162, 0.97264538, 0.97461383, 0.97461383,
+       1.04501172, 0.88311264, 0.96029463, 0.93670753, 1.00462162,
+       0.96474687, 0.97461383, 1.00068472, 0.97461383, 0.93473908]), 'selected': 10, 'elapsed_s': 12.955682699976023}
+C:\Users\Ganyu\Documents\英语论文\_work\epsr_industrial_carbon_20260908\scripts\benchmark_clusters_v38.py:55: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  lp=linprog([0.]*self.groups+[1.],A_ub=matrix,b_ub=-a,bounds=[(0.,1.)]*self.groups+[(0.,None)],method='highs',options={'threads':1})
+INITIAL_POLISH {'sweeps': 3, 'elapsed_s': 0.18755609999061562, 'upper': 1.0450117163384411}
+C:\Users\Ganyu\Documents\英语论文\_work\epsr_industrial_carbon_20260908\scripts\benchmark_warm_v39.py:15: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  lp=linprog([0.]*self.groups+[1.],A_ub=np.column_stack([np.array(diff).T,-np.ones(3)]),b_ub=-constant,
+SOLVE 2020-11-29 4 reuse True {'scenarios': [10], 'fixed_quota': False, 'status': 'optimal', 'value': 1.0450117164384412, 'bound': 1.0450117163384416, 'seconds': 1.7178063000028487, 'binaries': 1051, 'max_constraint_violation': 6.661338147750939e-16, 'mip_nodes': 1, 'primal_start': {'supplied': True, 'max_constraint_violation': 6.661338147750939e-16, 'objective': 1.0450117164384412}}
+FORMAL_RESULT {'status': 'optimal', 'objective': 1.0450117163384411, 'bound': 1.0450117163384416, 'all_scenario_witness_upper': 1.0450117163384411, 'date': '2020-11-29', 'regions': 4, 'parks': 24, 'scenarios': 20, 'method': 'reuse', 'elapsed_s': 15.317202400008682, 'MILP_calls': 1, 'LP_calls': 46, 'cache_hits': 21, 'initial_polish': {'sweeps': 3, 'elapsed_s': 0.18755609999061562, 'upper': 1.0450117163384411}, 'cells': 56777, 'implementation': 'v39b proposed: feasible primal start and incumbent cutoff', 'implementation_hashes': {'benchmark_warm_v39.py': '737bfca9046ff26fe92fc7426cd2ecebd56f1e418d10ba68f5ad4738568593c1', 'highs_start_v39.py': '6bad6108c09c0f25a48a2777646736fc790cad4cbf2cc65a8802670103da8b9f'}}

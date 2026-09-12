@@ -1,0 +1,27 @@
+{
+  "dates": [
+    "2020-04-07",
+    "2020-10-17",
+    "2020-11-29"
+  ],
+  "regions": 4,
+  "scenarios": [
+    5,
+    10,
+    20,
+    40
+  ],
+  "seed": 2026091139,
+  "interpretation": "Distinct regional combinations of original 24-hour joint source-load realizations; 4 physical regions, unchanged per-region grid and industrial trajectories. These are designed uncertainty scenarios, not new observed days.",
+  "methods": [
+    "full",
+    "no_reuse",
+    "reuse"
+  ],
+  "threads": 1,
+  "time_limit_s": 600,
+  "mip_rel_gap": 1e-08,
+  "mip_abs_gap": 1e-09,
+  "scope": "Same model, inputs, quota cuts, solver tolerances and timing scope. NCCGs add a deterministic greedy cover of missing local realizations instead of every redundant global feasibility scenario. Both NCCGs use this exact feasibility-screening improvement.",
+  "timing": "One calibration run precedes the full preset suite. Formal runs rotate method order, retain all instances and all timeouts. No outcome-based date/size filtering."
+}

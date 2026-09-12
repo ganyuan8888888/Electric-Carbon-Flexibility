@@ -1,0 +1,11 @@
+C:\Users\Ganyu\Documents\英语论文\_work\epsr_industrial_carbon_20260908\scripts\benchmark_clusters_v38.py:55: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  lp=linprog([0.]*self.groups+[1.],A_ub=matrix,b_ub=-a,bounds=[(0.,1.)]*self.groups+[(0.,None)],method='highs',options={'threads':1})
+INITIAL_POLISH {'sweeps': 3, 'elapsed_s': 0.24633379999431781, 'upper': 1.0450117163384411}
+LP_SEED {'values': array([1.00265317, 0.97461383, 0.93670753, 0.97264538, 0.97906607,
+       0.95102673, 1.00462162, 0.97264538, 0.97461383, 0.97461383,
+       1.04501172, 0.88311264, 0.96029463, 0.93670753, 1.00462162,
+       0.96474687, 0.97461383, 1.00068472, 0.97461383, 0.93473908]), 'cheap_metric_bounds': array([1.00265317, 0.97461383, 0.93670753, 0.97264538, 0.97906607,
+       0.95102673, 1.00462162, 0.97264538, 0.97461383, 0.97461383,
+       1.04501172, 0.88311264, 0.96029463, 0.93670753, 1.00462162,
+       0.96474687, 0.97461383, 1.00068472, 0.97461383, 0.93473908]), 'lp_scenarios': [], 'selected': 10, 'elapsed_s': 0.0014030000020284206}
+FORMAL_RESULT {'status': 'optimal', 'objective': 1.0450117163384411, 'bound': 1.0450117163384411, 'all_scenario_witness_upper': 1.0450117163384411, 'date': '2020-11-29', 'regions': 4, 'parks': 24, 'scenarios': 20, 'method': 'reuse', 'elapsed_s': 0.6979299999948125, 'MILP_calls': 0, 'LP_calls': 25, 'cache_hits': 20, 'initial_polish': {'sweeps': 3, 'elapsed_s': 0.24633379999431781, 'upper': 1.0450117163384411}, 'cells': 56777, 'implementation': 'v39c proposed: adaptive valid lower bounds, candidate primal initialization and feasible MIP start', 'implementation_hashes': {'benchmark_candidate_v39.py': '3642c50b4da09413556d7a56533686bc1fcacb6c88bf3d57732a37b3d7ed0ace', 'benchmark_warm_v39.py': '737bfca9046ff26fe92fc7426cd2ecebd56f1e418d10ba68f5ad4738568593c1', 'highs_start_v39.py': '6bad6108c09c0f25a48a2777646736fc790cad4cbf2cc65a8802670103da8b9f'}}

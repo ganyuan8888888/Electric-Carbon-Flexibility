@@ -1,0 +1,41 @@
+{
+  "records": [
+    {
+      "candidate_index": 0,
+      "series_bounds": [
+        0.011499177573241317,
+        0.011499177573241317,
+        0.011499177573241317
+      ],
+      "reachability_upper_bound": 0.011499177573241317,
+      "sampled_bound": 0.009913091679229824,
+      "sufficient_check_passed": true
+    },
+    {
+      "candidate_index": 66,
+      "series_bounds": [
+        0.03310913269551449,
+        0.03356978608024718,
+        0.03367143404314571
+      ],
+      "reachability_upper_bound": 0.03367143404314571,
+      "sampled_bound": 0.028507124085847328,
+      "sufficient_check_passed": true
+    },
+    {
+      "candidate_index": 87,
+      "series_bounds": [
+        0.03310913270297756,
+        0.03356978608747531,
+        0.033671434049673175
+      ],
+      "reachability_upper_bound": 0.033671434049673175,
+      "sampled_bound": 0.02850712409137365,
+      "sufficient_check_passed": true
+    }
+  ],
+  "state_limit": 0.05,
+  "initial_radius": 0.001,
+  "disturbance_radius": 1e-05,
+  "note": "Orientation-preserving sufficient bound, with intersample exponential norm guard. Applies to the reduced modal system; numerical integration error is not a validated interval enclosure."
+}

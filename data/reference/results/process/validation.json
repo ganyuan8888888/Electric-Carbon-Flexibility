@@ -1,0 +1,734 @@
+{
+  "summary": {
+    "seed": 20260908,
+    "n_independent_floquet_checks": 80,
+    "max_exponent_error": 2.2712660664877225e-08,
+    "power_tracking_max_abs_mw": 1.1368683772161603e-13,
+    "naive_equal_current_peak_power_error_mw": 1.6990560000000414,
+    "compensating_current_min_ka": 157.6870696011482,
+    "compensating_current_max_ka": 199.0009739740992,
+    "scope": "Synthetic potline parameters; power equality verified; this test does not certify both potlines stability."
+  },
+  "checks": [
+    {
+      "over": 1.001,
+      "amplitude": 0.11,
+      "frequency": 1.88,
+      "reference_exponent": -0.001035176460175821,
+      "rk4_exponent": -0.0010351700945334255,
+      "error": 6.365642395362095e-09,
+      "matrix_error": 1.0178268294164239e-08
+    },
+    {
+      "over": 1.001,
+      "amplitude": 0.04,
+      "frequency": 2.6041666666666665,
+      "reference_exponent": -0.0010534573778300256,
+      "rk4_exponent": -0.0010534571446434101,
+      "error": 2.331866154163531e-10,
+      "matrix_error": 2.0232653885621232e-09
+    },
+    {
+      "over": 1.001,
+      "amplitude": 0.03,
+      "frequency": 1.825,
+      "reference_exponent": -0.0007838042539229563,
+      "rk4_exponent": -0.0007838043421656468,
+      "error": 8.824269049842459e-11,
+      "matrix_error": 1.3464073411739719e-08
+    },
+    {
+      "over": 1.001,
+      "amplitude": 0.025,
+      "frequency": 1.9075,
+      "reference_exponent": -0.0007776786824379225,
+      "rk4_exponent": -0.0007776788096725658,
+      "error": 1.2723464328564388e-10,
+      "matrix_error": 1.1854782114295581e-08
+    },
+    {
+      "over": 1.001,
+      "amplitude": 0.035,
+      "frequency": 1.7333333333333334,
+      "reference_exponent": -0.0012937370967730313,
+      "rk4_exponent": -0.0012937371507238087,
+      "error": 5.3950777439276676e-11,
+      "matrix_error": 1.4520737723344723e-08
+    },
+    {
+      "over": 1.001,
+      "amplitude": 0.025,
+      "frequency": 2.475833333333333,
+      "reference_exponent": -0.0006753236664670224,
+      "rk4_exponent": -0.0006753233977137144,
+      "error": 2.6875330801957864e-10,
+      "matrix_error": 2.7620304376974047e-09
+    },
+    {
+      "over": 1.001,
+      "amplitude": 0.29,
+      "frequency": 2.631666666666667,
+      "reference_exponent": 0.11331502448682253,
+      "rk4_exponent": 0.11331502395323804,
+      "error": 5.335844821541258e-10,
+      "matrix_error": 1.5888828308607827e-09
+    },
+    {
+      "over": 1.001,
+      "amplitude": 0.185,
+      "frequency": 1.8158333333333334,
+      "reference_exponent": 0.09433122120200402,
+      "rk4_exponent": 0.09433122128277772,
+      "error": 8.077370716730314e-11,
+      "matrix_error": 1.0179885240324538e-08
+    },
+    {
+      "over": 1.001,
+      "amplitude": 0.18,
+      "frequency": 2.035833333333333,
+      "reference_exponent": 0.18628860627923974,
+      "rk4_exponent": 0.1862886061602754,
+      "error": 1.1896433838032294e-10,
+      "matrix_error": 6.226624660321534e-09
+    },
+    {
+      "over": 1.001,
+      "amplitude": 0.09,
+      "frequency": 1.6600000000000001,
+      "reference_exponent": -0.004999999999716702,
+      "rk4_exponent": -0.004999999992453142,
+      "error": 7.263560412862358e-12,
+      "matrix_error": 1.715388719958355e-08
+    },
+    {
+      "over": 1.001,
+      "amplitude": 0.435,
+      "frequency": 2.035833333333333,
+      "reference_exponent": 0.3007444936277542,
+      "rk4_exponent": 0.30074449340026593,
+      "error": 2.2748825045937338e-10,
+      "matrix_error": 4.991303037549244e-09
+    },
+    {
+      "over": 1.001,
+      "amplitude": 0.34500000000000003,
+      "frequency": 1.8158333333333334,
+      "reference_exponent": 0.2223930228778982,
+      "rk4_exponent": 0.22239302264416586,
+      "error": 2.3373233903889457e-10,
+      "matrix_error": 8.701158044077673e-09
+    },
+    {
+      "over": 1.001,
+      "amplitude": 0.135,
+      "frequency": 2.4208333333333334,
+      "reference_exponent": 0.13659731889313795,
+      "rk4_exponent": 0.136597318612423,
+      "error": 2.8071495128401125e-10,
+      "matrix_error": 2.5924629665219356e-09
+    },
+    {
+      "over": 1.001,
+      "amplitude": 0.095,
+      "frequency": 1.99,
+      "reference_exponent": 0.09967553177766615,
+      "rk4_exponent": 0.0996755318520327,
+      "error": 7.436655458104013e-11,
+      "matrix_error": 8.639367388152408e-09
+    },
+    {
+      "over": 1.001,
+      "amplitude": 0.395,
+      "frequency": 2.155,
+      "reference_exponent": 0.2910124430460488,
+      "rk4_exponent": 0.29101244282699407,
+      "error": 2.1905471880856453e-10,
+      "matrix_error": 3.804073167579247e-09
+    },
+    {
+      "over": 1.001,
+      "amplitude": 0.41500000000000004,
+      "frequency": 1.7058333333333333,
+      "reference_exponent": 0.2211018228023948,
+      "rk4_exponent": 0.2211018224064445,
+      "error": 3.9595030032479883e-10,
+      "matrix_error": 1.3823019007208615e-08
+    },
+    {
+      "over": 1.005,
+      "amplitude": 0.36,
+      "frequency": 1.55,
+      "reference_exponent": -0.0009231389842797754,
+      "rk4_exponent": -0.0009231614757375023,
+      "error": 2.2491457726857636e-08,
+      "matrix_error": 2.59229500088054e-08
+    },
+    {
+      "over": 1.005,
+      "amplitude": 0.16,
+      "frequency": 2.576666666666666,
+      "reference_exponent": -0.0005643198438668187,
+      "rk4_exponent": -0.000564331768075755,
+      "error": 1.1924208936225922e-08,
+      "matrix_error": 1.9332386802517476e-09
+    },
+    {
+      "over": 1.005,
+      "amplitude": 0.025,
+      "frequency": 2.3475,
+      "reference_exponent": -0.0003505492817249557,
+      "rk4_exponent": -0.00035054239259139116,
+      "error": 6.8891335645577916e-09,
+      "matrix_error": 3.977021933998515e-09
+    },
+    {
+      "over": 1.005,
+      "amplitude": 0.085,
+      "frequency": 1.6600000000000001,
+      "reference_exponent": -0.001887068113786815,
+      "rk4_exponent": -0.0018870681263578094,
+      "error": 1.2570994375668554e-11,
+      "matrix_error": 1.7265980645220225e-08
+    },
+    {
+      "over": 1.005,
+      "amplitude": 0.07,
+      "frequency": 1.7974999999999999,
+      "reference_exponent": 0.0002865069303322434,
+      "rk4_exponent": 0.0002865066513225628,
+      "error": 2.790096805937309e-10,
+      "matrix_error": 1.2776799285241225e-08
+    },
+    {
+      "over": 1.005,
+      "amplitude": 0.135,
+      "frequency": 2.5491666666666664,
+      "reference_exponent": 0.0006239772389651787,
+      "rk4_exponent": 0.0006239684379964135,
+      "error": 8.800968765180703e-09,
+      "matrix_error": 2.0295578551099425e-09
+    },
+    {
+      "over": 1.005,
+      "amplitude": 0.125,
+      "frequency": 2.4299999999999997,
+      "reference_exponent": 0.12788534189474282,
+      "rk4_exponent": 0.12788534157784687,
+      "error": 3.1689595392236924e-10,
+      "matrix_error": 2.568645796063862e-09
+    },
+    {
+      "over": 1.005,
+      "amplitude": 0.295,
+      "frequency": 2.558333333333333,
+      "reference_exponent": 0.1702765339331618,
+      "rk4_exponent": 0.17027653356303987,
+      "error": 3.701219331020411e-10,
+      "matrix_error": 1.6985344242215206e-09
+    },
+    {
+      "over": 1.005,
+      "amplitude": 0.335,
+      "frequency": 2.3475,
+      "reference_exponent": 0.25747443183521596,
+      "rk4_exponent": 0.2574744315919728,
+      "error": 2.432431478460728e-10,
+      "matrix_error": 2.263822677928129e-09
+    },
+    {
+      "over": 1.005,
+      "amplitude": 0.09,
+      "frequency": 2.558333333333333,
+      "reference_exponent": -0.004999999999645669,
+      "rk4_exponent": -0.0049999999979363505,
+      "error": 1.7093184506711268e-12,
+      "matrix_error": 2.0751846907529625e-09
+    },
+    {
+      "over": 1.005,
+      "amplitude": 0.23500000000000001,
+      "frequency": 1.6325,
+      "reference_exponent": -0.004999999999989769,
+      "rk4_exponent": -0.004999999988908016,
+      "error": 1.1081752702979397e-11,
+      "matrix_error": 1.779257269296508e-08
+    },
+    {
+      "over": 1.005,
+      "amplitude": 0.15,
+      "frequency": 1.6783333333333332,
+      "reference_exponent": -0.004999999999941228,
+      "rk4_exponent": -0.0049999999913069556,
+      "error": 8.634272116725406e-12,
+      "matrix_error": 1.4531343212054182e-08
+    },
+    {
+      "over": 1.005,
+      "amplitude": 0.20500000000000002,
+      "frequency": 2.310833333333333,
+      "reference_exponent": 0.20956925747425942,
+      "rk4_exponent": 0.2095692572521582,
+      "error": 2.221012262992872e-10,
+      "matrix_error": 2.89412765974717e-09
+    },
+    {
+      "over": 1.005,
+      "amplitude": 0.21,
+      "frequency": 2.200833333333333,
+      "reference_exponent": 0.22079168657416903,
+      "rk4_exponent": 0.2207916863842749,
+      "error": 1.8989412819969687e-10,
+      "matrix_error": 3.8524737289158395e-09
+    },
+    {
+      "over": 1.005,
+      "amplitude": 0.23,
+      "frequency": 2.54,
+      "reference_exponent": 0.14324735783437023,
+      "rk4_exponent": 0.14324735744097802,
+      "error": 3.933922076981844e-10,
+      "matrix_error": 1.8734760409699902e-09
+    },
+    {
+      "over": 1.005,
+      "amplitude": 0.125,
+      "frequency": 2.466666666666667,
+      "reference_exponent": 0.10663493907546634,
+      "rk4_exponent": 0.10663493868112191,
+      "error": 3.943444321086176e-10,
+      "matrix_error": 2.304537560782194e-09
+    },
+    {
+      "over": 1.01,
+      "amplitude": 0.09,
+      "frequency": 2.5124999999999997,
+      "reference_exponent": -0.0010017230113415032,
+      "rk4_exponent": -0.0010017196990241381,
+      "error": 3.3123173650510124e-09,
+      "matrix_error": 2.1931894078619507e-09
+    },
+    {
+      "over": 1.01,
+      "amplitude": 0.11,
+      "frequency": 2.5675,
+      "reference_exponent": -0.0011196477169683006,
+      "rk4_exponent": -0.0011196448614929787,
+      "error": 2.855475321906359e-09,
+      "matrix_error": 2.0357360241973765e-09
+    },
+    {
+      "over": 1.01,
+      "amplitude": 0.1,
+      "frequency": 2.54,
+      "reference_exponent": -0.0029379381006106185,
+      "rk4_exponent": -0.00293793227385156,
+      "error": 5.826759058753794e-09,
+      "matrix_error": 2.1101425051739398e-09
+    },
+    {
+      "over": 1.01,
+      "amplitude": 0.105,
+      "frequency": 1.7608333333333333,
+      "reference_exponent": 0.0010794707352021786,
+      "rk4_exponent": 0.0010794703996964208,
+      "error": 3.3550575772450797e-10,
+      "matrix_error": 1.2137664429090478e-08
+    },
+    {
+      "over": 1.01,
+      "amplitude": 0.08,
+      "frequency": 1.9716666666666667,
+      "reference_exponent": 0.001132253068949198,
+      "rk4_exponent": 0.0011322590846201519,
+      "error": 6.0156709537784875e-09,
+      "matrix_error": 9.38397137772995e-09
+    },
+    {
+      "over": 1.01,
+      "amplitude": 0.12,
+      "frequency": 2.5949999999999998,
+      "reference_exponent": 0.0013763827302800036,
+      "rk4_exponent": 0.0013763843529130326,
+      "error": 1.6226330290265017e-09,
+      "matrix_error": 1.9606250512005374e-09
+    },
+    {
+      "over": 1.01,
+      "amplitude": 0.39,
+      "frequency": 1.7974999999999999,
+      "reference_exponent": 0.24187432473072581,
+      "rk4_exponent": 0.2418743244351917,
+      "error": 2.95534124949981e-10,
+      "matrix_error": 8.559515474876322e-09
+    },
+    {
+      "over": 1.01,
+      "amplitude": 0.07,
+      "frequency": 2.2741666666666664,
+      "reference_exponent": 0.13879915661226036,
+      "rk4_exponent": 0.1387991564329637,
+      "error": 1.7929666085159113e-10,
+      "matrix_error": 4.484807358817733e-09
+    },
+    {
+      "over": 1.01,
+      "amplitude": 0.35000000000000003,
+      "frequency": 1.8158333333333334,
+      "reference_exponent": 0.22651529844209484,
+      "rk4_exponent": 0.2265152981922899,
+      "error": 2.498049267440905e-10,
+      "matrix_error": 8.73036674897687e-09
+    },
+    {
+      "over": 1.01,
+      "amplitude": 0.165,
+      "frequency": 2.0816666666666666,
+      "reference_exponent": 0.19290481048742714,
+      "rk4_exponent": 0.19290481036113621,
+      "error": 1.2629092216442928e-10,
+      "matrix_error": 5.882557198300109e-09
+    },
+    {
+      "over": 1.01,
+      "amplitude": 0.365,
+      "frequency": 1.8983333333333334,
+      "reference_exponent": 0.25859991575832697,
+      "rk4_exponent": 0.25859991552293843,
+      "error": 2.3538854199145476e-10,
+      "matrix_error": 7.352236430779868e-09
+    },
+    {
+      "over": 1.01,
+      "amplitude": 0.225,
+      "frequency": 2.4299999999999997,
+      "reference_exponent": 0.19592281413193197,
+      "rk4_exponent": 0.1959228138469449,
+      "error": 2.8498706172719324e-10,
+      "matrix_error": 2.1768942204403174e-09
+    },
+    {
+      "over": 1.01,
+      "amplitude": 0.195,
+      "frequency": 2.475833333333333,
+      "reference_exponent": 0.15951844580467917,
+      "rk4_exponent": 0.15951844546319482,
+      "error": 3.4148434080449874e-10,
+      "matrix_error": 2.068426430135162e-09
+    },
+    {
+      "over": 1.01,
+      "amplitude": 0.355,
+      "frequency": 2.640833333333333,
+      "reference_exponent": 0.14676029178528485,
+      "rk4_exponent": 0.14676029129329873,
+      "error": 4.919861185115337e-10,
+      "matrix_error": 1.4325294284134316e-09
+    },
+    {
+      "over": 1.01,
+      "amplitude": 0.17500000000000002,
+      "frequency": 1.5958333333333334,
+      "reference_exponent": -0.004999999999964557,
+      "rk4_exponent": -0.004999999987738592,
+      "error": 1.2225965032031105e-11,
+      "matrix_error": 2.1480303091792052e-08
+    },
+    {
+      "over": 1.01,
+      "amplitude": 0.405,
+      "frequency": 1.8525,
+      "reference_exponent": 0.26541413286799814,
+      "rk4_exponent": 0.2654141325934917,
+      "error": 2.745064175968537e-10,
+      "matrix_error": 7.675597851752869e-09
+    },
+    {
+      "over": 1.02,
+      "amplitude": 0.185,
+      "frequency": 1.5591666666666668,
+      "reference_exponent": -0.0016816299057320252,
+      "rk4_exponent": -0.0016816275354577907,
+      "error": 2.3702742344821476e-09,
+      "matrix_error": 2.5299965455971574e-08
+    },
+    {
+      "over": 1.02,
+      "amplitude": 0.28,
+      "frequency": 1.6783333333333332,
+      "reference_exponent": -0.002476614836524789,
+      "rk4_exponent": -0.0024766210254556684,
+      "error": 6.188930879499205e-09,
+      "matrix_error": 1.4526502813139164e-08
+    },
+    {
+      "over": 1.02,
+      "amplitude": 0.115,
+      "frequency": 2.485,
+      "reference_exponent": 0.0005818871322363994,
+      "rk4_exponent": 0.0005818644195757345,
+      "error": 2.2712660664877225e-08,
+      "matrix_error": 2.2246818276450142e-09
+    },
+    {
+      "over": 1.02,
+      "amplitude": 0.17500000000000002,
+      "frequency": 1.6233333333333333,
+      "reference_exponent": 0.0016808229070289825,
+      "rk4_exponent": 0.001680823443739171,
+      "error": 5.367101884451442e-10,
+      "matrix_error": 1.913050459712018e-08
+    },
+    {
+      "over": 1.02,
+      "amplitude": 0.16,
+      "frequency": 1.7058333333333333,
+      "reference_exponent": 0.0021254640500214237,
+      "rk4_exponent": 0.002125463951057517,
+      "error": 9.896390651409348e-11,
+      "matrix_error": 1.3434889867269817e-08
+    },
+    {
+      "over": 1.02,
+      "amplitude": 0.22,
+      "frequency": 1.7608333333333333,
+      "reference_exponent": 0.00238695889782818,
+      "rk4_exponent": 0.002386960956986806,
+      "error": 2.059158625729307e-09,
+      "matrix_error": 1.107801350652693e-08
+    },
+    {
+      "over": 1.02,
+      "amplitude": 0.185,
+      "frequency": 1.9533333333333334,
+      "reference_exponent": 0.1712807409177792,
+      "rk4_exponent": 0.17128074085734663,
+      "error": 6.043257561039184e-11,
+      "matrix_error": 7.691013437227667e-09
+    },
+    {
+      "over": 1.02,
+      "amplitude": 0.075,
+      "frequency": 2.0266666666666664,
+      "reference_exponent": 0.03140139400328585,
+      "rk4_exponent": 0.03140139304464023,
+      "error": 9.586456212185013e-10,
+      "matrix_error": 8.45173447894254e-09
+    },
+    {
+      "over": 1.02,
+      "amplitude": 0.315,
+      "frequency": 1.5775000000000001,
+      "reference_exponent": -0.004999999999985453,
+      "rk4_exponent": -0.004999999983358829,
+      "error": 1.66266236889534e-11,
+      "matrix_error": 2.183194280913625e-08
+    },
+    {
+      "over": 1.02,
+      "amplitude": 0.31,
+      "frequency": 1.7974999999999999,
+      "reference_exponent": 0.19229514437594464,
+      "rk4_exponent": 0.19229514415561944,
+      "error": 2.2032520252679433e-10,
+      "matrix_error": 9.521414587321253e-09
+    },
+    {
+      "over": 1.02,
+      "amplitude": 0.2,
+      "frequency": 2.0816666666666666,
+      "reference_exponent": 0.22155510945746137,
+      "rk4_exponent": 0.2215551093008847,
+      "error": 1.565766682976033e-10,
+      "matrix_error": 5.4221088729988764e-09
+    },
+    {
+      "over": 1.02,
+      "amplitude": 0.36,
+      "frequency": 1.8616666666666666,
+      "reference_exponent": 0.2494637625866608,
+      "rk4_exponent": 0.24946376233259138,
+      "error": 2.540694321595538e-10,
+      "matrix_error": 8.004343965417604e-09
+    },
+    {
+      "over": 1.02,
+      "amplitude": 0.155,
+      "frequency": 2.2375,
+      "reference_exponent": 0.20970437198816202,
+      "rk4_exponent": 0.20970437179498727,
+      "error": 1.9317475397073736e-10,
+      "matrix_error": 4.042229356793214e-09
+    },
+    {
+      "over": 1.02,
+      "amplitude": 0.4,
+      "frequency": 2.1733333333333333,
+      "reference_exponent": 0.3085273982412406,
+      "rk4_exponent": 0.3085273980108266,
+      "error": 2.3041396568501682e-10,
+      "matrix_error": 3.533257519894306e-09
+    },
+    {
+      "over": 1.02,
+      "amplitude": 0.24,
+      "frequency": 1.9258333333333333,
+      "reference_exponent": 0.20138255410810196,
+      "rk4_exponent": 0.20138255397295368,
+      "error": 1.3514828145488877e-10,
+      "matrix_error": 7.850385785879155e-09
+    },
+    {
+      "over": 1.02,
+      "amplitude": 0.425,
+      "frequency": 2.4483333333333333,
+      "reference_exponent": 0.27705735947390714,
+      "rk4_exponent": 0.27705735920071317,
+      "error": 2.7319396744829305e-10,
+      "matrix_error": 1.5948090625883538e-09
+    },
+    {
+      "over": 1.04,
+      "amplitude": 0.25,
+      "frequency": 1.605,
+      "reference_exponent": -0.0005879851012920467,
+      "rk4_exponent": -0.0005879815248398572,
+      "error": 3.5764521894151788e-09,
+      "matrix_error": 2.0712578430170936e-08
+    },
+    {
+      "over": 1.04,
+      "amplitude": 0.19,
+      "frequency": 1.825,
+      "reference_exponent": -0.0026021276803422574,
+      "rk4_exponent": -0.002602132028654466,
+      "error": 4.348312208565797e-09,
+      "matrix_error": 1.0440851475057578e-08
+    },
+    {
+      "over": 1.04,
+      "amplitude": 0.24,
+      "frequency": 1.6508333333333334,
+      "reference_exponent": -0.004999999999833982,
+      "rk4_exponent": -0.00499999983032133,
+      "error": 1.6951265217890477e-10,
+      "matrix_error": 1.6885123521603873e-08
+    },
+    {
+      "over": 1.04,
+      "amplitude": 0.26,
+      "frequency": 1.5591666666666668,
+      "reference_exponent": -0.004999999999957348,
+      "rk4_exponent": -0.004999999919378176,
+      "error": 8.057917180726015e-11,
+      "matrix_error": 2.4963333067340443e-08
+    },
+    {
+      "over": 1.04,
+      "amplitude": 0.20500000000000002,
+      "frequency": 1.7791666666666668,
+      "reference_exponent": -0.004999999999954858,
+      "rk4_exponent": -0.004999999926659761,
+      "error": 7.329509742193263e-11,
+      "matrix_error": 1.1257478949033839e-08
+    },
+    {
+      "over": 1.04,
+      "amplitude": 0.255,
+      "frequency": 1.5866666666666667,
+      "reference_exponent": -0.0049999999999445575,
+      "rk4_exponent": -0.004999999932762834,
+      "error": 6.718172372577325e-11,
+      "matrix_error": 2.2355147843988732e-08
+    },
+    {
+      "over": 1.04,
+      "amplitude": 0.36,
+      "frequency": 2.1275,
+      "reference_exponent": 0.31019539832716,
+      "rk4_exponent": 0.31019539809041863,
+      "error": 2.367413487469605e-10,
+      "matrix_error": 4.11511141829024e-09
+    },
+    {
+      "over": 1.04,
+      "amplitude": 0.06,
+      "frequency": 1.6325,
+      "reference_exponent": 0.1313141404823037,
+      "rk4_exponent": 0.13131414004545391,
+      "error": 4.3684977857338936e-10,
+      "matrix_error": 2.0442663173358966e-08
+    },
+    {
+      "over": 1.04,
+      "amplitude": 0.3,
+      "frequency": 2.1366666666666667,
+      "reference_exponent": 0.289345935491988,
+      "rk4_exponent": 0.28934593526768904,
+      "error": 2.2429896828768392e-10,
+      "matrix_error": 4.2420698620482256e-09
+    },
+    {
+      "over": 1.04,
+      "amplitude": 0.4,
+      "frequency": 1.9441666666666666,
+      "reference_exponent": 0.29806996361773996,
+      "rk4_exponent": 0.29806996334329333,
+      "error": 2.744466320869776e-10,
+      "matrix_error": 6.410441399928857e-09
+    },
+    {
+      "over": 1.04,
+      "amplitude": 0.125,
+      "frequency": 2.5216666666666665,
+      "reference_exponent": 0.11056916210256693,
+      "rk4_exponent": 0.11056916213477008,
+      "error": 3.2203156807852906e-11,
+      "matrix_error": 2.1704212871398454e-09
+    },
+    {
+      "over": 1.04,
+      "amplitude": 0.41000000000000003,
+      "frequency": 2.4483333333333333,
+      "reference_exponent": 0.2886256590693539,
+      "rk4_exponent": 0.28862565878913415,
+      "error": 2.802197363038772e-10,
+      "matrix_error": 1.659498483075339e-09
+    },
+    {
+      "over": 1.04,
+      "amplitude": 0.375,
+      "frequency": 2.21,
+      "reference_exponent": 0.31649076876385374,
+      "rk4_exponent": 0.31649076852456615,
+      "error": 2.392875897427871e-10,
+      "matrix_error": 3.1824459179041753e-09
+    },
+    {
+      "over": 1.04,
+      "amplitude": 0.23500000000000001,
+      "frequency": 2.503333333333333,
+      "reference_exponent": 0.1863088229839509,
+      "rk4_exponent": 0.18630882254479184,
+      "error": 4.391590702201853e-10,
+      "matrix_error": 1.9801220663140384e-09
+    },
+    {
+      "over": 1.04,
+      "amplitude": 0.375,
+      "frequency": 1.8983333333333334,
+      "reference_exponent": 0.2744689281627371,
+      "rk4_exponent": 0.2744689278852439,
+      "error": 2.774931950888515e-10,
+      "matrix_error": 7.348556041453236e-09
+    },
+    {
+      "over": 1.04,
+      "amplitude": 0.20500000000000002,
+      "frequency": 2.54,
+      "reference_exponent": 0.10568286156612411,
+      "rk4_exponent": 0.10568286040609104,
+      "error": 1.1600330696026617e-09,
+      "matrix_error": 1.973155971946028e-09
+    }
+  ]
+}

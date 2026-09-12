@@ -1,0 +1,402 @@
+{
+  "date": "2020-10-17",
+  "lower_ratio": 124.95652326530602,
+  "upper_ratio": 124.95652326530602,
+  "lower_usd": 229606968.73639908,
+  "upper_usd": 229606968.73639908,
+  "outer_trace": [
+    {
+      "iteration": 1,
+      "lower_ratio": 1.125449393944114,
+      "upper_ratio": 125.5598669037951,
+      "feasibility_scenario": 3,
+      "active_scenarios": [
+        0
+      ],
+      "elapsed_s": 0.10959770000044955
+    },
+    {
+      "iteration": 2,
+      "lower_ratio": 1.2071416432661588,
+      "upper_ratio": 125.5598669037951,
+      "feasibility_scenario": 4,
+      "active_scenarios": [
+        0,
+        3
+      ],
+      "elapsed_s": 0.24049940000259085
+    },
+    {
+      "iteration": 3,
+      "lower_ratio": 4.79915624510145,
+      "upper_ratio": 125.5598669037951,
+      "feasibility_scenario": 2,
+      "active_scenarios": [
+        0,
+        3,
+        4
+      ],
+      "elapsed_s": 0.35890870000002906
+    },
+    {
+      "iteration": 4,
+      "lower_ratio": 124.95652326530602,
+      "upper_ratio": 124.95652326530602,
+      "relative_gap": 0.0,
+      "active_scenarios": [
+        0,
+        3,
+        4,
+        2
+      ],
+      "worst_scenario": 2,
+      "inner_patterns": 3,
+      "elapsed_s": 0.574510200000077
+    }
+  ],
+  "inner_trace": [
+    {
+      "outer_iteration": 1,
+      "inner_iteration": 1,
+      "lower_ratio": 1.125449393944114,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 2,
+      "patterns": 1,
+      "elapsed_s": 0.02368929999647662
+    },
+    {
+      "outer_iteration": 1,
+      "inner_iteration": 2,
+      "lower_ratio": 125.5598669037951,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 3,
+      "patterns": 2,
+      "elapsed_s": 0.0493404999942868
+    },
+    {
+      "outer_iteration": 2,
+      "inner_iteration": 1,
+      "lower_ratio": 1.197249430161114,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 1,
+      "patterns": 1,
+      "elapsed_s": 0.017375000003085006
+    },
+    {
+      "outer_iteration": 2,
+      "inner_iteration": 2,
+      "lower_ratio": 102.75745378590716,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 2,
+      "patterns": 2,
+      "elapsed_s": 0.041313800000352785
+    },
+    {
+      "outer_iteration": 2,
+      "inner_iteration": 3,
+      "lower_ratio": 127.1081913148422,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 4,
+      "patterns": 3,
+      "elapsed_s": 0.07427129999996396
+    },
+    {
+      "outer_iteration": 3,
+      "inner_iteration": 1,
+      "lower_ratio": 1.197249430161114,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 2,
+      "patterns": 1,
+      "elapsed_s": 0.02824930000497261
+    },
+    {
+      "outer_iteration": 4,
+      "inner_iteration": 1,
+      "lower_ratio": 1.125449393944114,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 3,
+      "patterns": 1,
+      "elapsed_s": 0.02626589999999851
+    },
+    {
+      "outer_iteration": 4,
+      "inner_iteration": 2,
+      "lower_ratio": 1.2071416432661748,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 4,
+      "patterns": 2,
+      "elapsed_s": 0.06914580000011483
+    },
+    {
+      "outer_iteration": 4,
+      "inner_iteration": 3,
+      "lower_ratio": 4.79915624510145,
+      "upper_ratio": 124.95652326530602,
+      "upper_is_infinite": false,
+      "worst_scenario": 2,
+      "patterns": 3,
+      "elapsed_s": 0.1057853999955114
+    },
+    {
+      "outer_iteration": 4,
+      "inner_iteration": 4,
+      "lower_ratio": 124.95652326530602,
+      "upper_ratio": 124.95652326530602,
+      "upper_is_infinite": false,
+      "worst_scenario": 2,
+      "patterns": 3,
+      "elapsed_s": 0.16143400000146357
+    }
+  ],
+  "extensive_objective": 124.95652326530602,
+  "extensive_gap_to_nccg": 0.0,
+  "scenarios": {
+    "0": {
+      "status": "optimal",
+      "value": 1.125449393944114,
+      "bound": 1.125449393944114,
+      "u": [
+        0.10857502253421836,
+        0.046797453452898985,
+        0.031474573463913025,
+        0.18851994303494912,
+        0.18969783560418577,
+        -0.07561103375460665
+      ],
+      "selected": {
+        "0": {
+          "index": 1,
+          "key": [
+            "constant",
+            "constant_curtailment",
+            "constant_curtailment",
+            0.0,
+            0.0
+          ],
+          "alpha": 0.0,
+          "cell_id": 1
+        }
+      },
+      "max_constraint_violation": 0.0,
+      "runtime_s": 0.01371409999410389
+    },
+    "1": {
+      "status": "optimal",
+      "value": 102.75745378590716,
+      "bound": 102.75745378590716,
+      "u": [
+        0.10857502253421836,
+        0.046797453452898985,
+        0.031474573463913025,
+        0.18851994303494912,
+        0.18969783560418577,
+        -0.07561103375460665
+      ],
+      "selected": {
+        "1": {
+          "index": 38,
+          "key": [
+            "constant",
+            "constant_price25",
+            "constant_carbon",
+            0.2734375,
+            0.28125
+          ],
+          "alpha": 0.0,
+          "cell_id": 38
+        }
+      },
+      "max_constraint_violation": 0.0,
+      "runtime_s": 0.02795250000053784
+    },
+    "2": {
+      "status": "optimal",
+      "value": 124.95652326530602,
+      "bound": 124.95652326530602,
+      "u": [
+        0.10857502253421836,
+        0.046797453452898985,
+        0.031474573463913025,
+        0.18851994303494912,
+        0.18969783560418577,
+        -0.07561103375460665
+      ],
+      "selected": {
+        "2": {
+          "index": 2,
+          "key": [
+            "constant",
+            "constant_curtailment",
+            "constant_curtailment",
+            0.0,
+            0.0
+          ],
+          "alpha": 0.0,
+          "cell_id": 2
+        }
+      },
+      "max_constraint_violation": 0.0,
+      "runtime_s": 0.03845329999603564
+    },
+    "3": {
+      "status": "optimal",
+      "value": 1.2071416432661588,
+      "bound": 1.2071416432661588,
+      "u": [
+        0.10857502253421836,
+        0.046797453452898985,
+        0.031474573463913025,
+        0.18851994303494912,
+        0.18969783560418577,
+        -0.07561103375460665
+      ],
+      "selected": {
+        "3": {
+          "index": 23,
+          "key": [
+            "constant",
+            "constant_price25",
+            "constant_carbon",
+            0.0,
+            0.0078125
+          ],
+          "alpha": 0.0,
+          "cell_id": 23
+        }
+      },
+      "max_constraint_violation": 0.0,
+      "runtime_s": 0.01470790000166744
+    },
+    "4": {
+      "status": "optimal",
+      "value": 4.79915624510145,
+      "bound": 4.79915624510145,
+      "u": [
+        0.10857502253421836,
+        0.046797453452898985,
+        0.031474573463913025,
+        0.18851994303494912,
+        0.18969783560418577,
+        -0.07561103375460665
+      ],
+      "selected": {
+        "4": {
+          "index": 0,
+          "key": [
+            "constant",
+            "constant_cost",
+            "constant_cost",
+            0.0,
+            0.0
+          ],
+          "alpha": 0.0,
+          "cell_id": 0
+        }
+      },
+      "max_constraint_violation": 0.0,
+      "runtime_s": 0.016036799999710638
+    }
+  },
+  "elapsed_s": 0.7735861000037403,
+  "LP_calls": 100,
+  "MIP_calls": 23,
+  "cells_sha256": [
+    "c906bd0b977f5b282880bb7ba2ef40afb9d5b4606818eec3a96821c31bbc4fdb",
+    "3ab925be682b3de9ab40b404fb25dbaca3978d4b9e77ebbd3052f05925316e7f",
+    "a39b3d872ae2b0325c7e9e19d17e8ae1dc205de5b03569b0fc3a278f4064d400",
+    "40b2db5dbb3357f5e49b3a57e898fd5d5fb6aa5d190fc0f8f95d8c3293fcdf19",
+    "c0ed9a27ed1f3f782d510bb68c96edc14ab6540e7f30c9348de3f6b7022f9298"
+  ],
+  "initialization": {
+    "u": [
+      0.19999999999999998,
+      0.2,
+      0.2,
+      0.20000000000000004,
+      0.2,
+      0.2
+    ],
+    "upper": 125.5598669037951,
+    "plans": {
+      "0": {
+        "cell_id": 0,
+        "key": [
+          "constant",
+          "constant_cost",
+          "constant_cost",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 1.197249430161114
+      },
+      "1": {
+        "cell_id": 0,
+        "key": [
+          "constant",
+          "constant_cost",
+          "constant_cost",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 102.75745378590716
+      },
+      "2": {
+        "cell_id": 0,
+        "key": [
+          "constant",
+          "constant_cost",
+          "constant_cost",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 125.5598669037951
+      },
+      "3": {
+        "cell_id": 0,
+        "key": [
+          "constant",
+          "constant_cost",
+          "constant_cost",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 1.3057663583467158
+      },
+      "4": {
+        "cell_id": 0,
+        "key": [
+          "constant",
+          "constant_cost",
+          "constant_cost",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 4.79915624510145
+      }
+    },
+    "rule": "First admitted certified cell in each scenario at q=qbar; independent LP along each cell. No use of the robust optimum.",
+    "elapsed_s": 0.0130460000000312
+  },
+  "bound_scope": "Frozen finite certified polyhedral recourse model, not unrestricted nonlinear optimum.",
+  "_arrays_sha256": "0c87ced1a266656d41ad45195ca05bbeaed2800de53b2bca6eb7317fa30923f4",
+  "equal_optimum_selection": {
+    "rule": "Minimize the sum of five scenario normalized objectives within primary optimum tolerance; applied identically to M1 and M4. No probabilities or new primary weights.",
+    "primary_tolerance": 1.2495652867983154e-07,
+    "secondary_objective": 234.84572433352486,
+    "secondary_bound": 234.84572433352488,
+    "elapsed_s": 0.18379219999769703
+  }
+}

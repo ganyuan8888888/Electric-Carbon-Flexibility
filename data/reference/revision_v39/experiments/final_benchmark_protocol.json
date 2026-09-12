@@ -1,0 +1,27 @@
+{
+  "dates": [
+    "2020-04-07",
+    "2020-10-17",
+    "2020-11-29"
+  ],
+  "regions": 4,
+  "scenarios": [
+    5,
+    10,
+    20,
+    40
+  ],
+  "seed": 2026091139,
+  "comparison": "Only proposed NCCG receives v39 LP seed selection, primal mode polishing and immediate bound closure. Full MILP and no-reuse NCCG retain finalized v38 optimization code and parameters.",
+  "baseline_five_scenarios": "Same original five cyclic combinations as v38, four regions: retain original measured baseline times and results, with source hashes. New 10/20/40 combinations run frozen comparators without timing substitution.",
+  "new_instance_timing": "Single sequential run per method; rotate order by date and size. One HiGHS thread, 600 s cap, MIP relative gap 1e-8 and absolute gap 1e-9. No simultaneous scientific computation during formal timing.",
+  "retention": "All three dates and all four sizes retained, including time-limited incumbents and bounds. Scenario and input identities match across methods.",
+  "software": {
+    "benchmark_clusters_v38.py": "228d54ad7c124829b09d16ed9c3183973d4f37805d920480bde96e02aa7b703d",
+    "benchmark_presolved_v38.py": "9541c6631f8d6c9c78a2a625d3e14c21c7b0ec8037570a6ec464723796d39e44",
+    "benchmark_final_v38.py": "dc7ebc4dbbe19ef7fd245f77b6fb17723ee23a00660bd54e72f4ac7141aa0941",
+    "benchmark_joint_v39.py": "85ef24fba7e315d5bc3cc6090ec01ebc3140e539050b58c9802b32f13e3b9faa",
+    "benchmark_primal_v39.py": "730045c5d70ea7d8030ebd4498afc3df9ea93f226ecb445b085ed2058a0d7eb7",
+    "benchmark_final_v39.py": "138f9915f680f98b173dc68c1622835bf48dc567b4da3d4aa21433dcbae66a15"
+  }
+}

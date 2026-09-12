@@ -1,0 +1,557 @@
+{
+  "status": "optimal",
+  "objective": 1.0122235569689046,
+  "bound": 1.0122235569689044,
+  "u": [
+    -0.07641779442973395,
+    0.19988897431741037,
+    0.02498848721128749,
+    -0.056839325008199104,
+    0.19993996529000713,
+    -0.005791034397640171,
+    -0.08101273077585458,
+    0.19391937743025922,
+    0.0029032068655312493,
+    -0.007218960238694949,
+    0.193970114716425,
+    -0.0107373476593432,
+    -0.08556217270270683,
+    0.1880088854627826,
+    -0.0019646900980407334,
+    -0.06617754951306887,
+    0.18805937157426444,
+    -0.015634687522416035,
+    -0.09006679254164758,
+    0.18215662494326157,
+    -0.006977612906550942,
+    -0.07077766010664045,
+    0.18220686235471417,
+    -0.02048377773177972
+  ],
+  "date": "2020-04-07",
+  "regions": 4,
+  "parks": 24,
+  "scenarios": 20,
+  "method": "no_reuse",
+  "elapsed_s": 240.18287669998244,
+  "MILP_calls": 14,
+  "LP_calls": 64,
+  "cache_hits": 205,
+  "solver_events": [
+    {
+      "scenarios": [
+        0
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 0.9924566817129226,
+      "bound": 0.9924566817129226,
+      "seconds": 1.8438385000044946,
+      "binaries": 1620,
+      "max_constraint_violation": 6.661338147750939e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        8,
+        9,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 0.9937114437040621,
+      "bound": 0.9937114437040621,
+      "seconds": 153.63347699999576,
+      "binaries": 30504,
+      "max_constraint_violation": 1.1468603844377867e-13,
+      "mip_nodes": 963
+    },
+    {
+      "scenarios": [
+        4
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 0.9929434518484852,
+      "bound": 0.9929434518484852,
+      "seconds": 5.186713000002783,
+      "binaries": 1521,
+      "max_constraint_violation": 1.2212453270876722e-15,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        5
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 0.9871695300578495,
+      "bound": 0.9871695300578495,
+      "seconds": 7.244277899997542,
+      "binaries": 2007,
+      "max_constraint_violation": 1.1468603844377867e-13,
+      "mip_nodes": 3
+    },
+    {
+      "scenarios": [
+        7
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 0.9879747163040303,
+      "bound": 0.9879747163040303,
+      "seconds": 2.2625725000107195,
+      "binaries": 1321,
+      "max_constraint_violation": 8.215650382226158e-15,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        10
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 1.0122235569689044,
+      "bound": 1.0122235569689044,
+      "seconds": 0.6619625000166707,
+      "binaries": 624,
+      "max_constraint_violation": 5.551115123125783e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        11
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 0.9816120312960399,
+      "bound": 0.9816120312960399,
+      "seconds": 4.352835800003959,
+      "binaries": 3118,
+      "max_constraint_violation": 0.0,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        15
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 0.982571538002301,
+      "bound": 0.982571538002301,
+      "seconds": 1.132620299991686,
+      "binaries": 1033,
+      "max_constraint_violation": 8.215650382226158e-15,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        8,
+        9,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        10
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 1.0122235569689044,
+      "bound": 1.0122235569689044,
+      "seconds": 47.95949269999983,
+      "binaries": 31817,
+      "max_constraint_violation": 1.1102230246251565e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        4
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 0.993325498319004,
+      "bound": 0.993325498319004,
+      "seconds": 5.184672600007616,
+      "binaries": 1503,
+      "max_constraint_violation": 1.9984014443252818e-15,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        7
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 0.9922525896694944,
+      "bound": 0.9922525896694944,
+      "seconds": 4.647389899997506,
+      "binaries": 1320,
+      "max_constraint_violation": 3.6637359812630166e-15,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        15
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 0.9868908270204334,
+      "bound": 0.9868908270204334,
+      "seconds": 1.5199786000011954,
+      "binaries": 1141,
+      "max_constraint_violation": 8.5087492607272e-13,
+      "mip_nodes": 11
+    },
+    {
+      "scenarios": [
+        11
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 0.982336676929911,
+      "bound": 0.982336676929911,
+      "seconds": 3.5730014000146184,
+      "binaries": 3122,
+      "max_constraint_violation": 1.1102230246251565e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        10
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 1.0122235569689046,
+      "bound": 1.0122235569689046,
+      "seconds": 0.447822999994969,
+      "binaries": 609,
+      "max_constraint_violation": 2.220446049250313e-16,
+      "mip_nodes": 1
+    }
+  ],
+  "outer_trace": [
+    {
+      "iteration": 1,
+      "lower": 0.9924566817129226,
+      "upper": 3.106894202887219,
+      "active": [
+        0
+      ],
+      "feasibility_scenarios": [
+        1,
+        2,
+        3,
+        6,
+        8,
+        9,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "elapsed_s": 1.898885100003099
+    },
+    {
+      "iteration": 2,
+      "lower": 0.9937114437040621,
+      "upper": 1.0122235569689046,
+      "active": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        8,
+        9,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "worst_scenario": 10,
+      "elapsed_s": 176.45580470000277
+    },
+    {
+      "iteration": 3,
+      "lower": 1.0122235569689044,
+      "upper": 1.0122235569689046,
+      "active": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        8,
+        9,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        10
+      ],
+      "worst_scenario": 10,
+      "elapsed_s": 239.8616774000111
+    }
+  ],
+  "inner_trace": [
+    {
+      "outer": 2,
+      "inner": 1,
+      "lower": 0.9929434518484852,
+      "upper": Infinity,
+      "scenario": 4,
+      "patterns": 15,
+      "reused": 14
+    },
+    {
+      "outer": 2,
+      "inner": 2,
+      "lower": 0.9929434518484852,
+      "upper": Infinity,
+      "scenario": 5,
+      "patterns": 16,
+      "reused": 14
+    },
+    {
+      "outer": 2,
+      "inner": 3,
+      "lower": 0.9929434518484852,
+      "upper": Infinity,
+      "scenario": 7,
+      "patterns": 17,
+      "reused": 14
+    },
+    {
+      "outer": 2,
+      "inner": 4,
+      "lower": 1.0122235569689044,
+      "upper": Infinity,
+      "scenario": 10,
+      "patterns": 18,
+      "reused": 14
+    },
+    {
+      "outer": 2,
+      "inner": 5,
+      "lower": 1.0122235569689044,
+      "upper": Infinity,
+      "scenario": 11,
+      "patterns": 19,
+      "reused": 14
+    },
+    {
+      "outer": 2,
+      "inner": 6,
+      "lower": 1.0122235569689044,
+      "upper": 1.0122235569689046,
+      "scenario": 15,
+      "patterns": 20,
+      "reused": 14
+    },
+    {
+      "outer": 3,
+      "inner": 1,
+      "lower": 0.993325498319004,
+      "upper": Infinity,
+      "scenario": 4,
+      "patterns": 16,
+      "reused": 15
+    },
+    {
+      "outer": 3,
+      "inner": 2,
+      "lower": 0.993325498319004,
+      "upper": Infinity,
+      "scenario": 7,
+      "patterns": 17,
+      "reused": 15
+    },
+    {
+      "outer": 3,
+      "inner": 3,
+      "lower": 0.993325498319004,
+      "upper": 9.17334090665775,
+      "scenario": 15,
+      "patterns": 18,
+      "reused": 15
+    },
+    {
+      "outer": 3,
+      "inner": 4,
+      "lower": 0.993325498319004,
+      "upper": 1.0122235569689046,
+      "scenario": 11,
+      "patterns": 19,
+      "reused": 15
+    },
+    {
+      "outer": 3,
+      "inner": 5,
+      "lower": 1.0122235569689046,
+      "upper": 1.0122235569689046,
+      "scenario": 10,
+      "patterns": 20,
+      "reused": 15
+    }
+  ],
+  "relaxation_info": null,
+  "initial_polish": null,
+  "combinations": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      2,
+      3,
+      4,
+      0
+    ],
+    [
+      3,
+      4,
+      0,
+      1
+    ],
+    [
+      4,
+      0,
+      1,
+      2
+    ],
+    [
+      4,
+      2,
+      4,
+      1
+    ],
+    [
+      1,
+      3,
+      2,
+      2
+    ],
+    [
+      0,
+      4,
+      1,
+      3
+    ],
+    [
+      4,
+      3,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      1,
+      2
+    ],
+    [
+      1,
+      0,
+      1,
+      2
+    ],
+    [
+      4,
+      0,
+      4,
+      4
+    ],
+    [
+      3,
+      2,
+      0,
+      3
+    ],
+    [
+      0,
+      4,
+      3,
+      2
+    ],
+    [
+      3,
+      2,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      2,
+      3
+    ],
+    [
+      4,
+      2,
+      3,
+      1
+    ],
+    [
+      1,
+      3,
+      0,
+      0
+    ],
+    [
+      2,
+      4,
+      3,
+      1
+    ],
+    [
+      0,
+      4,
+      3,
+      0
+    ]
+  ],
+  "cells": 45384,
+  "implementation": "unchanged v38 comparator",
+  "implementation_hashes": {
+    "benchmark_clusters_v38.py": "228d54ad7c124829b09d16ed9c3183973d4f37805d920480bde96e02aa7b703d",
+    "benchmark_presolved_v38.py": "9541c6631f8d6c9c78a2a625d3e14c21c7b0ec8037570a6ec464723796d39e44",
+    "benchmark_final_v38.py": "dc7ebc4dbbe19ef7fd245f77b6fb17723ee23a00660bd54e72f4ac7141aa0941",
+    "benchmark_joint_v39.py": "85ef24fba7e315d5bc3cc6090ec01ebc3140e539050b58c9802b32f13e3b9faa"
+  }
+}

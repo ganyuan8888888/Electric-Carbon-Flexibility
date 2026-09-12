@@ -1,0 +1,50 @@
+{
+  "trace": [
+    {
+      "outer_iteration": 4,
+      "inner_iteration": 1,
+      "lower_ratio": 1.0042556016131468,
+      "upper_ratio": 120.32200440744381,
+      "upper_is_infinite": false,
+      "worst_scenario": 2,
+      "patterns": 4,
+      "elapsed_s": 0.04572149999876274
+    }
+  ],
+  "result": {
+    "status": "optimal",
+    "value": 1.0042556016131468,
+    "bound": 1.0042556016131468,
+    "u": [
+      0.07722976772638268,
+      -0.362931930999139,
+      0.03193331736674665,
+      0.17881011965762283,
+      0.18452530641170184,
+      -0.14510122406669146
+    ],
+    "selected": {
+      "0": {
+        "index": 34,
+        "key": [
+          "scenario_adaptive",
+          "scenario_adaptive_price25",
+          "scenario_adaptive_price25",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "cell_id": 34
+      }
+    },
+    "max_constraint_violation": 0.0,
+    "runtime_s": 0.016271300002699718
+  },
+  "values": [
+    1.0042556016131468,
+    60.80828596291052,
+    120.32200440744381,
+    0.9617323409163496,
+    4.613540698579234
+  ]
+}

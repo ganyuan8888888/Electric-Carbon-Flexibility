@@ -1,0 +1,252 @@
+{
+  "status": "optimal",
+  "objective": 1.0046216248338138,
+  "bound": 1.0046216248338136,
+  "u": [
+    -0.07942974560086091,
+    0.07517255161007874,
+    0.0654372037965083,
+    -0.018130163900715646,
+    0.10165381063515788,
+    0.18563478572521097,
+    -0.021210330903971952,
+    0.06982343443788919,
+    0.06013652119055557,
+    -0.01674404491416326,
+    0.13119305251388513,
+    0.179736105199215,
+    -0.08989196160564161,
+    0.06452727882186005,
+    0.054888320590602335,
+    -0.029828711116268725,
+    0.09074634716352237,
+    0.1738958274507041,
+    -0.031214131878583462,
+    0.059283302078895206,
+    0.04969182640050107,
+    -0.03460788002702597,
+    0.12163773301532621,
+    0.16811308938444447
+  ],
+  "date": "2020-11-29",
+  "regions": 4,
+  "parks": 24,
+  "scenarios": 10,
+  "method": "no_reuse",
+  "elapsed_s": 28.260553800006164,
+  "MILP_calls": 5,
+  "LP_calls": 28,
+  "cache_hits": 38,
+  "solver_events": [
+    {
+      "scenarios": [
+        0
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 1.0026531720435174,
+      "bound": 1.0026531720435174,
+      "seconds": 2.391636299988022,
+      "binaries": 2281,
+      "max_constraint_violation": 7.771561172376096e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 1.0046216248338136,
+      "bound": 1.0046216248338136,
+      "seconds": 22.08084670000244,
+      "binaries": 23936,
+      "max_constraint_violation": 4.440892098500626e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        3
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 0.9726453810827493,
+      "bound": 0.9726453810827493,
+      "seconds": 0.9648906999791507,
+      "binaries": 766,
+      "max_constraint_violation": 4.440892098500626e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        7
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 0.9726453810827493,
+      "bound": 0.9726453810827493,
+      "seconds": 1.428127699997276,
+      "binaries": 1042,
+      "max_constraint_violation": 4.440892098500626e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        6
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 1.0046216248338138,
+      "bound": 1.0046216248338138,
+      "seconds": 1.0700836000032723,
+      "binaries": 860,
+      "max_constraint_violation": 4.440892098500626e-16,
+      "mip_nodes": 1
+    }
+  ],
+  "outer_trace": [
+    {
+      "iteration": 1,
+      "lower": 1.0026531720435174,
+      "upper": 1.041949950311793,
+      "active": [
+        0
+      ],
+      "feasibility_scenarios": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "elapsed_s": 2.416756399994483
+    },
+    {
+      "iteration": 2,
+      "lower": 1.0046216248338136,
+      "upper": 1.0046216248338138,
+      "active": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "worst_scenario": 6,
+      "elapsed_s": 28.012415800010785
+    }
+  ],
+  "inner_trace": [
+    {
+      "outer": 2,
+      "inner": 1,
+      "lower": 0.9726453810827493,
+      "upper": Infinity,
+      "scenario": 3,
+      "patterns": 9,
+      "reused": 8
+    },
+    {
+      "outer": 2,
+      "inner": 2,
+      "lower": 0.9726453810827493,
+      "upper": 1.0046216248338138,
+      "scenario": 7,
+      "patterns": 10,
+      "reused": 8
+    },
+    {
+      "outer": 2,
+      "inner": 3,
+      "lower": 1.0046216248338138,
+      "upper": 1.0046216248338138,
+      "scenario": 6,
+      "patterns": 11,
+      "reused": 8
+    }
+  ],
+  "relaxation_info": null,
+  "initial_polish": null,
+  "combinations": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      2,
+      3,
+      4,
+      0
+    ],
+    [
+      3,
+      4,
+      0,
+      1
+    ],
+    [
+      4,
+      0,
+      1,
+      2
+    ],
+    [
+      4,
+      2,
+      4,
+      1
+    ],
+    [
+      1,
+      3,
+      2,
+      2
+    ],
+    [
+      0,
+      4,
+      1,
+      3
+    ],
+    [
+      4,
+      3,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      1,
+      2
+    ]
+  ],
+  "cells": 28990,
+  "implementation": "unchanged v38 comparator",
+  "implementation_hashes": {
+    "benchmark_clusters_v38.py": "228d54ad7c124829b09d16ed9c3183973d4f37805d920480bde96e02aa7b703d",
+    "benchmark_presolved_v38.py": "9541c6631f8d6c9c78a2a625d3e14c21c7b0ec8037570a6ec464723796d39e44",
+    "benchmark_final_v38.py": "dc7ebc4dbbe19ef7fd245f77b6fb17723ee23a00660bd54e72f4ac7141aa0941",
+    "benchmark_joint_v39.py": "85ef24fba7e315d5bc3cc6090ec01ebc3140e539050b58c9802b32f13e3b9faa"
+  }
+}

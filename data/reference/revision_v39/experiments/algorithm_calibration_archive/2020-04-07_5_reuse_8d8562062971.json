@@ -1,0 +1,374 @@
+{
+  "status": "optimal",
+  "objective": 0.9927410005511584,
+  "bound": 0.9927410005511584,
+  "u": [
+    -0.07641779442973395,
+    0.19988897431741037,
+    -0.0027409545842772554,
+    -0.03290218195897254,
+    0.19971337850722537,
+    -0.005791034397640171,
+    -0.08101273077585458,
+    0.19391937743025922,
+    -0.007702442372414707,
+    -0.03771361388952588,
+    0.1937446552310707,
+    -0.0107373476593432,
+    -0.08556217270270683,
+    0.1880088854627826,
+    -0.002061660495189193,
+    -0.06617754951306769,
+    0.18805937157426444,
+    -0.015634687522416035,
+    -0.09006679254160965,
+    0.18215662494326157,
+    -0.006977612906542752,
+    -0.07077766010660003,
+    0.18220686235468686,
+    -0.020483777731664987
+  ],
+  "all_scenario_witness_upper": 0.9927410005511649,
+  "witness_keys": [
+    [
+      [
+        "v28_library_carbon",
+        "v28_library_carbon",
+        "v28_library_carbon",
+        0.0,
+        0.0
+      ],
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_cost",
+        "scenario_adaptive_price25",
+        0.62890625,
+        0.630859375
+      ],
+      [
+        "v28_pattern0_price25",
+        "v28_pattern0_price25",
+        "v28_pattern0_price25",
+        0.0,
+        0.0
+      ],
+      [
+        "recovery_v21",
+        "recovery_v21_cost",
+        "recovery_v21_price25",
+        0.705078125,
+        0.70703125
+      ]
+    ],
+    [
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_cost",
+        "scenario_adaptive_price25",
+        0.62890625,
+        0.630859375
+      ],
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_cost",
+        "scenario_adaptive_price25",
+        0.9140625,
+        0.91796875
+      ],
+      [
+        "recovery_v21",
+        "recovery_v21_cost",
+        "recovery_v21_price25",
+        0.705078125,
+        0.70703125
+      ],
+      [
+        "recovery_v21",
+        "recovery_v21_price25",
+        "recovery_v21_carbon",
+        0.9296875,
+        0.93359375
+      ]
+    ],
+    [
+      [
+        "constant",
+        "constant_cost",
+        "constant_price25",
+        0.923828125,
+        0.92578125
+      ],
+      [
+        "recovery_v20",
+        "recovery_v20_carbon",
+        "recovery_v20_curtailment",
+        0.470703125,
+        0.47265625
+      ],
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_price25",
+        "scenario_adaptive_carbon",
+        0.15234375,
+        0.154296875
+      ],
+      [
+        "constant",
+        "constant_price25",
+        "constant_carbon",
+        0.703125,
+        0.7109375
+      ]
+    ],
+    [
+      [
+        "recovery_v20",
+        "recovery_v20_carbon",
+        "recovery_v20_curtailment",
+        0.470703125,
+        0.47265625
+      ],
+      [
+        "recovery_v21",
+        "recovery_v21_price25",
+        "recovery_v21_carbon",
+        0.6875,
+        0.69140625
+      ],
+      [
+        "v28_pattern1_carbon",
+        "v28_pattern1_carbon",
+        "v28_pattern1_carbon",
+        0.0,
+        0.0
+      ],
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_cost",
+        "scenario_adaptive_price25",
+        0.62890625,
+        0.630859375
+      ]
+    ],
+    [
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_price25",
+        "scenario_adaptive_carbon",
+        0.5703125,
+        0.578125
+      ],
+      [
+        "v28_pattern0_price25",
+        "v28_pattern0_price25",
+        "v28_pattern0_price25",
+        0.0,
+        0.0
+      ],
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_cost",
+        "scenario_adaptive_price25",
+        0.62890625,
+        0.630859375
+      ],
+      [
+        "v28_pattern0_price25",
+        "v28_pattern0_price25",
+        "v28_pattern0_price25",
+        0.0,
+        0.0
+      ]
+    ]
+  ],
+  "scenario_values": [
+    0.9924566817129228,
+    0.9915640229194717,
+    0.984292367455325,
+    0.9922367614308802,
+    0.9927410005511649
+  ],
+  "date": "2020-04-07",
+  "regions": 4,
+  "parks": 24,
+  "scenarios": 5,
+  "method": "reuse",
+  "elapsed_s": 90.39911190001294,
+  "MILP_calls": 4,
+  "LP_calls": 37,
+  "cache_hits": 21,
+  "solver_events": [
+    {
+      "scenarios": [
+        0
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 0.9924566817129227,
+      "bound": 0.9924566817129227,
+      "seconds": 1.3760176000068896,
+      "binaries": 1620,
+      "max_constraint_violation": 5.748179709996748e-14,
+      "mip_nodes": 1,
+      "primal_start": {
+        "supplied": true,
+        "max_constraint_violation": 2.710505431213761e-20,
+        "objective": 0.9970525157660362
+      }
+    },
+    {
+      "scenarios": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 0.9924566817129226,
+      "bound": 0.9924566817129226,
+      "seconds": 11.288525599986315,
+      "binaries": 8961,
+      "max_constraint_violation": 2.220446049250313e-16,
+      "mip_nodes": 1,
+      "primal_start": {
+        "supplied": true,
+        "max_constraint_violation": 2.710505431213761e-20,
+        "objective": 0.9970525157660362
+      }
+    },
+    {
+      "scenarios": [
+        4
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 12.714119100407409,
+      "bound": 12.714119100407409,
+      "seconds": 0.2834801000135485,
+      "binaries": 1510,
+      "max_constraint_violation": 1.1102230246251565e-16,
+      "mip_nodes": 1,
+      "primal_start": {
+        "supplied": false
+      }
+    },
+    {
+      "scenarios": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 0.9927410005511584,
+      "bound": 0.9927410005511584,
+      "seconds": 75.3160116999934,
+      "binaries": 11260,
+      "max_constraint_violation": 6.661338147750939e-15,
+      "mip_nodes": 426,
+      "primal_start": {
+        "supplied": true,
+        "max_constraint_violation": 2.710505431213761e-20,
+        "objective": 0.9970525157660362
+      }
+    }
+  ],
+  "outer_trace": [
+    {
+      "iteration": 1,
+      "lower": 0.9924566817129227,
+      "upper": 0.9970525156660361,
+      "active": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "feasibility_scenarios": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "iteration": 2,
+      "lower": 0.9924566817129227,
+      "upper": 0.9970525156660361,
+      "active": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "elapsed_s": 14.903273100004299
+    }
+  ],
+  "inner_trace": [
+    {
+      "outer": 2,
+      "inner": 1,
+      "lower": 12.714119100407409,
+      "upper": 12.714119100407402,
+      "scenario": 4,
+      "patterns": 11,
+      "reused": 5
+    }
+  ],
+  "relaxation_info": {
+    "values": [
+      0.9923309436878925,
+      0.9864031686535771,
+      0.9757346340238479,
+      0.9873523402803968,
+      0.9918930039967572
+    ],
+    "selected": 0,
+    "elapsed_s": 1.832446800020989
+  },
+  "initial_polish": {
+    "sweeps": 6,
+    "elapsed_s": 0.08361290002358146,
+    "upper": 0.9970525156660361
+  },
+  "combinations": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      2,
+      3,
+      4,
+      0
+    ],
+    [
+      3,
+      4,
+      0,
+      1
+    ],
+    [
+      4,
+      0,
+      1,
+      2
+    ]
+  ],
+  "cells": 11260,
+  "implementation": "v39b proposed: feasible primal start and incumbent cutoff",
+  "implementation_hashes": {
+    "benchmark_warm_v39.py": "737bfca9046ff26fe92fc7426cd2ecebd56f1e418d10ba68f5ad4738568593c1",
+    "highs_start_v39.py": "6bad6108c09c0f25a48a2777646736fc790cad4cbf2cc65a8802670103da8b9f"
+  }
+}

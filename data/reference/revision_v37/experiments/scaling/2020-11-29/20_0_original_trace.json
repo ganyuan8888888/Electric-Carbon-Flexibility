@@ -1,0 +1,496 @@
+{
+  "date": "2020-11-29",
+  "lower_ratio": 1.1188558756737956,
+  "upper_ratio": 1.1188558756737956,
+  "q": [
+    450.399539067946,
+    13.07970601556469,
+    425.8958348935289,
+    270.3629807662284,
+    167.4217477940635,
+    129.59016394166457
+  ],
+  "u": [
+    0.2,
+    0.2,
+    0.2,
+    0.20000000000000004,
+    0.2,
+    0.2
+  ],
+  "outer_trace": [
+    {
+      "iteration": 1,
+      "lower_ratio": 0.9672306514224945,
+      "upper_ratio": 1.1188558756737956,
+      "feasibility_scenario": 1,
+      "active_scenarios": [
+        0
+      ],
+      "elapsed_s": 0.13092349999351427
+    },
+    {
+      "iteration": 2,
+      "lower_ratio": 1.1188558756737956,
+      "upper_ratio": 1.1188558756737956,
+      "feasibility_scenario": 2,
+      "active_scenarios": [
+        0,
+        1
+      ],
+      "elapsed_s": 0.22755439998582006
+    },
+    {
+      "iteration": 3,
+      "lower_ratio": 1.1188558756737956,
+      "upper_ratio": 1.1188558756737956,
+      "relative_gap": 0.0,
+      "active_scenarios": [
+        0,
+        1,
+        2
+      ],
+      "worst_scenario": 1,
+      "inner_patterns": 5,
+      "elapsed_s": 2.5042363999818917
+    }
+  ],
+  "inner_trace": [
+    {
+      "outer_iteration": 3,
+      "inner_iteration": 1,
+      "lower_ratio": 0.9672306514224945,
+      "upper_ratio": Infinity,
+      "upper_is_infinite": true,
+      "solved_scenario": 0,
+      "worst_scenario": 1,
+      "patterns": 1,
+      "reused_patterns": 0,
+      "initial_upper": Infinity,
+      "eligible_cells": [
+        10,
+        1,
+        222,
+        294,
+        314,
+        2,
+        1,
+        2,
+        9,
+        1,
+        2,
+        1,
+        1,
+        2,
+        10,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "elapsed_s": 0.058038299990585074
+    },
+    {
+      "outer_iteration": 3,
+      "inner_iteration": 2,
+      "lower_ratio": 1.1188558756737956,
+      "upper_ratio": Infinity,
+      "upper_is_infinite": true,
+      "solved_scenario": 1,
+      "worst_scenario": 3,
+      "patterns": 2,
+      "reused_patterns": 0,
+      "initial_upper": Infinity,
+      "eligible_cells": [
+        10,
+        1,
+        222,
+        294,
+        314,
+        2,
+        1,
+        2,
+        9,
+        1,
+        2,
+        1,
+        1,
+        2,
+        10,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "elapsed_s": 0.07073310000123456
+    },
+    {
+      "outer_iteration": 3,
+      "inner_iteration": 3,
+      "lower_ratio": 1.1188558756737956,
+      "upper_ratio": Infinity,
+      "upper_is_infinite": true,
+      "solved_scenario": 3,
+      "worst_scenario": 5,
+      "patterns": 3,
+      "reused_patterns": 0,
+      "initial_upper": Infinity,
+      "eligible_cells": [
+        10,
+        1,
+        222,
+        294,
+        314,
+        2,
+        1,
+        2,
+        9,
+        1,
+        2,
+        1,
+        1,
+        2,
+        10,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "elapsed_s": 0.3707361000124365
+    },
+    {
+      "outer_iteration": 3,
+      "inner_iteration": 4,
+      "lower_ratio": 1.1188558756737956,
+      "upper_ratio": Infinity,
+      "upper_is_infinite": true,
+      "solved_scenario": 5,
+      "worst_scenario": 6,
+      "patterns": 4,
+      "reused_patterns": 0,
+      "initial_upper": Infinity,
+      "eligible_cells": [
+        10,
+        1,
+        222,
+        294,
+        314,
+        2,
+        1,
+        2,
+        9,
+        1,
+        2,
+        1,
+        1,
+        2,
+        10,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "elapsed_s": 0.4046434999909252
+    },
+    {
+      "outer_iteration": 3,
+      "inner_iteration": 5,
+      "lower_ratio": 1.1188558756737956,
+      "upper_ratio": 1.1188558756737956,
+      "upper_is_infinite": false,
+      "solved_scenario": 6,
+      "worst_scenario": 1,
+      "patterns": 5,
+      "reused_patterns": 0,
+      "initial_upper": Infinity,
+      "eligible_cells": [
+        10,
+        1,
+        222,
+        294,
+        314,
+        2,
+        1,
+        2,
+        9,
+        1,
+        2,
+        1,
+        1,
+        2,
+        10,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "elapsed_s": 0.44265730000915937
+    }
+  ],
+  "elapsed_s": 2.5042428000015207,
+  "LP_calls": 53,
+  "MIP_calls": 8,
+  "initialization": {
+    "u": [
+      0.2,
+      0.2,
+      0.2,
+      0.20000000000000004,
+      0.2,
+      0.2
+    ],
+    "upper": 1.1188558756737956,
+    "plans": {
+      "0": {
+        "cell_id": 0,
+        "key": [
+          "constant",
+          "constant_cost",
+          "constant_cost",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 1.0563596988643669
+      },
+      "1": {
+        "cell_id": 0,
+        "key": [
+          "scenario_adaptive",
+          "scenario_adaptive_carbon_cap_anchor",
+          "scenario_adaptive_carbon_cap_anchor",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 1.1188558756737956
+      },
+      "2": {
+        "cell_id": 0,
+        "key": [
+          "constant",
+          "constant_price25",
+          "constant_price25",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 1.0265740982403682
+      },
+      "3": {
+        "cell_id": 0,
+        "key": [
+          "constant",
+          "constant_price25",
+          "constant_price25",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 1.0476896645984843
+      },
+      "4": {
+        "cell_id": 0,
+        "key": [
+          "constant",
+          "constant_cost",
+          "constant_cost",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 0.9077897325080345
+      },
+      "5": {
+        "cell_id": 0,
+        "key": [
+          "constant_carbon",
+          "constant_carbon",
+          "constant_carbon",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 1.0268518094970656
+      },
+      "6": {
+        "cell_id": 0,
+        "key": [
+          "constant_carbon",
+          "constant_carbon",
+          "constant_carbon",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 1.0396908858068392
+      },
+      "7": {
+        "cell_id": 0,
+        "key": [
+          "constant_carbon",
+          "constant_carbon",
+          "constant_carbon",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 0.9549212819678063
+      },
+      "8": {
+        "cell_id": 0,
+        "key": [
+          "constant_carbon",
+          "constant_carbon",
+          "constant_carbon",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 1.0388304857800132
+      },
+      "9": {
+        "cell_id": 0,
+        "key": [
+          "constant_carbon",
+          "constant_carbon",
+          "constant_carbon",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 0.9343644814530562
+      },
+      "10": {
+        "cell_id": 0,
+        "key": [
+          "constant_carbon",
+          "constant_carbon",
+          "constant_carbon",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 0.9109163331784332
+      },
+      "11": {
+        "cell_id": 0,
+        "key": [
+          "constant_carbon",
+          "constant_carbon",
+          "constant_carbon",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 1.025107912077726
+      },
+      "12": {
+        "cell_id": 0,
+        "key": [
+          "constant_carbon",
+          "constant_carbon",
+          "constant_carbon",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 1.0430640642100955
+      },
+      "13": {
+        "cell_id": 0,
+        "key": [
+          "constant_carbon",
+          "constant_carbon",
+          "constant_carbon",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 0.9176343138976012
+      },
+      "14": {
+        "cell_id": 0,
+        "key": [
+          "constant_carbon",
+          "constant_carbon",
+          "constant_carbon",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 1.0465822043774862
+      },
+      "15": {
+        "cell_id": 0,
+        "key": [
+          "constant_carbon",
+          "constant_carbon",
+          "constant_carbon",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 0.965383842664868
+      },
+      "16": {
+        "cell_id": 0,
+        "key": [
+          "constant_carbon",
+          "constant_carbon",
+          "constant_carbon",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 0.9077710957988432
+      },
+      "17": {
+        "cell_id": 0,
+        "key": [
+          "constant_carbon",
+          "constant_carbon",
+          "constant_carbon",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 1.0286734416462613
+      },
+      "18": {
+        "cell_id": 0,
+        "key": [
+          "constant_carbon",
+          "constant_carbon",
+          "constant_carbon",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 1.036418323379972
+      },
+      "19": {
+        "cell_id": 0,
+        "key": [
+          "constant_carbon",
+          "constant_carbon",
+          "constant_carbon",
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "value": 0.964867744706464
+      }
+    },
+    "rule": "First admitted certified cell in each scenario at q=qbar; independent LP along each cell. No use of the robust optimum.",
+    "elapsed_s": 0.0395245999970939
+  },
+  "cache_hits": 36,
+  "reused_pattern_instances": 0,
+  "independent_validation": "Compared with the separately solved full MILP in this benchmark repeat."
+}

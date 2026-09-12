@@ -1,0 +1,275 @@
+{
+  "status": "optimal",
+  "objective": 1.0026531720435174,
+  "bound": 1.0026531720435174,
+  "u": [
+    -0.09109001515053594,
+    0.07517255161007874,
+    0.0654372037965083,
+    -0.02012699822743147,
+    0.10165381063515788,
+    0.18563478572521097,
+    -0.09561195537366751,
+    0.06982343443788919,
+    0.06013652119055557,
+    -0.02500198828600131,
+    0.09617294590562975,
+    0.179736105199215,
+    -0.10008912391142177,
+    0.06452727882186005,
+    0.054888320590602335,
+    -0.029828711116268725,
+    0.09074634716352237,
+    0.1738958274507041,
+    -0.1045221824143211,
+    0.059283302078895206,
+    0.04969182640050107,
+    -0.03460788002702597,
+    0.08537321244843143,
+    0.16811308938444447
+  ],
+  "all_scenario_witness_upper": 1.0026531720435174,
+  "witness_keys": [
+    [
+      [
+        "v27_library_carbon",
+        "v27_library_carbon",
+        "v27_library_carbon",
+        0.0,
+        0.0
+      ],
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_carbon_cap_anchor",
+        "scenario_adaptive_carbon_cap_anchor",
+        0.0,
+        0.0
+      ],
+      [
+        "v28_library_balanced",
+        "v28_library_balanced",
+        "v28_library_balanced",
+        0.0,
+        0.0
+      ],
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_carbon",
+        "scenario_adaptive_carbon",
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_carbon_cap_anchor",
+        "scenario_adaptive_carbon_cap_anchor",
+        0.0,
+        0.0
+      ],
+      [
+        "v28_library_balanced",
+        "v28_library_balanced",
+        "v28_library_balanced",
+        0.0,
+        0.0
+      ],
+      [
+        "recovery_v20",
+        "recovery_v20_carbon",
+        "recovery_v20_carbon",
+        0.0,
+        0.0
+      ],
+      [
+        "constant",
+        "constant_price25",
+        "constant_price25",
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        "v28_library_balanced",
+        "v28_library_balanced",
+        "v28_library_balanced",
+        0.0,
+        0.0
+      ],
+      [
+        "recovery_v20",
+        "recovery_v20_carbon",
+        "recovery_v20_carbon",
+        0.0,
+        0.0
+      ],
+      [
+        "constant",
+        "constant_price25",
+        "constant_price25",
+        0.0,
+        0.0
+      ],
+      [
+        "v27_library_carbon",
+        "v27_library_carbon",
+        "v27_library_carbon",
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        "recovery_v20",
+        "recovery_v20_carbon",
+        "recovery_v20_carbon",
+        0.0,
+        0.0
+      ],
+      [
+        "constant",
+        "constant_price25",
+        "constant_price25",
+        0.0,
+        0.0
+      ],
+      [
+        "v27_library_carbon",
+        "v27_library_carbon",
+        "v27_library_carbon",
+        0.0,
+        0.0
+      ],
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_carbon_cap_anchor",
+        "scenario_adaptive_carbon_cap_anchor",
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        "constant",
+        "constant_price25",
+        "constant_price25",
+        0.0,
+        0.0
+      ],
+      [
+        "v27_library_carbon",
+        "v27_library_carbon",
+        "v27_library_carbon",
+        0.0,
+        0.0
+      ],
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_carbon_cap_anchor",
+        "scenario_adaptive_carbon_cap_anchor",
+        0.0,
+        0.0
+      ],
+      [
+        "v28_library_balanced",
+        "v28_library_balanced",
+        "v28_library_balanced",
+        0.0,
+        0.0
+      ]
+    ]
+  ],
+  "scenario_values": [
+    1.0026531720435174,
+    0.9805608404804114,
+    0.9426545344175861,
+    0.9785923876901151,
+    0.9849158144021742
+  ],
+  "date": "2020-11-29",
+  "regions": 4,
+  "parks": 24,
+  "scenarios": 5,
+  "method": "reuse",
+  "elapsed_s": 0.25790699999197386,
+  "MILP_calls": 0,
+  "LP_calls": 5,
+  "cache_hits": 5,
+  "solver_events": [],
+  "outer_trace": [
+    {
+      "iteration": 0,
+      "lower": 1.0026531720435174,
+      "upper": 1.0026531720435174,
+      "active": [],
+      "initial_primal_dual_certificate": true,
+      "elapsed_s": 0.08084209999651648
+    }
+  ],
+  "inner_trace": [],
+  "relaxation_info": {
+    "values": [
+      1.0026531720435174,
+      0.9746138338730453,
+      0.93670752781022,
+      0.9726453810827491,
+      0.9790660721051438
+    ],
+    "cheap_metric_bounds": [
+      1.0026531720435174,
+      0.9746138338730453,
+      0.93670752781022,
+      0.9726453810827491,
+      0.9790660721051438
+    ],
+    "lp_scenarios": [],
+    "selected": 0,
+    "elapsed_s": 0.0003473999968264252
+  },
+  "initial_polish": {
+    "sweeps": 4,
+    "elapsed_s": 0.058704900002339855,
+    "upper": 1.0026531720435174
+  },
+  "combinations": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      2,
+      3,
+      4,
+      0
+    ],
+    [
+      3,
+      4,
+      0,
+      1
+    ],
+    [
+      4,
+      0,
+      1,
+      2
+    ]
+  ],
+  "cells": 13700,
+  "implementation": "v39c proposed: adaptive valid lower bounds, candidate primal initialization and feasible MIP start",
+  "implementation_hashes": {
+    "benchmark_candidate_v39.py": "3642c50b4da09413556d7a56533686bc1fcacb6c88bf3d57732a37b3d7ed0ace",
+    "benchmark_warm_v39.py": "737bfca9046ff26fe92fc7426cd2ecebd56f1e418d10ba68f5ad4738568593c1",
+    "highs_start_v39.py": "6bad6108c09c0f25a48a2777646736fc790cad4cbf2cc65a8802670103da8b9f"
+  }
+}

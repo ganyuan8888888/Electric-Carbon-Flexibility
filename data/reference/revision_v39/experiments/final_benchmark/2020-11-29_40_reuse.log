@@ -1,0 +1,19 @@
+C:\Users\Ganyu\Documents\英语论文\_work\epsr_industrial_carbon_20260908\scripts\benchmark_clusters_v38.py:55: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  lp=linprog([0.]*self.groups+[1.],A_ub=matrix,b_ub=-a,bounds=[(0.,1.)]*self.groups+[(0.,None)],method='highs',options={'threads':1})
+INITIAL_POLISH {'sweeps': 4, 'elapsed_s': 0.46685540000908077, 'upper': 1.0450117163384414}
+LP_SEED {'values': array([1.00265317, 0.97461383, 0.93670753, 0.97264538, 0.97906607,
+       0.95102673, 1.00462162, 0.97264538, 0.97461383, 0.97461383,
+       1.04501172, 0.88311264, 0.96029463, 0.93670753, 1.00462162,
+       0.96474687, 0.97461383, 1.00068472, 0.97461383, 0.93473908,
+       0.93867598, 0.97709762, 0.96474687, 0.95102673, 0.99623248,
+       1.01500393, 0.97264538, 1.01104232, 1.01055169, 0.96819314,
+       0.97906607, 1.04501172, 1.01697238, 1.01055169, 1.01697238,
+       1.00462162, 0.9494217 , 0.96029463, 0.97116756, 0.96474687]), 'cheap_metric_bounds': array([1.00265317, 0.97461383, 0.93670753, 0.97264538, 0.97906607,
+       0.95102673, 1.00462162, 0.97264538, 0.97461383, 0.97461383,
+       1.04501172, 0.88311264, 0.96029463, 0.93670753, 1.00462162,
+       0.96474687, 0.97461383, 1.00068472, 0.97461383, 0.93473908,
+       0.93867598, 0.97709762, 0.96474687, 0.95102673, 0.99623248,
+       1.01500393, 0.97264538, 1.01104232, 1.01055169, 0.96819314,
+       0.97906607, 1.04501172, 1.01697238, 1.01055169, 1.01697238,
+       1.00462162, 0.9494217 , 0.96029463, 0.97116756, 0.96474687]), 'lp_scenarios': [], 'selected': 31, 'elapsed_s': 0.002178099995944649}
+FORMAL_RESULT {'status': 'optimal', 'objective': 1.0450117163384414, 'bound': 1.0450117163384414, 'all_scenario_witness_upper': 1.0450117163384414, 'date': '2020-11-29', 'regions': 4, 'parks': 24, 'scenarios': 40, 'method': 'reuse', 'elapsed_s': 1.1885433999996167, 'MILP_calls': 0, 'LP_calls': 53, 'cache_hits': 40, 'initial_polish': {'sweeps': 4, 'elapsed_s': 0.46685540000908077, 'upper': 1.0450117163384414}, 'cells': 108832, 'implementation': 'v39c proposed: adaptive valid lower bounds, candidate primal initialization and feasible MIP start', 'implementation_hashes': {'benchmark_candidate_v39.py': '3642c50b4da09413556d7a56533686bc1fcacb6c88bf3d57732a37b3d7ed0ace', 'benchmark_warm_v39.py': '737bfca9046ff26fe92fc7426cd2ecebd56f1e418d10ba68f5ad4738568593c1', 'highs_start_v39.py': '6bad6108c09c0f25a48a2777646736fc790cad4cbf2cc65a8802670103da8b9f'}}

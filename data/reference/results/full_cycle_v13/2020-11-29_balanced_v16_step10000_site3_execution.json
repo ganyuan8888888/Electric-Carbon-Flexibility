@@ -1,0 +1,36 @@
+{
+  "site": 3,
+  "date": "2020-11-29",
+  "label": "balanced_v16_step10000",
+  "rhs_relative_error": 3.2068378156715135e-16,
+  "minimum_temperature_c": 940.4935908792287,
+  "maximum_temperature_c": 977.0083338066548,
+  "minimum_ledge_m": 0.05034079444985069,
+  "maximum_ledge_m": 0.2490073889949411,
+  "minimum_current_ka": 143.34804908874068,
+  "maximum_current_ka": 208.52000558159165,
+  "terminal_temperature_error_c": 1.500700291112821,
+  "terminal_ledge_error_m": 0.007934510047751503,
+  "maximum_temperature_difference_c": 0.1603504092854564,
+  "maximum_ledge_difference_m": 0.000582685622318696,
+  "maximum_cell_mean_power_difference_w": 512.40536052268,
+  "production_kg": [
+    1362.6937376782616,
+    1362.693737642135,
+    1362.6937376377762
+  ],
+  "production_error_kg": 9.090763342101127e-08,
+  "thermal_passed": true,
+  "modal": {
+    "series_bounds": [
+      0.033179038549900945,
+      0.03382674421942671,
+      0.03401176622474382
+    ],
+    "reachability_upper_bound": 0.03401176622474382,
+    "sampled_bound": 0.028794887431043296,
+    "sufficient_check_passed": true
+  },
+  "certified": true,
+  "runtime_s": 26.295478900006856
+}

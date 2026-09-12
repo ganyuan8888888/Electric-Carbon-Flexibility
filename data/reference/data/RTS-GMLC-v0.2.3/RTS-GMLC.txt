@@ -1,0 +1,86 @@
+July 30, 20181
+July 30, 20181
+Reliability Test System of the Grid Modernization Laboratory Consortium (RTS-GMLC)National Renewable Energy LaboratoryClayton Barrows
+https://github.com/GridMod/RTS-GMLC
+
+July 30, 20182
+July 30, 20182
+1979 Reliability Test System▶RTS-79"IEEE Reliability Test System",IEEE PAS, vol. 98, no. 6, pp. 2047-2054, Nov/Dec. 1979. http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4113721
+
+July 30, 20183
+July 30, 20183
+1996 Reliability Test System▶RTS-96 “The IEEE Reliability Test System-1996. A report prepared by the Reliability Test System Task Force of the Application of Probability Methods Subcommittee”,IEEE Transactions on Power Systems, vol. 14, no. 3, pp. 1010-1020, Aug. 2002.  http://ieeexplore.ieee.org/document/780914/?reload=true&arnumber=780914&tag=1Data available from UW Test Case Archive•http://www2.ee.washington.edu/research/pstca/rts/pg_tcarts.htmShortcomings:•Data errors•Intra-hourly information•Congestion•Outdated generation fleet (no Gas generation)
+
+July 30, 20184
+July 30, 20184
+NESTA▶The NICTA Energy Systems Test Case Archive (NESTA)https://github.com/NICTA/nestaFixes some data errorsIntroduces some congestion via the changes documented in  Hedmanet.al(http://smartgridcenter.tamu.edu/ratc/web/wp-content/uploads/2014/10/J7.pdf) •Remove the following transmission lines: 111-113, 211-213, and 311-313•Reduce the capacity of lines 114-116, 214-216, and 314-316 to 350 MW, each•The bus load for nodes 13, 14, 15 ,19, and 20 should be changed to the following in each region:
+•Add the following generating units in each region:
+BusDemand13745 MW1480 MW15132 MW1975 MW2053 MWBusGen Capacity1100 MW7100 MW15100 MW15155 MW23155 MW
+July 30, 20185
+July 30, 20185
+▶RTS-96 has published line lengthsUse GraphVizand networkx(python package) to determine relative node locations while attempting to respect line lengths.
+Line distances used to create relative node locations
+RTS-96 Published line length vs. GV output line length
+Relative RTS-GMLC node locations based on GV layout
+Miles
+Miles
+July 30, 20186
+July 30, 20186
+▶Use RTS-GMLC relative node locations from GraphViz▶Arbitrary choice: geographic region in SW United States that roughly covers L.A. to L.V.Good solar resourceGood wind resourceAvailable demand and hydro data profiles
+Ensure geographic and temporal coincidence of weather driven data 
+Not intended to represent existing infrastructure
+July 30, 20187
+July 30, 20187
+▶Regional load profiles (hourly and 5-minute)Load profile data from WECC TEPPC 2024 case used for the “Low Carbon Grid Study”•http://www.nrel.gov/docs/fy16osti/64884.pdfProfiles normalized to peak regional RTS demand values▶LA Division of Water and Power –Region 3▶Nevada Energy –Region 2▶Arizona Public Service Company –Region 1
+Ensure geographic and temporal coincidence of weather driven data 
+Not intended to represent existing infrastructure
+
+July 30, 20188
+July 30, 20188
+▶Hourly hydro energy profilesHydro profile data from WECC TEPPC 2024 case used for the “Low Carbon Grid Study”•http://www.nrel.gov/docs/fy16osti/64884.pdfProfiles normalized to RTS hydro generator capacities▶Devil Canyon Dam▶Davis Dam▶Parker Dam
+Ensure geographic and temporal coincidence of weather driven data 
+Not intended to represent existing infrastructure
+
+July 30, 20189
+July 30, 20189
+Updated conventional generation fleet▶Added two new generator types to the RTS dataset:25 MW NG-CT125 MW NG-CC▶New generator parameters are based on:Average values from WECC TEPPC 2024 case•Heat rates, FOR, POR, MTTR, MUT, MDT, Ramp rates, MSLWartsilla, Gas Power Journal, Siemens, GE:•Startup parameters
+▶Replaced some existing oil and coal generation with NG-CC and NG-CT generators
+Regional Capacity
+Total System Capacity
+July 30, 201810
+July 30, 201810
+Updated heat rates from U.S. fleet operating information▶U.S. EPA Continuous Emissions Monitoring Systems (CEMS) data
+Generator TypeFuel TypeHeatRate Samples
+BoilerCoal718DieselOil35Natural Gas224Wood8Combined CycleCoal2Diesel Oil6Natural Gas710CombustionTurbineDiesel Oil123NaturalGas1006StokerWood8
+July 30, 201811
+July 30, 201811
+▶New heat rates improve optimization performanceConvex•Eliminates binary variables and constraints required to represent non-convex cost curvesDiverse•Reduces degeneracy and improves solver efficiency
+Updated Heat Rates
+
+July 30, 201812
+July 30, 201812
+▶Western Wind and Solar Integration Study phase 2http://www.nrel.gov/docs/fy13osti/55588.pdfHourly Day Ahead forecasts representing “best available” 24-hour ahead forecast5-minute Real Time “actual” profiles80 m hub height adjusted wind turbine outputsWRF re-analysis wind and DA solar profilesSatellite RT solar profiles
+Wind and Solar data
+
+July 30, 201813
+July 30, 201813
+▶Random sampling of WWSIS-2 Wind, Utility-PV, and Rooftop-PV sites to achieve desired capacity▶Connection to closest RTS node location:Rooftop-PV only connected to load buses
+Wind and Solar data
+Not intended to represent existing infrastructure
+July 30, 201814
+July 30, 201814
+Production Cost Model Problem DefinitionSimulationParametersDAY_AHEADREAL_TIMEPeriods/Step241PeriodResolution3600300DateFrom1/1/24 0:001/1/24 0:00Date To12/31/24 0:0012/31/24 0:00LookAhead Periods/Step242LookAheadResolution3600300
+Reserve Products(Flex_Up, Flex_Down, Spin_Up, Reg_Up, Reg_Down)(Spin_Up, Reg_Up, Reg_Down)
+•Production cost models approach scheduling problems with a variety of methods. •By defining the basic parameters of the RTS production cost simulations, we can provide a concrete benchmarking case for new methods and approaches. 
+July 30, 201815
+July 30, 201815
+Day-Ahead Results
+https://rawgit.com/GridMod/RTS-GMLC/master/RTS_Data/FormattedData/PLEXOS/PLEXOS_Solution/RTS_final_DA.html
+
+July 30, 201816
+July 30, 201816
+Versions and Benchmarking
+RTS-GMLC contains system data in eightdifferent formats:•MATPOWER•PowerWorld•PSS/Ev31 and v33•PLEXOS•Prescient•RTS3 (Gene Preston)•CDM(SourceData/*.csv)
+July 30, 201817
+July 30, 201817
+Clayton.barrows@nrel.gov-https://Github.com/GridMod/RTS-GMLC

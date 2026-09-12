@@ -1,0 +1,187 @@
+{
+  "status": "optimal",
+  "objective": 1.0131025593212704,
+  "bound": 1.0131025593212704,
+  "gap": 0.0,
+  "u": [
+    -0.07641779442973395,
+    0.19988897431741037,
+    0.013357683430646139,
+    -0.056839325008199104,
+    0.1957055300510604,
+    -0.005791034397640171,
+    -0.08101273077585458,
+    0.19391937743025922,
+    0.00917670961689554,
+    -0.06153166667482479,
+    0.18908460242359015,
+    -0.0107373476593432
+  ],
+  "date": "2020-04-07",
+  "regions": 2,
+  "parks": 12,
+  "buses": 158,
+  "branches": 252,
+  "scenarios": 5,
+  "method": "reuse",
+  "repeat": 0,
+  "elapsed_s": 12.866021499998169,
+  "cells": 5630,
+  "MILP_calls": 6,
+  "LP_calls": 16,
+  "cache_hits": 13,
+  "outer_trace": [
+    {
+      "iteration": 1,
+      "lower": 1.0131025593212704,
+      "upper": 3.106894202887219,
+      "active": [
+        0
+      ],
+      "feasibility_scenarios": [
+        2,
+        3
+      ],
+      "elapsed_s": 0.653018000011798
+    },
+    {
+      "iteration": 2,
+      "lower": 1.0131025593212704,
+      "upper": 3.106894202887219,
+      "active": [
+        0,
+        2,
+        3
+      ],
+      "worst_scenario": 1,
+      "elapsed_s": 6.055083699990064
+    },
+    {
+      "iteration": 3,
+      "lower": 1.0131025593212704,
+      "upper": 1.0131025593212704,
+      "active": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "worst_scenario": 0,
+      "elapsed_s": 12.73445640000864
+    }
+  ],
+  "inner_trace": [
+    {
+      "outer": 2,
+      "inner": 1,
+      "lower": 25.428238200814818,
+      "upper": Infinity,
+      "scenario": 1,
+      "patterns": 4,
+      "reused": 3
+    },
+    {
+      "outer": 2,
+      "inner": 2,
+      "lower": 25.428238200814818,
+      "upper": 25.428238200814818,
+      "scenario": 4,
+      "patterns": 5,
+      "reused": 3
+    },
+    {
+      "outer": 3,
+      "inner": 1,
+      "lower": 1.0131025593212704,
+      "upper": 1.0131025593212704,
+      "scenario": 0,
+      "patterns": 9,
+      "reused": 9
+    }
+  ],
+  "solver_events": [
+    {
+      "scenarios": [
+        0
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 1.0131025593212704,
+      "bound": 1.0131025593212704,
+      "seconds": 0.6351558999740519,
+      "binaries": 638,
+      "max_constraint_violation": 2.220446049250313e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        0,
+        2,
+        3
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 1.0131025593212704,
+      "bound": 1.0131025593212704,
+      "seconds": 3.362700900004711,
+      "binaries": 3331,
+      "max_constraint_violation": 1.1102230246251565e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        1
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 25.428238200814818,
+      "bound": 25.428238200814818,
+      "seconds": 0.040439500007778406,
+      "binaries": 216,
+      "max_constraint_violation": 1.1102230246251565e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        4
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 0.987299677562678,
+      "bound": 0.987299677562678,
+      "seconds": 1.9859872999950312,
+      "binaries": 1291,
+      "max_constraint_violation": 1.1102230246251565e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 1.0131025593212704,
+      "bound": 1.0131025593212704,
+      "seconds": 6.277962100022705,
+      "binaries": 4006,
+      "max_constraint_violation": 0.0,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        0
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 1.0131025593212704,
+      "bound": 1.0131025593212704,
+      "seconds": 0.38630299997748807,
+      "binaries": 419,
+      "max_constraint_violation": 0.0,
+      "mip_nodes": 1
+    }
+  ]
+}

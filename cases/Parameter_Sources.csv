@@ -1,0 +1,9 @@
+parameter_family,source,implementation,description
+Network topology,data/reference/data/RTS-GMLC-v0.2.3/RTS_Data/SourceData/branch.csv,src/ecf_legacy/rts_network.py,Original line resistance reactance charging tap and ratings
+Bus parameters,data/reference/data/RTS-GMLC-v0.2.3/RTS_Data/SourceData/bus.csv,src/ecf_legacy/rts_network.py,Original bus voltage levels and load allocation
+Generator parameters,data/reference/data/RTS-GMLC-v0.2.3/RTS_Data/SourceData/gen.csv,src/ecf_legacy/rts_network.py,Fuel curves active and reactive limits ramp rates and carbon factors
+Industrial parameters,data/reference/data/industrial_case_parameters_v15.json,src/ecf_legacy/thermal_process.py,Heterogeneous electrothermal and recovery model inputs
+PV reconnection,cases/study_cases.json,src/ecf_legacy/green_direct_v18.py,Source-conserving reconnection behind industrial PCCs
+Joint source-load scenarios,data/reference/results/uncertainty_v26,src/ecf_legacy/uncertainty_scenarios_v26.py,Whole-day correlated errors and fixed scenario selection
+Shared allowances,data/reference/results/robust_v28,src/ecf_legacy/nccg_solver_v32.py,Common budgets shared first-stage decisions and finite-model recourse
+Regional scaling,cases/study_cases.json,src/ecf_legacy/benchmark_joint_v39.py,Nested regional scenario combinations with fixed seed

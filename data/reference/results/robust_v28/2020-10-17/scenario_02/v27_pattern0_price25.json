@@ -1,0 +1,34 @@
+{
+  "status": "optimal",
+  "runtime_s": 10.130393300001742,
+  "direction": "price25",
+  "generation_emission_t": 42280.338261193065,
+  "curtailment_mwh": 1411.7037135511498,
+  "objective_actual": 1801257.2142047498,
+  "carbon_balance_residual": 5.684341886080802e-14,
+  "attribution_conservation_residual": 6.59383658785373e-12,
+  "primal_audit": {
+    "passed": true,
+    "tolerance": 1e-05,
+    "checks": {
+      "total_power_balance_mw": 2.6858515411731787e-12,
+      "nodal_dc_balance_mw": 7.389644451905042e-12,
+      "line_capacity_excess_mw": 1.7053025658242404e-13,
+      "generation_lower_excess_mw": 0.0,
+      "generation_upper_excess_mw": 0.0,
+      "generation_ramp_excess_mw": 0.0,
+      "renewable_lower_excess_mw": 0.0,
+      "renewable_upper_excess_mw": -0.0,
+      "library_interface_error_mw": 0.0,
+      "weight_sum_error": 0.0,
+      "weight_bound_excess": 0.0,
+      "inadmissible_branch_weight": 0.0,
+      "commitment_integrality_error": 0.0,
+      "branch_integrality_error": 0.0
+    },
+    "integral_required": true,
+    "weight_fractionality": 0.0
+  },
+  "candidate_scope": "Network-feasible candidate. No claim of globally optimal nonlinear carbon feasibility.",
+  "_arrays_sha256": "cf765fcfdf01fededed649f8968b56cc8be5393550a10fb35070bf8f5619aea1"
+}

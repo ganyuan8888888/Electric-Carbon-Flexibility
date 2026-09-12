@@ -1,0 +1,164 @@
+{
+  "status": "optimal",
+  "objective": 0.9927410005511647,
+  "bound": 0.9927410005511647,
+  "gap": 0.0,
+  "u": [
+    -0.07641779442973395,
+    0.19988897431741037,
+    -0.0027409545842778096,
+    -0.03290218195897254,
+    0.19971337850722537,
+    -0.00579103439764017,
+    -0.08101273077585458,
+    0.19391937743025922,
+    -0.007702442372415099,
+    -0.037713613889525335,
+    0.19374465523106998,
+    -0.0107373476593432,
+    -0.08556217270270683,
+    0.1880088854627826,
+    -0.002061660495188921,
+    -0.06617754951306831,
+    0.18805937157426444,
+    -0.015634687522416035,
+    -0.09006679254160965,
+    0.18215662494326157,
+    -0.006977612906542752,
+    -0.07077766010660003,
+    0.18220686235468686,
+    -0.020483777731664987
+  ],
+  "date": "2020-04-07",
+  "regions": 4,
+  "parks": 24,
+  "buses": 316,
+  "branches": 504,
+  "scenarios": 5,
+  "method": "no_reuse",
+  "repeat": 0,
+  "elapsed_s": 75.97039210001822,
+  "cells": 11260,
+  "MILP_calls": 4,
+  "LP_calls": 10,
+  "cache_hits": 4,
+  "outer_trace": [
+    {
+      "iteration": 1,
+      "lower": 0.9924566817129226,
+      "upper": 1.55344710144361,
+      "active": [
+        0
+      ],
+      "feasibility_scenarios": [
+        1,
+        2,
+        3
+      ],
+      "elapsed_s": 1.9029260999814142
+    },
+    {
+      "iteration": 2,
+      "lower": 0.9924566817129226,
+      "upper": 1.55344710144361,
+      "active": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "worst_scenario": 4,
+      "elapsed_s": 9.146697699994547
+    },
+    {
+      "iteration": 3,
+      "lower": 0.9927410005511647,
+      "upper": 0.9927410005511647,
+      "active": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "full_master_certificate": true,
+      "elapsed_s": 75.85807499999646
+    }
+  ],
+  "inner_trace": [
+    {
+      "outer": 2,
+      "inner": 1,
+      "lower": 12.714119100407409,
+      "upper": 12.714119100407409,
+      "scenario": 4,
+      "patterns": 5,
+      "reused": 4
+    }
+  ],
+  "solver_events": [
+    {
+      "scenarios": [
+        0
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 0.9924566817129226,
+      "bound": 0.9924566817129226,
+      "seconds": 1.8897234000032768,
+      "binaries": 1620,
+      "max_constraint_violation": 6.661338147750939e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 0.9924566817129227,
+      "bound": 0.9924566817129226,
+      "seconds": 6.859345900011249,
+      "binaries": 8961,
+      "max_constraint_violation": 1.1102230246251565e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        4
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 12.714119100407409,
+      "bound": 12.714119100407409,
+      "seconds": 0.3692845999903511,
+      "binaries": 1507,
+      "max_constraint_violation": 0.0,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 0.9927410005511647,
+      "bound": 0.9927410005511647,
+      "seconds": 66.7080915000115,
+      "binaries": 11260,
+      "max_constraint_violation": 5.551115123125783e-16,
+      "mip_nodes": 132
+    }
+  ],
+  "baseline_record": "revision_v38\\experiments\\clusters_final\\2020-04-07_4_no_reuse_0.json",
+  "baseline_sha256": "fc902a41d8bcf2819dd1793d73f3b78706a37dc6363c569d4fb901b1a1ba840a",
+  "implementation": "unchanged v38 comparator",
+  "measurement": "original measured v38 record"
+}

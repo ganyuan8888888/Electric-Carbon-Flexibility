@@ -1,0 +1,11 @@
+LP_SEED {'values': array([0.99233094, 0.98640317, 0.97573463, 0.98735234, 0.991893  ]), 'selected': 0, 'elapsed_s': 1.4312152999918908}
+C:\Users\Ganyu\Documents\英语论文\_work\epsr_industrial_carbon_20260908\scripts\benchmark_clusters_v38.py:55: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  lp=linprog([0.]*self.groups+[1.],A_ub=matrix,b_ub=-a,bounds=[(0.,1.)]*self.groups+[(0.,None)],method='highs',options={'threads':1})
+INITIAL_POLISH {'sweeps': 6, 'elapsed_s': 0.06915319999097846, 'upper': 0.9970525156660361}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [0], 'fixed_quota': False, 'status': 'optimal', 'value': 0.9924566817129226, 'bound': 0.9924566817129226, 'seconds': 1.5215060999908019, 'binaries': 1620, 'max_constraint_violation': 6.661338147750939e-16, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [0, 1, 2, 3], 'fixed_quota': False, 'status': 'optimal', 'value': 0.9924566817129227, 'bound': 0.9924566817129226, 'seconds': 5.704821299994364, 'binaries': 8961, 'max_constraint_violation': 1.1102230246251565e-16, 'mip_nodes': 1}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [4], 'fixed_quota': True, 'status': 'optimal', 'value': 12.714119100407409, 'bound': 12.714119100407409, 'seconds': 0.27767680000397377, 'binaries': 1507, 'max_constraint_violation': 0.0, 'mip_nodes': 1}
+C:\Users\Ganyu\Documents\英语论文\_work\epsr_industrial_carbon_20260908\tmp\evidence_runtime\numpy\_core\fromnumeric.py:83: RuntimeWarning: invalid value encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+SOLVE 2020-04-07 4 reuse True {'scenarios': [0, 1, 2, 3, 4], 'fixed_quota': False, 'status': 'optimal', 'value': 0.9927410005511647, 'bound': 0.9927410005511647, 'seconds': 67.13247979999869, 'binaries': 11260, 'max_constraint_violation': 5.551115123125783e-16, 'mip_nodes': 132}
+FORMAL_RESULT {'status': 'unresolved', 'exception': 'AssertionError: ', 'objective': 0.9970525156660361, 'bound': 0.9927410005511647, 'date': '2020-04-07', 'regions': 4, 'parks': 24, 'scenarios': 5, 'method': 'reuse', 'elapsed_s': 76.31758599999011, 'MILP_calls': 4, 'LP_calls': 21, 'cache_hits': 11, 'initial_polish': {'sweeps': 6, 'elapsed_s': 0.06915319999097846, 'upper': 0.9970525156660361}, 'cells': 11260, 'implementation': 'v39 proposed'}

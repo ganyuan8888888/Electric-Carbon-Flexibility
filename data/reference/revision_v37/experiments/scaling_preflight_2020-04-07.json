@@ -1,0 +1,23 @@
+{
+  "timing_scope": "Correctness preflight only, concurrent workers active; not a timing result.",
+  "rows": [
+    {
+      "method": "extensive",
+      "objective": 44.98080751721494,
+      "MILP_calls": 1,
+      "LP_calls": 0
+    },
+    {
+      "method": "no_reuse",
+      "objective": 44.98080751721494,
+      "MILP_calls": 25,
+      "LP_calls": 101
+    },
+    {
+      "method": "reuse",
+      "objective": 44.98080751721494,
+      "MILP_calls": 25,
+      "LP_calls": 101
+    }
+  ]
+}

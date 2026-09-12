@@ -1,0 +1,296 @@
+{
+  "status": "optimal",
+  "objective": 0.9927410005511649,
+  "bound": 0.9927410005511649,
+  "gap": 0.0,
+  "u": [
+    -0.07641779442973395,
+    0.19988897431741037,
+    -0.002740954584276365,
+    -0.03290218195897254,
+    0.19971337850722537,
+    -0.005791034397640171,
+    -0.08101273077585458,
+    0.19391937743025922,
+    -0.007702442372415609,
+    -0.037713613889523386,
+    0.19374465523107282,
+    -0.0107373476593432,
+    -0.08556217270270536,
+    0.18800888546278186,
+    -0.002061660495189113,
+    -0.06617754951306827,
+    0.18805937157426444,
+    -0.015634687522412025,
+    -0.09006679254160965,
+    0.18215662494326157,
+    -0.006977612906542752,
+    -0.07077766010660003,
+    0.18220686235468686,
+    -0.020483777731664987
+  ],
+  "date": "2020-04-07",
+  "regions": 4,
+  "parks": 24,
+  "buses": 316,
+  "branches": 504,
+  "scenarios": 5,
+  "method": "no_reuse",
+  "repeat": 0,
+  "elapsed_s": 105.31530479999492,
+  "cells": 11260,
+  "MILP_calls": 10,
+  "LP_calls": 10,
+  "cache_hits": 10,
+  "outer_trace": [
+    {
+      "iteration": 1,
+      "lower": 0.9924566817129226,
+      "upper": 1.55344710144361,
+      "active": [
+        0
+      ],
+      "feasibility_scenario": 1,
+      "elapsed_s": 1.854783699993277
+    },
+    {
+      "iteration": 2,
+      "lower": 0.9924566817129226,
+      "upper": 1.55344710144361,
+      "active": [
+        0,
+        1
+      ],
+      "feasibility_scenario": 2,
+      "elapsed_s": 9.939691200008383
+    },
+    {
+      "iteration": 3,
+      "lower": 0.9924566817129226,
+      "upper": 1.55344710144361,
+      "active": [
+        0,
+        1,
+        2
+      ],
+      "feasibility_scenario": 3,
+      "elapsed_s": 23.243462699989323
+    },
+    {
+      "iteration": 4,
+      "lower": 0.9924566817129226,
+      "upper": 1.55344710144361,
+      "active": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "feasibility_scenario": 4,
+      "elapsed_s": 30.446814399998402
+    },
+    {
+      "iteration": 5,
+      "lower": 0.9927410005511649,
+      "upper": 0.9927410005511649,
+      "active": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "worst_scenario": 4,
+      "elapsed_s": 105.20418880000943
+    }
+  ],
+  "inner_trace": [
+    {
+      "outer": 5,
+      "inner": 1,
+      "lower": 0.9924566817129227,
+      "upper": Infinity,
+      "scenario": 0,
+      "patterns": 1,
+      "reused": 0
+    },
+    {
+      "outer": 5,
+      "inner": 2,
+      "lower": 0.9924566817129227,
+      "upper": Infinity,
+      "scenario": 1,
+      "patterns": 2,
+      "reused": 0
+    },
+    {
+      "outer": 5,
+      "inner": 3,
+      "lower": 0.9924566817129227,
+      "upper": Infinity,
+      "scenario": 2,
+      "patterns": 3,
+      "reused": 0
+    },
+    {
+      "outer": 5,
+      "inner": 4,
+      "lower": 0.9924566817129227,
+      "upper": Infinity,
+      "scenario": 3,
+      "patterns": 4,
+      "reused": 0
+    },
+    {
+      "outer": 5,
+      "inner": 5,
+      "lower": 0.9927410005511644,
+      "upper": 0.9927410005511649,
+      "scenario": 4,
+      "patterns": 5,
+      "reused": 0
+    }
+  ],
+  "solver_events": [
+    {
+      "scenarios": [
+        0
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 0.9924566817129226,
+      "bound": 0.9924566817129226,
+      "seconds": 1.8363688999961596,
+      "binaries": 1620,
+      "max_constraint_violation": 2.220446049250313e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        0,
+        1
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 0.9924566817129227,
+      "bound": 0.9924566817129225,
+      "seconds": 8.082724700012477,
+      "binaries": 4006,
+      "max_constraint_violation": 1.1102230246251565e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        0,
+        1,
+        2
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 0.9924566817129227,
+      "bound": 0.9924566817129226,
+      "seconds": 13.301316700002644,
+      "binaries": 6612,
+      "max_constraint_violation": 1.1102230246251565e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 0.9924566817129227,
+      "bound": 0.9924566817129225,
+      "seconds": 7.197049999987939,
+      "binaries": 8961,
+      "max_constraint_violation": 1.1102230246251565e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 0.9927410005511649,
+      "bound": 0.9927410005511649,
+      "seconds": 62.8954178999993,
+      "binaries": 11260,
+      "max_constraint_violation": 6.661338147750939e-16,
+      "mip_nodes": 503
+    },
+    {
+      "scenarios": [
+        0
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 0.9924566817129227,
+      "bound": 0.9924566817129227,
+      "seconds": 0.4888572999916505,
+      "binaries": 621,
+      "max_constraint_violation": 4.440892098500626e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        1
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 0.9865281555715999,
+      "bound": 0.9865281555715999,
+      "seconds": 1.6166808999842033,
+      "binaries": 1052,
+      "max_constraint_violation": 0.0,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        2
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 0.9803126575903335,
+      "bound": 0.9803126575903335,
+      "seconds": 1.7808932000189088,
+      "binaries": 1463,
+      "max_constraint_violation": 1.1102230246251565e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        3
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 0.9916301100757008,
+      "bound": 0.9916301100757008,
+      "seconds": 3.1395069000136573,
+      "binaries": 1321,
+      "max_constraint_violation": 3.3306690738754696e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        4
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 0.9927410005511644,
+      "bound": 0.9927410005511644,
+      "seconds": 4.8192483999882825,
+      "binaries": 1521,
+      "max_constraint_violation": 6.661338147750939e-16,
+      "mip_nodes": 1
+    }
+  ]
+}

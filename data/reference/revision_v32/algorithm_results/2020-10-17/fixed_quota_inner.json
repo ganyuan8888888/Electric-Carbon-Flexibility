@@ -1,0 +1,75 @@
+{
+  "trace": [
+    {
+      "outer_iteration": 0,
+      "inner_iteration": 1,
+      "lower_ratio": 1.0014584032177278,
+      "upper_ratio": Infinity,
+      "upper_is_infinite": false,
+      "solved_scenario": 0,
+      "worst_scenario": 4,
+      "patterns": 1,
+      "reused_patterns": 0,
+      "initial_upper": Infinity,
+      "eligible_cells": [
+        59,
+        419,
+        272,
+        201,
+        21
+      ],
+      "elapsed_s": 0.04342329999781214
+    },
+    {
+      "outer_iteration": 0,
+      "inner_iteration": 2,
+      "lower_ratio": 4.038097424976174,
+      "upper_ratio": 119.3656285905092,
+      "upper_is_infinite": false,
+      "solved_scenario": 4,
+      "worst_scenario": 2,
+      "patterns": 2,
+      "reused_patterns": 0,
+      "initial_upper": Infinity,
+      "eligible_cells": [
+        59,
+        419,
+        272,
+        201,
+        21
+      ],
+      "elapsed_s": 0.0715693999954965
+    },
+    {
+      "outer_iteration": 0,
+      "inner_iteration": 3,
+      "lower_ratio": 119.3656285905085,
+      "upper_ratio": 119.3656285905092,
+      "upper_is_infinite": false,
+      "solved_scenario": 2,
+      "worst_scenario": 2,
+      "patterns": 2,
+      "reused_patterns": 0,
+      "initial_upper": Infinity,
+      "eligible_cells": [
+        59,
+        419,
+        272,
+        201,
+        21
+      ],
+      "elapsed_s": 0.23332420000224374
+    }
+  ],
+  "result": {
+    "infeasible": null,
+    "lower": 119.3656285905085,
+    "upper": 119.3656285905092,
+    "worst_scenario": 2,
+    "patterns": 2
+  },
+  "initial_upper": Infinity,
+  "exact_all_scenario_value": 119.36562859051061,
+  "scope": "Independent cold-start inner run at the final quota; initially empty mode pool; actual MILP updates only.",
+  "_arrays_sha256": "fd26466cd2238cc274d0f3f01cc3f22c05c608d5dc747716d288acf3c42d8f10"
+}

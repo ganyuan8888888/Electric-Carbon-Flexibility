@@ -1,0 +1,17 @@
+figure,short_title,manuscript_caption,source_or_command
+Figure 1,Conceptual framework,Fig. 1 Framework for electric–carbon feasible-region construction and coordinated robust scheduling of industrial parks.,Conceptual schematic; no numerical reproduction
+Figure 2,NCCG procedure,Fig. 2 NCCG procedure with interval certification and recovery-mode reuse.,Algorithm schematic; see nccg_solver_v32.py and benchmark_candidate_v39.py
+Figure 3,Network topology,Fig. 3 Regional topology of the extended RTS-GMLC system and industrial-park connections.,rts_network.py; green_direct_v18.py; data/RTS-GMLC-v0.2.3/RTS_Data/SourceData/
+Figure 4,Prices and direct PV,Fig. 4 Reference nodal electricity prices and directly connected PV generation.,plot_revision_v28.reference(); results/robust_v28/<date>/forecast_price_duals.*
+Figure 5,Periodic stability,Fig. 5 Periodic stability ranges under different currents and anode–cathode distance (ACD) settings.,plot_research_figures.py; figures/stability_surface_data.npz
+Figure 6,Power reconstruction,Fig. 6 Potline current reconstruction and actual-power tracking errors.,compact_power_figure_v27.py; results/process/power_retraction.npz; python reproduce.py process
+Figure 7,Thermal distribution,Fig. 7 Spatial temperature distributions and terminal recovery of industrial loads.,plot_revision_v28.temperatures(); results/full_cycle_v13/
+Figure 8,Power-harmonic section,Fig. 8 Effect of the number of independently supplied potlines on feasible power-harmonic sections.,plot_research_figures.py; process_model.py; harmonic_process.py
+Figure 9,Electric-carbon operating ranges,Fig. 9 Time-dependent sections of PCC power and industrial consumption-attributed emission rates.,plot_range_v40.py; results/electric_carbon_outer_v28_<date>/; these displayed ranges are outer sections
+Figure 10,Discretization,Fig. 10 Effect of process discretization on temperature evolution and actual power.,plot_process_figures.py; results/time_grid/
+Figure 11,Recovery allowance,Fig. 11 Effect of the recovery load-increase allowance on industrial flexibility boundaries.,plot_revision_v28.envelopes(); results/full_cycle_v13/
+Figure 12,Carbon and PCC power,Fig. 12 Temporal distributions of industrial attributed emissions and PCC exchange power.,plot_revision_v28.hourly(); results/robust_v28/<date>/
+Figure 13,Dispatch composition,Fig. 13 Coordinated generation–load scheduling and process recovery on the high-renewable day.,plot_revision_v28.dispatch(); results/robust_v28/<date>/
+Figure 14,Cost and emissions,Fig. 14 Operating-cost changes and generation-side emissions under different scheduling methods.,plot_revision_v28.costs(); python reproduce.py figures; python reproduce.py results
+Figure 15,Nodal carbon,Fig. 15 Internal-bus and network-wide carbon intensities on the high-renewable day.,plot_revision_v28.heatmap(); results/robust_v28/<date>/
+Figure 16,NCCG convergence,Fig. 16 Outer NCCG bound convergence and inner checks per iteration.,plot_nccg_v32.py; revision_v32/algorithm_results/

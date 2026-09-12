@@ -1,0 +1,56 @@
+{
+  "status": "optimal",
+  "runtime_s": 6.447378000000754,
+  "master_objective": 726418.7853032749,
+  "master_reuse_calls": 1,
+  "library_scope": "direct_case_certified_v20",
+  "canonical_objective_offset": 32482016494.576218,
+  "relaxation_lower_bound": 726418.7853032749,
+  "generation_emission_t": 44255.79608089531,
+  "curtailment_mwh": 0.0,
+  "objective_actual": 1493489.3868126418,
+  "carbon_balance_residual": 5.684341886080802e-14,
+  "attribution_conservation_residual": 6.366462912410498e-12,
+  "primal_audit": {
+    "passed": true,
+    "tolerance": 1e-05,
+    "checks": {
+      "total_power_balance_mw": 4.376943252282217e-12,
+      "nodal_dc_balance_mw": 8.185452315956354e-12,
+      "line_capacity_excess_mw": 1.7053025658242404e-13,
+      "generation_lower_excess_mw": 0.0,
+      "generation_upper_excess_mw": -0.0,
+      "generation_ramp_excess_mw": 0.0,
+      "renewable_lower_excess_mw": 0.0,
+      "renewable_upper_excess_mw": -0.0,
+      "library_interface_error_mw": 0.0,
+      "weight_sum_error": 0.0,
+      "weight_bound_excess": 0.0,
+      "inadmissible_branch_weight": 0.0,
+      "commitment_integrality_error": 0.0
+    },
+    "integral_required": false,
+    "weight_fractionality": 0.4518436839144223
+  },
+  "total_metric_caps": {
+    "cost": null,
+    "source_emissions": null,
+    "curtailment": null
+  },
+  "total_metric_excess": {
+    "objective_actual": 0.0,
+    "generation_emission_t": 0.0,
+    "curtailment_mwh": 0.0
+  },
+  "total_metric_feasible": true,
+  "emission_scalarization_price": 0.0,
+  "diagnostic_only": true,
+  "industrial_budget_relaxed": true,
+  "trajectory_integrality_relaxed": true,
+  "source_objective_weights": [
+    0.02,
+    0.49,
+    0.49
+  ],
+  "_arrays_sha256": "a90ade53e18193d8a2af6628591574ea0d4e96aca3abe60c48e9874c0048aec9"
+}

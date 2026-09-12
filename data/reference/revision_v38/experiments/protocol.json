@@ -1,0 +1,9 @@
+{
+  "version": 38,
+  "baseline": "Unchanged v28 physical network, commitment, process trajectories, carbon budgets and objective; v37 results retained.",
+  "scenarios": "Original five plus deterministic complete-day mixtures between the nominal and compatible error scenarios. Weights follow a van der Corput sequence; no scenario selected by algorithm ranking.",
+  "cells": "Recompute interval carbon certificates on every compatible complete-process chart; retain continuous intervals, not only exact endpoints. All preset source trajectories remain in the instance.",
+  "calibration": "Measure nested 10/20/40/80/160/320-scenario instances, subject to memory and 900 s solver limits. Increase genuine problem size based on runtime and memory only; retain all attempted sizes and statuses. Never pad timings or duplicate identical scenarios.",
+  "comparison": "All solvers share identical finite cells, objective, tolerance, one thread and common implementation of scalar LP evaluation. No-reuse clears only the cross-outer mode/value pools.",
+  "reporting": "Preserve original negative and positive results. Improvements require original-constraint witnesses; no imposed ranking."
+}

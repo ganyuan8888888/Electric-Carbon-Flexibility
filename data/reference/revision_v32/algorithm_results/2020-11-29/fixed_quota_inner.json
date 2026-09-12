@@ -1,0 +1,55 @@
+{
+  "trace": [
+    {
+      "outer_iteration": 0,
+      "inner_iteration": 1,
+      "lower_ratio": 0.9672306514224945,
+      "upper_ratio": Infinity,
+      "upper_is_infinite": false,
+      "solved_scenario": 0,
+      "worst_scenario": 1,
+      "patterns": 1,
+      "reused_patterns": 0,
+      "initial_upper": Infinity,
+      "eligible_cells": [
+        151,
+        1,
+        898,
+        1231,
+        1144
+      ],
+      "elapsed_s": 0.09853740000107791
+    },
+    {
+      "outer_iteration": 0,
+      "inner_iteration": 2,
+      "lower_ratio": 1.1188558756737956,
+      "upper_ratio": 1.1188558756737956,
+      "upper_is_infinite": false,
+      "solved_scenario": 1,
+      "worst_scenario": 1,
+      "patterns": 2,
+      "reused_patterns": 0,
+      "initial_upper": Infinity,
+      "eligible_cells": [
+        151,
+        1,
+        898,
+        1231,
+        1144
+      ],
+      "elapsed_s": 0.11140860000159591
+    }
+  ],
+  "result": {
+    "infeasible": null,
+    "lower": 1.1188558756737956,
+    "upper": 1.1188558756737956,
+    "worst_scenario": 1,
+    "patterns": 2
+  },
+  "initial_upper": Infinity,
+  "exact_all_scenario_value": 1.1188558756737956,
+  "scope": "Independent cold-start inner run at the final quota; initially empty mode pool; actual MILP updates only.",
+  "_arrays_sha256": "b0d868b9e8dc38fac5ed2936f4236b183ad985ce3eb3c8ee3a9e3a4c27859d99"
+}

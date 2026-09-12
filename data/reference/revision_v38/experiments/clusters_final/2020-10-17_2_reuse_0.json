@@ -1,0 +1,148 @@
+{
+  "status": "optimal",
+  "objective": 90.08695727670985,
+  "bound": 90.08695727670985,
+  "gap": 0.0,
+  "u": [
+    -0.03848743539315125,
+    -0.7796712429901346,
+    -0.04755802650983543,
+    -0.07638799511152161,
+    0.1865808425119262,
+    -0.3429115772592639,
+    0.009434830020328633,
+    -0.4885805627499501,
+    -0.06157060374922618,
+    0.1124366834651589,
+    0.1940271487705274,
+    -0.3650721379370838
+  ],
+  "date": "2020-10-17",
+  "regions": 2,
+  "parks": 12,
+  "buses": 158,
+  "branches": 252,
+  "scenarios": 5,
+  "method": "reuse",
+  "repeat": 0,
+  "elapsed_s": 1.4866803000040818,
+  "cells": 2286,
+  "MILP_calls": 4,
+  "LP_calls": 14,
+  "cache_hits": 6,
+  "outer_trace": [
+    {
+      "iteration": 1,
+      "lower": 30.636364166996266,
+      "upper": 114.15866034485113,
+      "active": [
+        0
+      ],
+      "feasibility_scenarios": [
+        2,
+        3,
+        4
+      ],
+      "elapsed_s": 0.1773440999968443
+    },
+    {
+      "iteration": 2,
+      "lower": 60.037015575615264,
+      "upper": 91.34015855269926,
+      "active": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "worst_scenario": 1,
+      "elapsed_s": 0.8013472000020556
+    },
+    {
+      "iteration": 3,
+      "lower": 90.08695727670985,
+      "upper": 90.08695727670985,
+      "active": [
+        0,
+        2,
+        3,
+        4,
+        1
+      ],
+      "full_master_certificate": true,
+      "elapsed_s": 1.4452195999911055
+    }
+  ],
+  "inner_trace": [
+    {
+      "outer": 2,
+      "inner": 1,
+      "lower": 91.34015855269928,
+      "upper": 91.34015855269926,
+      "scenario": 1,
+      "patterns": 5,
+      "reused": 4
+    }
+  ],
+  "solver_events": [
+    {
+      "scenarios": [
+        0
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 30.636364166996266,
+      "bound": 30.636364166996266,
+      "seconds": 0.16475090000312775,
+      "binaries": 554,
+      "max_constraint_violation": 7.105427357601002e-15,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 60.037015575615264,
+      "bound": 60.037015575615264,
+      "seconds": 0.4740137000044342,
+      "binaries": 1549,
+      "max_constraint_violation": 5.551115123125783e-17,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        1
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 91.34015855269928,
+      "bound": 91.34015855269928,
+      "seconds": 0.12698190001538023,
+      "binaries": 568,
+      "max_constraint_violation": 0.0,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        0,
+        2,
+        3,
+        4,
+        1
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 90.08695727670985,
+      "bound": 90.08695727670985,
+      "seconds": 0.6426900000078604,
+      "binaries": 2286,
+      "max_constraint_violation": 1.1102230246251565e-16,
+      "mip_nodes": 1
+    }
+  ]
+}

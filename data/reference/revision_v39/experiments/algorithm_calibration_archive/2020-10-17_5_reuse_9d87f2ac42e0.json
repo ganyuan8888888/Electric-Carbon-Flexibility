@@ -1,0 +1,287 @@
+{
+  "status": "optimal",
+  "objective": 46.230103634779304,
+  "bound": 46.23010363477934,
+  "u": [
+    0.14158559684062655,
+    -0.30421818310602167,
+    -0.014138817911970802,
+    0.14433225920442871,
+    0.17698612538733038,
+    -0.3113286232496484,
+    0.009434830020328633,
+    -0.4885805627499501,
+    -0.053209990937577056,
+    0.1124366834651589,
+    0.17993751029846572,
+    -0.353846174477612,
+    0.11606483994956962,
+    -0.10348875506290722,
+    -0.019098803699864497,
+    0.14295599021249705,
+    0.09437610249325479,
+    -0.15467033016438148,
+    0.12471487373460755,
+    -0.3145006730108587,
+    -0.02870819498716337,
+    0.12742094502899382,
+    0.1595922417609168,
+    -0.3215060327582743
+  ],
+  "all_scenario_witness_upper": 46.230103634779304,
+  "witness_keys": [
+    [
+      [
+        "v28_pattern2_balanced",
+        "v28_pattern2_balanced",
+        "v28_pattern2_balanced",
+        0.0,
+        0.0
+      ],
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_price25",
+        "scenario_adaptive_price25",
+        0.0,
+        0.0
+      ],
+      [
+        "recovery_v21",
+        "recovery_v21_cost",
+        "recovery_v21_cost",
+        0.0,
+        0.0
+      ],
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_price25",
+        "scenario_adaptive_price25",
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_price25",
+        "scenario_adaptive_price25",
+        0.0,
+        0.0
+      ],
+      [
+        "v28_pattern0_balanced",
+        "v28_pattern0_balanced",
+        "v28_pattern0_balanced",
+        0.0,
+        0.0
+      ],
+      [
+        "v28_library_curtailment",
+        "v28_library_curtailment",
+        "v28_library_curtailment",
+        0.0,
+        0.0
+      ],
+      [
+        "v28_library_curtailment",
+        "v28_library_curtailment",
+        "v28_library_curtailment",
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        "constant",
+        "constant_cost",
+        "constant_cost",
+        0.0,
+        0.0
+      ],
+      [
+        "recovery_v20",
+        "recovery_v20_price25",
+        "recovery_v20_carbon",
+        0.3046875,
+        0.3125
+      ],
+      [
+        "v28_pattern2_balanced",
+        "v28_pattern2_balanced",
+        "v28_pattern2_balanced",
+        0.0,
+        0.0
+      ],
+      [
+        "v28_pattern2_balanced",
+        "v28_pattern2_balanced",
+        "v28_pattern2_balanced",
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        "recovery_v20",
+        "recovery_v20_price25",
+        "recovery_v20_price25",
+        0.0,
+        0.0
+      ],
+      [
+        "v27_pattern0_price25",
+        "v27_pattern0_price25",
+        "v27_pattern0_price25",
+        0.0,
+        0.0
+      ],
+      [
+        "v28_library_curtailment",
+        "v28_library_curtailment",
+        "v28_library_curtailment",
+        0.0,
+        0.0
+      ],
+      [
+        "constant",
+        "constant_price25",
+        "constant_price25",
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        "v28_library_curtailment",
+        "v28_library_curtailment",
+        "v28_library_curtailment",
+        0.0,
+        0.0
+      ],
+      [
+        "v27_pattern0_price25",
+        "v27_pattern0_price25",
+        "v27_pattern0_price25",
+        0.0,
+        0.0
+      ],
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_cost",
+        "scenario_adaptive_cost",
+        0.0,
+        0.0
+      ],
+      [
+        "v28_library_curtailment",
+        "v28_library_curtailment",
+        "v28_library_curtailment",
+        0.0,
+        0.0
+      ]
+    ]
+  ],
+  "scenario_values": [
+    46.213738839273084,
+    46.230103634779304,
+    33.16441452979831,
+    27.259200823404626,
+    46.21176420315349
+  ],
+  "date": "2020-10-17",
+  "regions": 4,
+  "parks": 24,
+  "scenarios": 5,
+  "method": "reuse",
+  "elapsed_s": 1.5945490000012796,
+  "MILP_calls": 1,
+  "LP_calls": 11,
+  "cache_hits": 6,
+  "solver_events": [
+    {
+      "scenarios": [
+        1
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 46.23010363477934,
+      "bound": 46.23010363477934,
+      "seconds": 0.9398963999992702,
+      "binaries": 1039,
+      "max_constraint_violation": 5.421010862427522e-20,
+      "mip_nodes": 1,
+      "primal_start": {
+        "supplied": true,
+        "max_constraint_violation": 2.168404344971009e-19,
+        "objective": 46.230103634879306
+      }
+    }
+  ],
+  "outer_trace": [
+    {
+      "iteration": 1,
+      "lower": 46.23010363477934,
+      "upper": 46.230103634779304,
+      "active": [
+        1
+      ],
+      "existing_incumbent_certificate": true,
+      "elapsed_s": 1.5315016000240576
+    }
+  ],
+  "inner_trace": [],
+  "relaxation_info": {
+    "values": [
+      45.33668987130577,
+      46.230103634779304,
+      31.14414273682221,
+      16.504807079922504,
+      46.16911358736947
+    ],
+    "selected": 1,
+    "elapsed_s": 0.5380148999975063
+  },
+  "initial_polish": {
+    "sweeps": 4,
+    "elapsed_s": 0.04275630001211539,
+    "upper": 46.230103634779304
+  },
+  "combinations": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      2,
+      3,
+      4,
+      0
+    ],
+    [
+      3,
+      4,
+      0,
+      1
+    ],
+    [
+      4,
+      0,
+      1,
+      2
+    ]
+  ],
+  "cells": 4572,
+  "implementation": "v39b proposed: feasible primal start and incumbent cutoff",
+  "implementation_hashes": {
+    "benchmark_warm_v39.py": "737bfca9046ff26fe92fc7426cd2ecebd56f1e418d10ba68f5ad4738568593c1",
+    "highs_start_v39.py": "6bad6108c09c0f25a48a2777646736fc790cad4cbf2cc65a8802670103da8b9f"
+  }
+}

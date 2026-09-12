@@ -1,0 +1,41 @@
+{
+  "objective": 2949762.4044644036,
+  "elapsed_s": 0.16281139999773586,
+  "curtailment_mwh": 7.34369047900155e-07,
+  "generation_emission_t": 71749.75471487404,
+  "max_nodal_balance_mw": 6.181721801112872e-12,
+  "max_carbon_balance_tph": 1.7053025658242404e-13,
+  "max_attribution_conservation_tph": 5.4569682106375694e-12,
+  "solver_status": "optimal",
+  "industrial_attributed_t": [
+    1540.6492625022474,
+    2241.904864766272,
+    4578.337574984131
+  ],
+  "assumptions": {
+    "scenario": "Explicit synthetic load/wind/PV scenario, not recorded weather.",
+    "generator_fuel_cost_emission": "synthetic",
+    "flow_model": "lossless DC",
+    "pmin": "0.32 Pmax for assigned coal; 0.10 Pmax for assigned gas",
+    "ramp": "0.12 Pmax per hour",
+    "renewable_peak_mw": 4503.0455999999995,
+    "industrial_baseline_mw": [
+      300.0,
+      260.0,
+      220.0
+    ],
+    "renewable_bus_external": [
+      4,
+      8,
+      16,
+      21,
+      26,
+      29
+    ],
+    "industrial_bus_external": [
+      4,
+      16,
+      24
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+date,scenarios,method,status,objective,bound,elapsed_s,MILP_calls,LP_calls,implementation,measurement
+2020-04-07,10,full,optimal,0.9927432759352559,0.9927432759352559,384.4879697000142,1,0,unchanged v38 comparator,
+2020-04-07,10,no_reuse,optimal,0.9927432759352561,0.9927432759352561,190.87380200001644,9,30,unchanged v38 comparator,
+2020-04-07,10,reuse,optimal,0.992743275935256,0.992743275935256,116.9671040000103,9,137,"v39c proposed: adaptive valid lower bounds, candidate primal initialization and feasible MIP start",
+2020-04-07,20,full,optimal,1.0122235569689049,1.0122235569689049,175.28427910001483,1,0,unchanged v38 comparator,
+2020-04-07,20,no_reuse,optimal,1.0122235569689046,1.0122235569689044,240.18287669998244,14,64,unchanged v38 comparator,
+2020-04-07,20,reuse,optimal,1.0122235569689046,1.0122235569689049,6.855433600023389,2,41,"v39c proposed: adaptive valid lower bounds, candidate primal initialization and feasible MIP start",
+2020-04-07,40,full,user_limit,1.0206807858731548,1.0122235569689046,608.6232567000261,1,0,unchanged v38 comparator,
+2020-04-07,40,no_reuse,optimal,1.0122235569689046,1.012223556968905,408.480645899981,26,127,unchanged v38 comparator,
+2020-04-07,40,reuse,optimal,1.0122235569689049,1.0122235569689049,12.141064800001914,2,134,"v39c proposed: adaptive valid lower bounds, candidate primal initialization and feasible MIP start",
+2020-04-07,5,full,optimal,0.9927410005511647,0.9927410005511647,66.03591410000809,1,0,unchanged v38 comparator,original measured v38 record
+2020-04-07,5,no_reuse,optimal,0.9927410005511647,0.9927410005511647,75.97039210001822,4,10,unchanged v38 comparator,original measured v38 record
+2020-04-07,5,reuse,optimal,0.9927410005511648,0.9927410005511648,62.52798630000325,5,53,"v39c proposed: adaptive valid lower bounds, candidate primal initialization and feasible MIP start",
+2020-10-17,10,full,optimal,75.0619864261626,75.0619864261626,1.9717156999977306,1,0,unchanged v38 comparator,
+2020-10-17,10,no_reuse,optimal,75.0619864261626,75.0619864261626,2.899659900023835,2,10,unchanged v38 comparator,
+2020-10-17,10,reuse,optimal,75.0619864261626,75.06198642616245,0.163232600025367,0,14,"v39c proposed: adaptive valid lower bounds, candidate primal initialization and feasible MIP start",
+2020-10-17,20,full,optimal,75.06198642616258,75.06198642616258,3.755171299999347,1,0,unchanged v38 comparator,
+2020-10-17,20,no_reuse,optimal,75.06198642616258,75.0619864261626,8.380572599999141,4,75,unchanged v38 comparator,
+2020-10-17,20,reuse,optimal,75.06198642616265,75.06198642616245,0.2796909000026062,0,45,"v39c proposed: adaptive valid lower bounds, candidate primal initialization and feasible MIP start",
+2020-10-17,40,full,optimal,104.72629293360954,104.72629293360954,9.256267999997362,1,0,unchanged v38 comparator,
+2020-10-17,40,no_reuse,optimal,104.72629293360954,104.72629293360954,19.777492299996084,6,400,unchanged v38 comparator,
+2020-10-17,40,reuse,optimal,104.72629293360961,104.72629293360941,0.595386500004679,0,95,"v39c proposed: adaptive valid lower bounds, candidate primal initialization and feasible MIP start",
+2020-10-17,5,full,optimal,46.23010363477935,46.23010363477935,4.15510470001027,1,0,unchanged v38 comparator,original measured v38 record
+2020-10-17,5,no_reuse,optimal,46.23010363477935,46.23010363477935,5.268616999994265,2,5,unchanged v38 comparator,original measured v38 record
+2020-10-17,5,reuse,optimal,46.230103634779304,46.230103634779184,0.10551789999590255,0,5,"v39c proposed: adaptive valid lower bounds, candidate primal initialization and feasible MIP start",
+2020-11-29,10,full,optimal,1.0046216248338138,1.0046216248338138,40.561813399981475,1,0,unchanged v38 comparator,
+2020-11-29,10,no_reuse,optimal,1.0046216248338138,1.0046216248338136,28.260553800006164,5,28,unchanged v38 comparator,
+2020-11-29,10,reuse,optimal,1.0046216248338138,1.0046216248338138,0.6043601999990642,0,11,"v39c proposed: adaptive valid lower bounds, candidate primal initialization and feasible MIP start",
+2020-11-29,20,full,optimal,1.0450117163384414,1.0450117163384414,27.4789463999914,1,0,unchanged v38 comparator,
+2020-11-29,20,no_reuse,optimal,1.0450117163384414,1.0450117163384414,34.3705410999828,5,56,unchanged v38 comparator,
+2020-11-29,20,reuse,optimal,1.0450117163384411,1.0450117163384411,0.6979299999948125,0,25,"v39c proposed: adaptive valid lower bounds, candidate primal initialization and feasible MIP start",
+2020-11-29,40,full,optimal,1.0450117163384414,1.0450117163384414,55.73500490002334,1,0,unchanged v38 comparator,
+2020-11-29,40,no_reuse,optimal,1.0450117163384414,1.0450117163384411,54.16763430001447,6,109,unchanged v38 comparator,
+2020-11-29,40,reuse,optimal,1.0450117163384414,1.0450117163384414,1.1885433999996167,0,53,"v39c proposed: adaptive valid lower bounds, candidate primal initialization and feasible MIP start",
+2020-11-29,5,full,optimal,1.0026531720435177,1.0026531720435177,9.817045499978121,1,0,unchanged v38 comparator,original measured v38 record
+2020-11-29,5,no_reuse,optimal,1.0026531720435177,1.0026531720435177,16.493850300001213,4,11,unchanged v38 comparator,original measured v38 record
+2020-11-29,5,reuse,optimal,1.0026531720435174,1.0026531720435174,0.25790699999197386,0,5,"v39c proposed: adaptive valid lower bounds, candidate primal initialization and feasible MIP start",

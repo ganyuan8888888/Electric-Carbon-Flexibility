@@ -1,0 +1,154 @@
+{
+  "status": "optimal",
+  "objective": 1.1188558756737956,
+  "bound": 1.1188558756737956,
+  "gap": 0.0,
+  "u": [
+    0.2,
+    0.2,
+    0.2,
+    0.20000000000000004,
+    0.2,
+    0.2
+  ],
+  "date": "2020-11-29",
+  "regions": 1,
+  "parks": 6,
+  "buses": 79,
+  "branches": 126,
+  "scenarios": 5,
+  "method": "no_reuse",
+  "repeat": 0,
+  "elapsed_s": 4.197234399995068,
+  "cells": 3425,
+  "MILP_calls": 5,
+  "LP_calls": 21,
+  "cache_hits": 15,
+  "outer_trace": [
+    {
+      "iteration": 1,
+      "lower": 0.9672306514224945,
+      "upper": 1.1188558756737956,
+      "active": [
+        0
+      ],
+      "feasibility_scenarios": [
+        2
+      ],
+      "elapsed_s": 0.09881369999493472
+    },
+    {
+      "iteration": 2,
+      "lower": 0.9751044625836793,
+      "upper": 1.1188558756737956,
+      "active": [
+        0,
+        2
+      ],
+      "worst_scenario": 1,
+      "elapsed_s": 2.1253710000019055
+    },
+    {
+      "iteration": 3,
+      "lower": 1.1188558756737956,
+      "upper": 1.1188558756737956,
+      "active": [
+        0,
+        2,
+        1
+      ],
+      "worst_scenario": 1,
+      "elapsed_s": 4.075140799977817
+    }
+  ],
+  "inner_trace": [
+    {
+      "outer": 2,
+      "inner": 1,
+      "lower": 1.1188558756737956,
+      "upper": 1.1188558756737956,
+      "scenario": 1,
+      "patterns": 3,
+      "reused": 2
+    },
+    {
+      "outer": 3,
+      "inner": 1,
+      "lower": 1.1188558756737956,
+      "upper": 1.1188558756737956,
+      "scenario": 1,
+      "patterns": 3,
+      "reused": 3
+    }
+  ],
+  "solver_events": [
+    {
+      "scenarios": [
+        0
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 0.9672306514224945,
+      "bound": 0.9672306514224945,
+      "seconds": 0.08507110000937246,
+      "binaries": 151,
+      "max_constraint_violation": 3.3306690738754696e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        0,
+        2
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 0.9751044625836793,
+      "bound": 0.9751044625836793,
+      "seconds": 1.9966981000034139,
+      "binaries": 1049,
+      "max_constraint_violation": 3.3306690738754696e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        1
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 1.1188558756737956,
+      "bound": 1.1188558756737956,
+      "seconds": 0.012265199999092147,
+      "binaries": 1,
+      "max_constraint_violation": 3.3306690738754696e-16,
+      "mip_nodes": 0
+    },
+    {
+      "scenarios": [
+        0,
+        2,
+        1
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 1.1188558756737956,
+      "bound": 1.1188558756737956,
+      "seconds": 1.918889799999306,
+      "binaries": 1050,
+      "max_constraint_violation": 2.220446049250313e-16,
+      "mip_nodes": 1
+    },
+    {
+      "scenarios": [
+        1
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 1.1188558756737956,
+      "bound": 1.1188558756737956,
+      "seconds": 0.013198800006648526,
+      "binaries": 1,
+      "max_constraint_violation": 2.220446049250313e-16,
+      "mip_nodes": 0
+    }
+  ]
+}

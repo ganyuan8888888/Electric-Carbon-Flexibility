@@ -1,0 +1,35 @@
+{
+  "scenarios": {
+    "0": {
+      "status": "optimal",
+      "value": 1.0,
+      "bound": 1.0,
+      "u": [
+        -0.01702577943280382,
+        -0.5366472406733839,
+        -0.03031790258323387,
+        -0.03918062169492444,
+        0.1231776418545707,
+        -0.13589642512493483
+      ],
+      "selected": {
+        "0": {
+          "index": 1,
+          "key": [
+            "constant",
+            "constant_price25",
+            "constant_price25",
+            0.0,
+            0.0
+          ],
+          "alpha": 0.0,
+          "cell_id": 1
+        }
+      },
+      "max_constraint_violation": 1.1102230246251565e-16,
+      "runtime_s": 0.09073480000370182
+    }
+  },
+  "scope": "Nominal-only constant-control solution, separately labelled when no five-scenario constant-control certificate is available.",
+  "_arrays_sha256": "b34c0304e11de9c0759c21417539b73410542b09325c1bc138fcced91c801bf1"
+}

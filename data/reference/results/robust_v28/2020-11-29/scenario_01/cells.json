@@ -1,0 +1,61 @@
+{
+  "date": "2020-11-29",
+  "scenario": 1,
+  "cells": [
+    {
+      "pattern": "scenario_adaptive",
+      "endpoints": [
+        "scenario_adaptive_carbon_cap_anchor",
+        "scenario_adaptive_carbon_cap_anchor"
+      ],
+      "left": 0.0,
+      "right": 0.0,
+      "allocation_upper": [
+        2046.8631911522618,
+        70.31470445532192,
+        2268.826337187704,
+        1324.6069276579171,
+        904.3378455981037,
+        768.2330312853521
+      ],
+      "allocation_lower": [
+        2046.8631911522618,
+        70.31470445532192,
+        2268.826337187704,
+        1324.6069276579171,
+        904.3378455981037,
+        768.2330312853521
+      ],
+      "metrics_left": [
+        2647351.240026322,
+        40057.69048902942,
+        8752.906477759105
+      ],
+      "metrics_right": [
+        2647351.240026322,
+        40057.69048902942,
+        8752.906477759105
+      ],
+      "certificate_error_t": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "neumann_norm": 0.0,
+      "kind": "exact_point",
+      "cell_id": 0
+    }
+  ],
+  "aliases": {
+    "recovery_v21": "recovery_v20"
+  },
+  "certificate": "Componentwise Neumann interval bound on original D(rho)=e, fixed industrial trajectory.",
+  "objective": "Convex fuel/emission chords upper-bound original metrics over each chart; curtailment affine.",
+  "limitation": "Finite certified recourse model; no global nonlinear-optimality assertion.",
+  "candidate_completion": "Additional exact-carbon point candidates; no expansion of physical limits or quota purchase cap.",
+  "enrichment": "Additional cost, carbon, curtailment and carbon-priced full-library directions; original industrial trajectories and all v26 cells retained.",
+  "v28_enrichment": "Additional original-physics full-cycle columns, independently certified; all previous cells retained."
+}

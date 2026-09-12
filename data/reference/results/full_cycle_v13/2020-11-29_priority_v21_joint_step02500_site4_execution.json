@@ -1,0 +1,36 @@
+{
+  "site": 4,
+  "date": "2020-11-29",
+  "label": "priority_v21_joint_step02500",
+  "rhs_relative_error": 2.8254444775919266e-16,
+  "minimum_temperature_c": 940.3459142097081,
+  "maximum_temperature_c": 978.4786267111108,
+  "minimum_ledge_m": 0.04308185457937,
+  "maximum_ledge_m": 0.2314332101366647,
+  "minimum_current_ka": 130.6197658600285,
+  "maximum_current_ka": 209.30500553651044,
+  "terminal_temperature_error_c": 1.3478973433232113,
+  "terminal_ledge_error_m": 0.010305127982392234,
+  "maximum_temperature_difference_c": 0.32414845764662914,
+  "maximum_ledge_difference_m": 0.0010656446320821134,
+  "maximum_cell_mean_power_difference_w": 624.9754638840677,
+  "production_kg": [
+    1362.6937358337416,
+    1362.6937358846628,
+    1362.6937358878774
+  ],
+  "production_error_kg": 1.7536124232719885e-06,
+  "thermal_passed": true,
+  "modal": {
+    "series_bounds": [
+      0.046850965013420044,
+      0.047718183014492946,
+      0.048000465860600645
+    ],
+    "reachability_upper_bound": 0.048000465860600645,
+    "sampled_bound": 0.040617395319568705,
+    "sufficient_check_passed": true
+  },
+  "certified": true,
+  "runtime_s": 25.87505930000043
+}

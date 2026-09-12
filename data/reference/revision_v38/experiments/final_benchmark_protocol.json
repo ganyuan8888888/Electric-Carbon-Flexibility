@@ -1,0 +1,35 @@
+{
+  "regions": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "parks": [
+    6,
+    12,
+    24,
+    48
+  ],
+  "dates": [
+    "2020-04-07",
+    "2020-10-17",
+    "2020-11-29"
+  ],
+  "scenarios": 5,
+  "network_per_region": [
+    79,
+    126
+  ],
+  "regional_error_profile": "Original five source-load scenarios, cyclic permutation (s+g) modulo 5 for region g.",
+  "regional_endowment": "Original allowance multiplied by 1+0.005*g, g=0,...,G-1. Original process library, generator capacities and network physics retained in every region.",
+  "coupling": "Region-specific first-stage allowances and dispatches; one common worst-case objective aggregates cost, emissions and curtailment over all regions. No inter-region electrical tie is introduced or claimed.",
+  "presolve": "For each region and every nonempty subset of its six parks, use the minimum summed normalized cell allocation per scenario as a necessary quota support bound, then take the maximum across scenarios. Same exact redundant cuts for full MILP and both NCCG variants.",
+  "stopping": "600 seconds per method, one HiGHS thread, MIP relative gap 1e-8 and absolute gap 1e-9; common NCCG outer/inner gap 2e-8.",
+  "retention": "All calibration runs retained separately; no outcome-based size or day exclusion. Report all timeouts and incumbent/bound pairs. Original six-park method outcomes remain unchanged.",
+  "implementation_sha256": "dc7ebc4dbbe19ef7fd245f77b6fb17723ee23a00660bd54e72f4ac7141aa0941",
+  "implementation": "Common valid quota cuts; current restricted-master recourse witnesses initialize the inner solve; batch add all currently uncovered scenarios; when the master contains every scenario, use its primal/dual certificate directly. Cross-outer pool retention is the sole difference between the two NCCG variants.",
+  "repeats": 1,
+  "uncertainty": "One complete formal run per method/instance. Report actual wall time without fabricated error bars. Calibration runs are separate.",
+  "order": "Rotate full/no_reuse/reuse across instance indices; solve sequentially with one HiGHS thread. All original three dates and all 1/2/4/8-region sizes retained."
+}

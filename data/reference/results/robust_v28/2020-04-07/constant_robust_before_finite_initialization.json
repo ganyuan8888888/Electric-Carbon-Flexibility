@@ -1,0 +1,294 @@
+{
+  "date": "2020-04-07",
+  "lower_ratio": 6.213788405774438,
+  "upper_ratio": 6.213788405774438,
+  "lower_usd": 11885107.967307445,
+  "upper_usd": 11885107.967307445,
+  "outer_trace": [
+    {
+      "iteration": 1,
+      "lower_ratio": 0.9946995988018039,
+      "upper_ratio": null,
+      "feasibility_scenario": 1,
+      "active_scenarios": [
+        0
+      ],
+      "elapsed_s": 0.230456299999787
+    },
+    {
+      "iteration": 2,
+      "lower_ratio": 6.213788405774438,
+      "upper_ratio": null,
+      "feasibility_scenario": 3,
+      "active_scenarios": [
+        0,
+        1
+      ],
+      "elapsed_s": 0.42694480000500334
+    },
+    {
+      "iteration": 3,
+      "lower_ratio": 6.213788405774438,
+      "upper_ratio": 6.213788405774438,
+      "relative_gap": 0.0,
+      "active_scenarios": [
+        0,
+        1,
+        3
+      ],
+      "worst_scenario": 1,
+      "inner_patterns": 4,
+      "elapsed_s": 0.7480416000034893
+    }
+  ],
+  "inner_trace": [
+    {
+      "outer_iteration": 1,
+      "inner_iteration": 1,
+      "lower_ratio": 0.9946995988018495,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 1,
+      "patterns": 1,
+      "elapsed_s": 0.07466120000026422
+    },
+    {
+      "outer_iteration": 2,
+      "inner_iteration": 1,
+      "lower_ratio": 1.003081664885473,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 1,
+      "patterns": 1,
+      "elapsed_s": 0.04344839999976102
+    },
+    {
+      "outer_iteration": 2,
+      "inner_iteration": 2,
+      "lower_ratio": 6.213788405774438,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 2,
+      "patterns": 2,
+      "elapsed_s": 0.07308499999635387
+    },
+    {
+      "outer_iteration": 2,
+      "inner_iteration": 3,
+      "lower_ratio": 6.213788405774438,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 3,
+      "patterns": 3,
+      "elapsed_s": 0.11872259999654489
+    },
+    {
+      "outer_iteration": 3,
+      "inner_iteration": 1,
+      "lower_ratio": 1.0041126993679723,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 1,
+      "patterns": 1,
+      "elapsed_s": 0.052879399998346344
+    },
+    {
+      "outer_iteration": 3,
+      "inner_iteration": 2,
+      "lower_ratio": 6.213788405774438,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 2,
+      "patterns": 2,
+      "elapsed_s": 0.08384559999831254
+    },
+    {
+      "outer_iteration": 3,
+      "inner_iteration": 3,
+      "lower_ratio": 6.213788405774438,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 3,
+      "patterns": 3,
+      "elapsed_s": 0.14729870000155643
+    },
+    {
+      "outer_iteration": 3,
+      "inner_iteration": 4,
+      "lower_ratio": 6.213788405774438,
+      "upper_ratio": 6.213788405774438,
+      "upper_is_infinite": false,
+      "worst_scenario": 1,
+      "patterns": 4,
+      "elapsed_s": 0.18814389999897685
+    }
+  ],
+  "extensive_objective": 6.213788405774438,
+  "extensive_gap_to_nccg": 0.0,
+  "scenarios": {
+    "0": {
+      "status": "optimal",
+      "value": 1.0022805053959012,
+      "bound": 1.0022805053959012,
+      "u": [
+        -0.07172549690916652,
+        0.1999847509973851,
+        0.019507642254812607,
+        -0.04994651367029246,
+        0.19982146137581247,
+        0.008272376023930716
+      ],
+      "selected": {
+        "0": {
+          "index": 1,
+          "key": [
+            "constant",
+            "constant_price25",
+            "constant_price25",
+            0.0,
+            0.0
+          ],
+          "alpha": 0.0,
+          "cell_id": 1
+        }
+      },
+      "max_constraint_violation": 0.0,
+      "runtime_s": 0.03778240000247024
+    },
+    "1": {
+      "status": "optimal",
+      "value": 6.213788405774438,
+      "bound": 6.213788405774438,
+      "u": [
+        -0.07172549690916652,
+        0.1999847509973851,
+        0.019507642254812607,
+        -0.04994651367029246,
+        0.19982146137581247,
+        0.008272376023930716
+      ],
+      "selected": {
+        "1": {
+          "index": 0,
+          "key": [
+            "constant",
+            "constant_cost",
+            "constant_price25",
+            0.611328125,
+            0.61328125
+          ],
+          "alpha": 0.0,
+          "cell_id": 0
+        }
+      },
+      "max_constraint_violation": 0.0,
+      "runtime_s": 0.015170600003330037
+    },
+    "2": {
+      "status": "optimal",
+      "value": 0.983461358716725,
+      "bound": 0.983461358716725,
+      "u": [
+        -0.07172549690916652,
+        0.1999847509973851,
+        0.019507642254812607,
+        -0.04994651367029246,
+        0.19982146137581247,
+        0.008272376023930716
+      ],
+      "selected": {
+        "2": {
+          "index": 3,
+          "key": [
+            "constant",
+            "constant_cost",
+            "constant_price25",
+            0.91796875,
+            0.921875
+          ],
+          "alpha": 0.990391264583006,
+          "cell_id": 3
+        }
+      },
+      "max_constraint_violation": 6.339373470609644e-13,
+      "runtime_s": 0.03912139999738429
+    },
+    "3": {
+      "status": "optimal",
+      "value": 0.9960602545018017,
+      "bound": 0.9960602545018017,
+      "u": [
+        -0.07172549690916652,
+        0.1999847509973851,
+        0.019507642254812607,
+        -0.04994651367029246,
+        0.19982146137581247,
+        0.008272376023930716
+      ],
+      "selected": {
+        "3": {
+          "index": 1,
+          "key": [
+            "constant",
+            "constant_cost",
+            "constant_price25",
+            0.5859375,
+            0.587890625
+          ],
+          "alpha": 1.0,
+          "cell_id": 1
+        }
+      },
+      "max_constraint_violation": 0.0,
+      "runtime_s": 0.015574500001093838
+    },
+    "4": {
+      "status": "optimal",
+      "value": 0.9793343966788275,
+      "bound": 0.9793343966788275,
+      "u": [
+        -0.07172549690916652,
+        0.1999847509973851,
+        0.019507642254812607,
+        -0.04994651367029246,
+        0.19982146137581247,
+        0.008272376023930716
+      ],
+      "selected": {
+        "4": {
+          "index": 9,
+          "key": [
+            "constant",
+            "constant_cost",
+            "constant_price25",
+            0.9453125,
+            0.953125
+          ],
+          "alpha": 0.07880779007514474,
+          "cell_id": 9
+        }
+      },
+      "max_constraint_violation": 1.1102230246251565e-16,
+      "runtime_s": 0.2078968999994686
+    }
+  },
+  "elapsed_s": 1.3959315000029164,
+  "LP_calls": 85,
+  "MIP_calls": 19,
+  "cells_sha256": [
+    "bf1c0c57bb4f5ecad43478f8cf216ffeb4c86b5b19603543af3f1a6c870d80f7",
+    "9e7ca869402fe6750e7393e927ecad554be2f1e6a1aba4ebed9e397ef47edf1a",
+    "a79f09e45f2db5048101d3cdb534a20e107d210a071cda079896b20cb3f121ab",
+    "24db68e507733f6a06c08a87f14bb0344b4ccb83e8238f51320da05545a1fbe0",
+    "be0a2358795d4a7a18a7a3e3e50d051f33ca3c0c67cbf1d0b2bc48b7bbed4f5c"
+  ],
+  "bound_scope": "Frozen finite certified polyhedral recourse model, not unrestricted nonlinear optimum.",
+  "_arrays_sha256": "970cb9deee5049037c5ec8d239c629725b1e48a90170fc5f16afc25efc711c8f",
+  "equal_optimum_selection": {
+    "rule": "Minimize the sum of five scenario normalized objectives within primary optimum tolerance; applied identically to M1 and M4. No probabilities or new primary weights.",
+    "primary_tolerance": 6.213788594777725e-09,
+    "secondary_objective": 10.174924921067694,
+    "secondary_bound": 10.174924921067694,
+    "elapsed_s": 0.7809897999977693
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "constant": {
+    "minimum_temperature_c": 954.2690566636528,
+    "maximum_temperature_c": 964.3401552475173,
+    "minimum_ledge_m": 0.09785479983782357,
+    "maximum_ledge_m": 0.17027974149994834,
+    "terminal_temperature_error_c": 3.5478251447784714e-09,
+    "terminal_ledge_error_m": 7.484053654582823e-11,
+    "maximum_spatial_temperature_range_c": 10.071098582591048,
+    "maximum_energy_balance_residual_j": 1.5229597920551896e-06,
+    "maximum_scaled_equation_residual": 8.593391006191572e-14,
+    "production_kg": 1362.693737587354,
+    "runtime_s": 2.6839401999968686
+  },
+  "daily_5pct": {
+    "minimum_temperature_c": 949.147835527241,
+    "maximum_temperature_c": 970.162960667299,
+    "minimum_ledge_m": 0.07141075317542145,
+    "maximum_ledge_m": 0.19596367497401196,
+    "terminal_temperature_error_c": 3.4707709734669834,
+    "terminal_ledge_error_m": 0.026302941929502555,
+    "maximum_spatial_temperature_range_c": 10.532621030871951,
+    "maximum_energy_balance_residual_j": 7.505598478019238e-05,
+    "maximum_scaled_equation_residual": 2.6041525416076184e-12,
+    "production_kg": 1362.693737587354,
+    "runtime_s": 2.75960589999886
+  },
+  "daily_10pct": {
+    "minimum_temperature_c": 943.7527855230669,
+    "maximum_temperature_c": 975.8375386331954,
+    "minimum_ledge_m": 0.051063111570679755,
+    "maximum_ledge_m": 0.2234416807422022,
+    "terminal_temperature_error_c": 7.333898751725428,
+    "terminal_ledge_error_m": 0.054788667328721646,
+    "maximum_spatial_temperature_range_c": 11.06453491313141,
+    "maximum_energy_balance_residual_j": 0.00012113898992538452,
+    "maximum_scaled_equation_residual": 6.4814618478218715e-12,
+    "production_kg": 1362.693737587354,
+    "runtime_s": 2.760415799995826
+  },
+  "two_hour_pulse": {
+    "minimum_temperature_c": 948.2673590776221,
+    "maximum_temperature_c": 972.8205503716447,
+    "minimum_ledge_m": 0.07577454114268846,
+    "maximum_ledge_m": 0.17683239559824573,
+    "terminal_temperature_error_c": 0.37678029892197173,
+    "terminal_ledge_error_m": 0.0040090591567293055,
+    "maximum_spatial_temperature_range_c": 10.143366634765812,
+    "maximum_energy_balance_residual_j": 0.0007542521161667537,
+    "maximum_scaled_equation_residual": 4.108669236302376e-11,
+    "production_kg": 1362.693737587354,
+    "runtime_s": 2.747961799999757
+  },
+  "model": {
+    "nodes": 12,
+    "state_dimension": 36,
+    "nominal_ledge_m": 0.12832575757575757,
+    "nominal_shell_c": 297.72727272727275,
+    "calibrated_top_conductance_w_k": 316.25585258125943,
+    "calibration": "Synthetic steady energy closure, not a fit to company data.",
+    "source": "Wong et al. 2023 Table II for listed transport coefficients; other assumptions in script."
+  }
+}

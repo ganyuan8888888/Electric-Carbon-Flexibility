@@ -1,0 +1,385 @@
+{
+  "date": "2020-10-17",
+  "outer_iterations": 4,
+  "original_finite_inner_records": 9,
+  "complete_inner_iterations": 11,
+  "inner_iterations_by_outer": {
+    "1": 4,
+    "2": 4,
+    "3": 3,
+    "4": 0
+  },
+  "infeasible_inner_exits": 2,
+  "inner_trace": [
+    {
+      "outer_iteration": 1,
+      "inner_iteration": 1,
+      "lower_ratio": 0.9945375485571727,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 1,
+      "patterns": 1,
+      "elapsed_s": 0.046312300000863615,
+      "status": "optimal",
+      "quota_normalized": [
+        -0.05336226666429734,
+        -0.7858348769211274,
+        -0.05060310222771726,
+        -0.09229770351654944,
+        0.19137133959206845,
+        -0.35622989199305655
+      ]
+    },
+    {
+      "outer_iteration": 1,
+      "inner_iteration": 2,
+      "lower_ratio": 60.889644341313556,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 2,
+      "patterns": 2,
+      "elapsed_s": 0.0959696999998414,
+      "status": "optimal",
+      "quota_normalized": [
+        -0.05336226666429734,
+        -0.7858348769211274,
+        -0.05060310222771726,
+        -0.09229770351654944,
+        0.19137133959206845,
+        -0.35622989199305655
+      ]
+    },
+    {
+      "outer_iteration": 1,
+      "inner_iteration": 3,
+      "lower_ratio": 131.66788029303953,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 3,
+      "patterns": 3,
+      "elapsed_s": 0.13737810000020545,
+      "status": "optimal",
+      "quota_normalized": [
+        -0.05336226666429734,
+        -0.7858348769211274,
+        -0.05060310222771726,
+        -0.09229770351654944,
+        0.19137133959206845,
+        -0.35622989199305655
+      ]
+    },
+    {
+      "outer_iteration": 1,
+      "inner_iteration": 4,
+      "lower_ratio": null,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 3,
+      "status": "infeasible",
+      "meaning": "The fixed quota has no admissible recourse for this scenario; a feasibility scenario is returned. No finite robust objective exists at this quota.",
+      "quota_normalized": [
+        -0.05336226666429734,
+        -0.7858348769211274,
+        -0.05060310222771726,
+        -0.09229770351654944,
+        0.19137133959206845,
+        -0.35622989199305655
+      ]
+    },
+    {
+      "outer_iteration": 2,
+      "inner_iteration": 1,
+      "lower_ratio": 0.9945375485571727,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 2,
+      "patterns": 1,
+      "elapsed_s": 0.04328689999965718,
+      "status": "optimal",
+      "quota_normalized": [
+        -0.03868627913173017,
+        -0.7858348769211279,
+        -0.05001587484988168,
+        -0.08661450840709872,
+        0.1913713395920681,
+        -0.3562298919930563
+      ]
+    },
+    {
+      "outer_iteration": 2,
+      "inner_iteration": 2,
+      "lower_ratio": 129.32922655037956,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 3,
+      "patterns": 2,
+      "elapsed_s": 0.08279269999911776,
+      "status": "optimal",
+      "quota_normalized": [
+        -0.03868627913173017,
+        -0.7858348769211279,
+        -0.05001587484988168,
+        -0.08661450840709872,
+        0.1913713395920681,
+        -0.3562298919930563
+      ]
+    },
+    {
+      "outer_iteration": 2,
+      "inner_iteration": 3,
+      "lower_ratio": 129.32922655037956,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 4,
+      "patterns": 3,
+      "elapsed_s": 0.12129899999854388,
+      "status": "optimal",
+      "quota_normalized": [
+        -0.03868627913173017,
+        -0.7858348769211279,
+        -0.05001587484988168,
+        -0.08661450840709872,
+        0.1913713395920681,
+        -0.3562298919930563
+      ]
+    },
+    {
+      "outer_iteration": 2,
+      "inner_iteration": 4,
+      "lower_ratio": null,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 4,
+      "status": "infeasible",
+      "meaning": "The fixed quota has no admissible recourse for this scenario; a feasibility scenario is returned. No finite robust objective exists at this quota.",
+      "quota_normalized": [
+        -0.03868627913173017,
+        -0.7858348769211279,
+        -0.05001587484988168,
+        -0.08661450840709872,
+        0.1913713395920681,
+        -0.3562298919930563
+      ]
+    },
+    {
+      "outer_iteration": 3,
+      "inner_iteration": 1,
+      "lower_ratio": 1.001458403217728,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 4,
+      "patterns": 1,
+      "elapsed_s": 0.03758730000117794,
+      "status": "optimal",
+      "quota_normalized": [
+        0.14158559684062852,
+        -0.30421818310601545,
+        -0.014138817911970405,
+        0.14433225920443202,
+        0.19764065428148414,
+        -0.3113286232496469
+      ]
+    },
+    {
+      "outer_iteration": 3,
+      "inner_iteration": 2,
+      "lower_ratio": 4.038097424976174,
+      "upper_ratio": 119.3656285905092,
+      "upper_is_infinite": false,
+      "worst_scenario": 2,
+      "patterns": 2,
+      "elapsed_s": 0.08206659999996191,
+      "status": "optimal",
+      "quota_normalized": [
+        0.14158559684062852,
+        -0.30421818310601545,
+        -0.014138817911970405,
+        0.14433225920443202,
+        0.19764065428148414,
+        -0.3113286232496469
+      ]
+    },
+    {
+      "outer_iteration": 3,
+      "inner_iteration": 3,
+      "lower_ratio": 119.36562859051061,
+      "upper_ratio": 119.3656285905092,
+      "upper_is_infinite": false,
+      "worst_scenario": 2,
+      "patterns": 2,
+      "elapsed_s": 0.29476489999797195,
+      "status": "optimal",
+      "quota_normalized": [
+        0.14158559684062852,
+        -0.30421818310601545,
+        -0.014138817911970405,
+        0.14433225920443202,
+        0.19764065428148414,
+        -0.3113286232496469
+      ]
+    }
+  ],
+  "oracle_events": [
+    {
+      "outer_iteration": 1,
+      "scenarios": [
+        0
+      ],
+      "status": "optimal",
+      "value": 0.9945375485571727,
+      "bound": 0.9945375485571727
+    },
+    {
+      "outer_iteration": 1,
+      "scenarios": [
+        1
+      ],
+      "status": "optimal",
+      "value": 60.889644341313556,
+      "bound": 60.889644341313556
+    },
+    {
+      "outer_iteration": 1,
+      "scenarios": [
+        2
+      ],
+      "status": "optimal",
+      "value": 131.66788029303953,
+      "bound": 131.66788029303953
+    },
+    {
+      "outer_iteration": 1,
+      "scenarios": [
+        3
+      ],
+      "status": "infeasible",
+      "value": null,
+      "bound": null
+    },
+    {
+      "outer_iteration": 2,
+      "scenarios": [
+        0
+      ],
+      "status": "optimal",
+      "value": 0.9945375485571727,
+      "bound": 0.9945375485571727
+    },
+    {
+      "outer_iteration": 2,
+      "scenarios": [
+        2
+      ],
+      "status": "optimal",
+      "value": 129.32922655037956,
+      "bound": 129.32922655037956
+    },
+    {
+      "outer_iteration": 2,
+      "scenarios": [
+        3
+      ],
+      "status": "optimal",
+      "value": 0.9624817548172896,
+      "bound": 0.9624817548172896
+    },
+    {
+      "outer_iteration": 2,
+      "scenarios": [
+        4
+      ],
+      "status": "infeasible",
+      "value": null,
+      "bound": null
+    },
+    {
+      "outer_iteration": 3,
+      "scenarios": [
+        0
+      ],
+      "status": "optimal",
+      "value": 1.001458403217728,
+      "bound": 1.001458403217728
+    },
+    {
+      "outer_iteration": 3,
+      "scenarios": [
+        4
+      ],
+      "status": "optimal",
+      "value": 4.038097424976174,
+      "bound": 4.038097424976174
+    },
+    {
+      "outer_iteration": 3,
+      "scenarios": [
+        2
+      ],
+      "status": "optimal",
+      "value": 119.36562859051061,
+      "bound": 119.36562859051061
+    }
+  ],
+  "outer_trace": [
+    {
+      "iteration": 1,
+      "lower_ratio": 0.9945375485571728,
+      "upper_ratio": 125.5598669037951,
+      "feasibility_scenario": 3,
+      "active_scenarios": [
+        0
+      ],
+      "elapsed_s": 0.2577632000029553
+    },
+    {
+      "iteration": 2,
+      "lower_ratio": 0.9945375485571728,
+      "upper_ratio": 125.5598669037951,
+      "feasibility_scenario": 4,
+      "active_scenarios": [
+        0,
+        3
+      ],
+      "elapsed_s": 0.8670936999988044
+    },
+    {
+      "iteration": 3,
+      "lower_ratio": 4.038097424976151,
+      "upper_ratio": 119.3656285905092,
+      "relative_gap": 0.9661703501028,
+      "active_scenarios": [
+        0,
+        3,
+        4
+      ],
+      "worst_scenario": 2,
+      "inner_patterns": 2,
+      "elapsed_s": 1.395905400000629
+    },
+    {
+      "iteration": 4,
+      "lower_ratio": 119.36562859050936,
+      "upper_ratio": 119.3656285905092,
+      "relative_gap": 0.0,
+      "active_scenarios": [
+        0,
+        3,
+        4,
+        2
+      ],
+      "stopping_reason": "Existing all-scenario feasible incumbent and new master bound close the gap.",
+      "elapsed_s": 1.611707000003662
+    }
+  ],
+  "refs": [
+    1837494.8561020752,
+    49926.88075251283,
+    11.587161134288692
+  ],
+  "LP_calls": 90,
+  "MIP_calls": 21,
+  "extensive_gap": 2.984279490192421e-13,
+  "matches_saved_optimum": true,
+  "replay_seconds": 2.9226787999941735,
+  "scope": "Same five-scenario frozen certified recourse model; no change of initialization, tolerance, candidate cells, or algorithm. Counts include infeasible oracle exits, exclude final tie-break and additional terminal verification. Outer bound closure may avoid an inner call."
+}

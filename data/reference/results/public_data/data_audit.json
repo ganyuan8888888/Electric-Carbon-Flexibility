@@ -1,0 +1,225 @@
+{
+  "dataset": "RTS-GMLC v0.2.3",
+  "commit": "3ece0d3725c844056132393ee252b3083dd4eab4",
+  "chronology_years": [
+    2020
+  ],
+  "days": 366,
+  "five_minute_rows": 105408,
+  "missing_cells": 0,
+  "duplicate_timestamps": 0,
+  "chronology_aligned": true,
+  "annual_energy_mwh": {
+    "load": 36581382.78509217,
+    "wind": 6843552.216666666,
+    "pv": 3559474.966666667,
+    "rtpv": 2046388.6333333335,
+    "hydro": 4082032.433333333,
+    "csp": 936411.8000000002
+  },
+  "main_case_days": [
+    {
+      "day_index": 97,
+      "date": "2020-04-07",
+      "target_quantile": 0.1,
+      "renewable_share": 0.1584531418206083
+    },
+    {
+      "day_index": 290,
+      "date": "2020-10-17",
+      "target_quantile": 0.5,
+      "renewable_share": 0.29618445958185474
+    },
+    {
+      "day_index": 333,
+      "date": "2020-11-29",
+      "target_quantile": 0.9,
+      "renewable_share": 0.6707168459160233
+    }
+  ],
+  "validation_days": [
+    {
+      "day_index": 28,
+      "date": "2020-01-29",
+      "monthly_ramp_quantile": 0.2
+    },
+    {
+      "day_index": 11,
+      "date": "2020-01-12",
+      "monthly_ramp_quantile": 0.5
+    },
+    {
+      "day_index": 23,
+      "date": "2020-01-24",
+      "monthly_ramp_quantile": 0.8
+    },
+    {
+      "day_index": 51,
+      "date": "2020-02-21",
+      "monthly_ramp_quantile": 0.2
+    },
+    {
+      "day_index": 34,
+      "date": "2020-02-04",
+      "monthly_ramp_quantile": 0.5
+    },
+    {
+      "day_index": 50,
+      "date": "2020-02-20",
+      "monthly_ramp_quantile": 0.8
+    },
+    {
+      "day_index": 63,
+      "date": "2020-03-04",
+      "monthly_ramp_quantile": 0.2
+    },
+    {
+      "day_index": 83,
+      "date": "2020-03-24",
+      "monthly_ramp_quantile": 0.5
+    },
+    {
+      "day_index": 88,
+      "date": "2020-03-29",
+      "monthly_ramp_quantile": 0.8
+    },
+    {
+      "day_index": 99,
+      "date": "2020-04-09",
+      "monthly_ramp_quantile": 0.2
+    },
+    {
+      "day_index": 101,
+      "date": "2020-04-11",
+      "monthly_ramp_quantile": 0.5
+    },
+    {
+      "day_index": 107,
+      "date": "2020-04-17",
+      "monthly_ramp_quantile": 0.8
+    },
+    {
+      "day_index": 133,
+      "date": "2020-05-13",
+      "monthly_ramp_quantile": 0.2
+    },
+    {
+      "day_index": 124,
+      "date": "2020-05-04",
+      "monthly_ramp_quantile": 0.5
+    },
+    {
+      "day_index": 142,
+      "date": "2020-05-22",
+      "monthly_ramp_quantile": 0.8
+    },
+    {
+      "day_index": 168,
+      "date": "2020-06-17",
+      "monthly_ramp_quantile": 0.2
+    },
+    {
+      "day_index": 172,
+      "date": "2020-06-21",
+      "monthly_ramp_quantile": 0.5
+    },
+    {
+      "day_index": 156,
+      "date": "2020-06-05",
+      "monthly_ramp_quantile": 0.8
+    },
+    {
+      "day_index": 211,
+      "date": "2020-07-30",
+      "monthly_ramp_quantile": 0.2
+    },
+    {
+      "day_index": 208,
+      "date": "2020-07-27",
+      "monthly_ramp_quantile": 0.5
+    },
+    {
+      "day_index": 192,
+      "date": "2020-07-11",
+      "monthly_ramp_quantile": 0.8
+    },
+    {
+      "day_index": 241,
+      "date": "2020-08-29",
+      "monthly_ramp_quantile": 0.2
+    },
+    {
+      "day_index": 242,
+      "date": "2020-08-30",
+      "monthly_ramp_quantile": 0.5
+    },
+    {
+      "day_index": 213,
+      "date": "2020-08-01",
+      "monthly_ramp_quantile": 0.8
+    },
+    {
+      "day_index": 273,
+      "date": "2020-09-30",
+      "monthly_ramp_quantile": 0.2
+    },
+    {
+      "day_index": 259,
+      "date": "2020-09-16",
+      "monthly_ramp_quantile": 0.5
+    },
+    {
+      "day_index": 247,
+      "date": "2020-09-04",
+      "monthly_ramp_quantile": 0.8
+    },
+    {
+      "day_index": 287,
+      "date": "2020-10-14",
+      "monthly_ramp_quantile": 0.2
+    },
+    {
+      "day_index": 293,
+      "date": "2020-10-20",
+      "monthly_ramp_quantile": 0.5
+    },
+    {
+      "day_index": 302,
+      "date": "2020-10-29",
+      "monthly_ramp_quantile": 0.8
+    },
+    {
+      "day_index": 325,
+      "date": "2020-11-21",
+      "monthly_ramp_quantile": 0.2
+    },
+    {
+      "day_index": 326,
+      "date": "2020-11-22",
+      "monthly_ramp_quantile": 0.5
+    },
+    {
+      "day_index": 322,
+      "date": "2020-11-18",
+      "monthly_ramp_quantile": 0.8
+    },
+    {
+      "day_index": 361,
+      "date": "2020-12-27",
+      "monthly_ramp_quantile": 0.2
+    },
+    {
+      "day_index": 355,
+      "date": "2020-12-21",
+      "monthly_ramp_quantile": 0.5
+    },
+    {
+      "day_index": 348,
+      "date": "2020-12-14",
+      "monthly_ramp_quantile": 0.8
+    }
+  ],
+  "selection_rule": "Main: nearest annual renewable-energy-share quantiles 0.1/0.5/0.9. Validation: monthly net-load-ramp RMS quantiles 0.2/0.5/0.8. Selection uses input data only.",
+  "aggregation_rule": "Six consecutive 5-minute mean-power observations are averaged to each 30-minute dispatch interval. This exactly preserves input electrical energy.",
+  "interpretation": "The REAL_TIME labels are the benchmark actual profiles. The network and chronology form a public synthetic test system, not measurements of an aluminum enterprise."
+}

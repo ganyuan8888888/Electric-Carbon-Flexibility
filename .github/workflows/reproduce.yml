@@ -1,0 +1,22 @@
+name: Reproduction smoke test
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  numerical-checks:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python tools/check_repository.py
+      - run: python reproduce.py quick
+      - run: python reproduce.py ac
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reproduction-results
+          path: reproduced/

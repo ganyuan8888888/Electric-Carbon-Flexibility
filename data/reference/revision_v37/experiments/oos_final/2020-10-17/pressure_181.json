@@ -1,0 +1,360 @@
+{
+  "group": "pressure",
+  "index": 181,
+  "date": "2020-10-17",
+  "clipping_mwh": 582.3905353893339,
+  "results": {
+    "M1": {
+      "status": "original_constraints_verified",
+      "witness_found": true,
+      "iteration": 1,
+      "mode": 0,
+      "allocation_t": [
+        2751.4930565623104,
+        67.0971689129044,
+        2954.76228371871,
+        1246.7377457228365,
+        941.5953462026423,
+        1073.6259941918609
+      ],
+      "carbon_excess_t": 0.0,
+      "carbon_excess_ratio": 0.0,
+      "cost_usd": 1764859.454858673,
+      "source_emission_t": 47953.29208952919,
+      "curtailment_mwh": 2.4451722409874606,
+      "balance_residual_mw": 9.211476026393939e-11,
+      "line_excess_mw": 0.0,
+      "ramp_excess_mw": 0.0,
+      "source_limit_excess_mw": 0.0,
+      "objective": 0.960470419276446,
+      "elapsed_s": 7.869097099988721,
+      "iterations": [
+        {
+          "iteration": -1,
+          "mode": 0,
+          "allocation_t": [
+            2760.9407593130536,
+            55.01870842722108,
+            2965.4687126451227,
+            1250.5239067070615,
+            939.9779354679708,
+            1034.1246475782796
+          ],
+          "carbon_excess_t": 0.0,
+          "carbon_excess_ratio": 0.0,
+          "cost_usd": 1683372.980682135,
+          "source_emission_t": 47568.44907112165,
+          "curtailment_mwh": -463.5496397631065,
+          "balance_residual_mw": 80.17094640419936,
+          "line_excess_mw": 0.1538245849853297,
+          "ramp_excess_mw": 0.0,
+          "source_limit_excess_mw": 71.86666666666667,
+          "objective": 0.9527622866511147
+        },
+        {
+          "iteration": 0,
+          "mode": 0,
+          "allocation_t": [
+            2750.9011765271707,
+            67.0524691749135,
+            2953.236022683397,
+            1246.70437670896,
+            941.8507171323406,
+            1072.5783476755437
+          ],
+          "carbon_excess_t": 0.2429929070989374,
+          "carbon_excess_ratio": 0.00030701546748741635,
+          "cost_usd": 1764859.0754076876,
+          "source_emission_t": 47953.28177940291,
+          "curtailment_mwh": 2.44517224098729,
+          "balance_residual_mw": 2.2367885321727954e-11,
+          "line_excess_mw": 2.842170943040401e-14,
+          "ramp_excess_mw": 0.0,
+          "source_limit_excess_mw": 0.0,
+          "objective": 0.9604702127719302
+        },
+        {
+          "iteration": 1,
+          "mode": 0,
+          "allocation_t": [
+            2751.4930565623104,
+            67.0971689129044,
+            2954.76228371871,
+            1246.7377457228365,
+            941.5953462026423,
+            1073.6259941918609
+          ],
+          "carbon_excess_t": 0.0,
+          "carbon_excess_ratio": 0.0,
+          "cost_usd": 1764859.454858673,
+          "source_emission_t": 47953.29208952919,
+          "curtailment_mwh": 2.4451722409874606,
+          "balance_residual_mw": 9.211476026393939e-11,
+          "line_excess_mw": 0.0,
+          "ramp_excess_mw": 0.0,
+          "source_limit_excess_mw": 0.0,
+          "objective": 0.960470419276446
+        }
+      ],
+      "plan": null,
+      "plans": null,
+      "quota_t": [
+        309.77436972494365,
+        18.708867891265566,
+        97.41025022675011,
+        253.5687511405134,
+        150.13975980127682,
+        -118.81234235065857
+      ]
+    },
+    "M4-N": {
+      "status": "no_verified_witness_within_search_budget",
+      "witness_found": false,
+      "iteration": 4,
+      "mode": 0,
+      "allocation_t": [
+        2691.5904779876328,
+        59.06199756869116,
+        2939.349700051876,
+        1220.9931808687625,
+        921.7201909511755,
+        1013.2719262194415
+      ],
+      "carbon_excess_t": 1.6757256453244054,
+      "carbon_excess_ratio": 0.0010664157092209817,
+      "cost_usd": 1762508.8495509403,
+      "source_emission_t": 47889.42339868327,
+      "curtailment_mwh": 2.39174192758378,
+      "balance_residual_mw": 9.841016890277388e-11,
+      "line_excess_mw": 0.0,
+      "ramp_excess_mw": 0.0,
+      "source_limit_excess_mw": 0.0,
+      "objective": 0.9591911747115284,
+      "elapsed_s": 19.371918899996672,
+      "iterations": [
+        {
+          "iteration": -1,
+          "mode": 0,
+          "allocation_t": [
+            2757.3729568417066,
+            50.261634711687904,
+            2946.283014150059,
+            1258.3924678167605,
+            909.2578546750332,
+            1048.9398473724912
+          ],
+          "carbon_excess_t": 56.5297945987686,
+          "carbon_excess_ratio": 0.02787070011566191,
+          "cost_usd": 1678748.9702894501,
+          "source_emission_t": 47559.85529690148,
+          "curtailment_mwh": -466.49916882287266,
+          "balance_residual_mw": 80.17094640419737,
+          "line_excess_mw": 0.1538245849853297,
+          "ramp_excess_mw": 0.0,
+          "source_limit_excess_mw": 71.86666666666667,
+          "objective": 0.9525901594504836
+        },
+        {
+          "iteration": 0,
+          "mode": 0,
+          "allocation_t": [
+            2677.469428148342,
+            59.62871064087036,
+            2941.6348827896145,
+            1223.7705611684603,
+            923.1022828604714,
+            1020.2624910935076
+          ],
+          "carbon_excess_t": 8.666290519390486,
+          "carbon_excess_ratio": 0.005515144066892724,
+          "cost_usd": 1762527.6719781095,
+          "source_emission_t": 47889.93482600693,
+          "curtailment_mwh": 2.3917419275839507,
+          "balance_residual_mw": 1.828937001846498e-11,
+          "line_excess_mw": 0.0,
+          "ramp_excess_mw": 0.0,
+          "source_limit_excess_mw": 0.0,
+          "objective": 0.9592014182379832
+        },
+        {
+          "iteration": 1,
+          "mode": 0,
+          "allocation_t": [
+            2697.5946030830505,
+            58.08759984392405,
+            2939.9689663808244,
+            1224.6803287104967,
+            921.4439120303977,
+            1013.747530947978
+          ],
+          "carbon_excess_t": 3.7753463447052127,
+          "carbon_excess_ratio": 0.0028068445920082273,
+          "cost_usd": 1762387.1646161985,
+          "source_emission_t": 47886.11707692327,
+          "curtailment_mwh": 2.39174192758378,
+          "balance_residual_mw": 2.893330020015128e-11,
+          "line_excess_mw": 0.0,
+          "ramp_excess_mw": 0.0,
+          "source_limit_excess_mw": 0.0,
+          "objective": 0.9591249514324058
+        },
+        {
+          "iteration": 2,
+          "mode": 0,
+          "allocation_t": [
+            2692.9324798191997,
+            60.240503551700144,
+            2939.3883959880222,
+            1229.687454284414,
+            922.7971514459746,
+            1013.0559433306623
+          ],
+          "carbon_excess_t": 8.782471918622377,
+          "carbon_excess_ratio": 0.0065294761217925155,
+          "cost_usd": 1762345.4498537385,
+          "source_emission_t": 47884.98363811993,
+          "curtailment_mwh": 2.39174192758378,
+          "balance_residual_mw": 6.019718057359569e-11,
+          "line_excess_mw": 0.0,
+          "ramp_excess_mw": 0.0,
+          "source_limit_excess_mw": 0.0,
+          "objective": 0.9591022494573112
+        },
+        {
+          "iteration": 3,
+          "mode": 0,
+          "allocation_t": [
+            2691.081837703199,
+            59.52211732224777,
+            2939.4632474480622,
+            1223.2890322510148,
+            922.9251342180246,
+            1012.2715481922228
+          ],
+          "carbon_excess_t": 2.3840498852232486,
+          "carbon_excess_ratio": 0.0017724618926158971,
+          "cost_usd": 1762473.0213534276,
+          "source_emission_t": 47888.449904722635,
+          "curtailment_mwh": 2.39174192758378,
+          "balance_residual_mw": 3.8198777474462986e-11,
+          "line_excess_mw": 0.0,
+          "ramp_excess_mw": 0.0,
+          "source_limit_excess_mw": 0.0,
+          "objective": 0.9591716763181621
+        },
+        {
+          "iteration": 4,
+          "mode": 0,
+          "allocation_t": [
+            2691.5904779876328,
+            59.06199756869116,
+            2939.349700051876,
+            1220.9931808687625,
+            921.7201909511755,
+            1013.2719262194415
+          ],
+          "carbon_excess_t": 1.6757256453244054,
+          "carbon_excess_ratio": 0.0010664157092209817,
+          "cost_usd": 1762508.8495509403,
+          "source_emission_t": 47889.42339868327,
+          "curtailment_mwh": 2.39174192758378,
+          "balance_residual_mw": 9.841016890277388e-11,
+          "line_excess_mw": 0.0,
+          "ramp_excess_mw": 0.0,
+          "source_limit_excess_mw": 0.0,
+          "objective": 0.9591911747115284
+        }
+      ],
+      "plans": null,
+      "quota_t": [
+        -152.2473782385578,
+        -314.1641224444778,
+        -156.61088643197556,
+        -124.14502697727876,
+        151.46428459602174,
+        -559.766290464697
+      ]
+    },
+    "M4": {
+      "status": "original_constraints_verified",
+      "witness_found": true,
+      "iteration": 0,
+      "mode": 0,
+      "allocation_t": [
+        2759.3205899460227,
+        56.67380204947085,
+        2938.6523186333625,
+        1256.885715767629,
+        911.9354742944945,
+        1050.5563124473117
+      ],
+      "carbon_excess_t": 0.0,
+      "carbon_excess_ratio": 0.0,
+      "cost_usd": 1761547.8772545718,
+      "source_emission_t": 47863.3126593327,
+      "curtailment_mwh": 2.3917419275835528,
+      "balance_residual_mw": 2.546585164964199e-10,
+      "line_excess_mw": 5.684341886080802e-14,
+      "ramp_excess_mw": 0.0,
+      "source_limit_excess_mw": 9.083578333957121e-11,
+      "objective": 0.9586681951270265,
+      "elapsed_s": 4.296487199986586,
+      "iterations": [
+        {
+          "iteration": -1,
+          "mode": 0,
+          "allocation_t": [
+            2757.3729568417066,
+            50.261634711687904,
+            2946.283014150059,
+            1258.3924678167605,
+            909.2578546750332,
+            1048.9398473724912
+          ],
+          "carbon_excess_t": 0.0,
+          "carbon_excess_ratio": 0.0,
+          "cost_usd": 1678748.9702894501,
+          "source_emission_t": 47559.85529690148,
+          "curtailment_mwh": -466.49916882287266,
+          "balance_residual_mw": 80.17094640419737,
+          "line_excess_mw": 0.1538245849853297,
+          "ramp_excess_mw": 0.0,
+          "source_limit_excess_mw": 71.86666666666667,
+          "objective": 0.9525901594504836
+        },
+        {
+          "iteration": 0,
+          "mode": 0,
+          "allocation_t": [
+            2759.3205899460227,
+            56.67380204947085,
+            2938.6523186333625,
+            1256.885715767629,
+            911.9354742944945,
+            1050.5563124473117
+          ],
+          "carbon_excess_t": 0.0,
+          "carbon_excess_ratio": 0.0,
+          "cost_usd": 1761547.8772545718,
+          "source_emission_t": 47863.3126593327,
+          "curtailment_mwh": 2.3917419275835528,
+          "balance_residual_mw": 2.546585164964199e-10,
+          "line_excess_mw": 5.684341886080802e-14,
+          "ramp_excess_mw": 0.0,
+          "source_limit_excess_mw": 9.083578333957121e-11,
+          "objective": 0.9586681951270265
+        }
+      ],
+      "plan": null,
+      "plans": null,
+      "quota_t": [
+        403.9565270144183,
+        -121.62152805130506,
+        -43.758044641800396,
+        194.1341065914233,
+        144.87638611349686,
+        -489.21012096125196
+      ]
+    }
+  }
+}

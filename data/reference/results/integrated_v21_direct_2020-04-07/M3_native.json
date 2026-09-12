@@ -1,0 +1,69 @@
+{
+  "generation_emission_t": 53100.11493066262,
+  "curtailment_mwh": 1.2375304913529952,
+  "objective_actual": 1873487.5914676457,
+  "carbon_balance_residual": 8.526512829121202e-14,
+  "attribution_conservation_residual": 6.366462912410498e-12,
+  "status": "feasible_initial_incumbent",
+  "carbon_feasible": true,
+  "budget_violation_t": 0.0,
+  "native_nlp_constraint_violation": null,
+  "primal_audit": {
+    "passed": true,
+    "tolerance": 1e-05,
+    "checks": {
+      "total_power_balance_mw": 8.540723683836404e-12,
+      "nodal_dc_balance_mw": 1.5290879673557356e-11,
+      "line_capacity_excess_mw": 0.0,
+      "generation_lower_excess_mw": 7.105427357601002e-15,
+      "generation_upper_excess_mw": 6.821210263296962e-13,
+      "generation_ramp_excess_mw": 0.0,
+      "renewable_lower_excess_mw": 0.0,
+      "renewable_upper_excess_mw": 1.7763568394002505e-14,
+      "library_interface_error_mw": 0.0,
+      "weight_sum_error": 0.0,
+      "weight_bound_excess": 0.0,
+      "inadmissible_branch_weight": 0.0,
+      "commitment_integrality_error": 0.0,
+      "branch_integrality_error": 0.0
+    },
+    "integral_required": true,
+    "weight_fractionality": 0.0
+  },
+  "incumbent_validation": {
+    "network": {
+      "passed": true,
+      "tolerance": 1e-05,
+      "checks": {
+        "total_power_balance_mw": 8.540723683836404e-12,
+        "nodal_dc_balance_mw": 1.5290879673557356e-11,
+        "line_capacity_excess_mw": 0.0,
+        "generation_lower_excess_mw": 7.105427357601002e-15,
+        "generation_upper_excess_mw": 6.821210263296962e-13,
+        "generation_ramp_excess_mw": 0.0,
+        "renewable_lower_excess_mw": 0.0,
+        "renewable_upper_excess_mw": 1.7763568394002505e-14,
+        "library_interface_error_mw": 0.0,
+        "weight_sum_error": 0.0,
+        "weight_bound_excess": 0.0,
+        "inadmissible_branch_weight": 0.0,
+        "commitment_integrality_error": 0.0,
+        "branch_integrality_error": 0.0
+      },
+      "integral_required": true,
+      "weight_fractionality": 0.0
+    },
+    "actual_budget_excess_t": 0.0,
+    "fixed_load_residual_mw": 0.0,
+    "carbon_equation_residual": 8.526512829121202e-14
+  },
+  "runtime_s": 436.0729541000003,
+  "solution_scope": "Best independently feasible incumbent, not a claim of a stationary or global optimum.",
+  "scope": "Chen C-ED Eq.27 fixed-load and generation-cost specialization; same RTS system; original cumulative carbon-cap form Eq.15.",
+  "added_terminal_recovery": false,
+  "added_industrial_thermal_model": false,
+  "added_modal_envelope": false,
+  "source_emission_price_usd_t": 0.0,
+  "incumbent_source": "Common cost-only fixed-production budget-feasible initialization; no industrial control or proposed model in C-ED.",
+  "_arrays_sha256": "226cab90b0d7f32e5ea316916e9dbfc76aa034dcce413852642eb3fda53dee29"
+}

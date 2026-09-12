@@ -1,0 +1,26 @@
+C:\Users\Ganyu\Documents\英语论文\_work\epsr_industrial_carbon_20260908\scripts\benchmark_clusters_v38.py:55: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  lp=linprog([0.]*self.groups+[1.],A_ub=matrix,b_ub=-a,bounds=[(0.,1.)]*self.groups+[(0.,None)],method='highs',options={'threads':1})
+INITIAL_POLISH {'sweeps': 3, 'elapsed_s': 0.329500799998641, 'upper': 1.0180343820670494}
+C:\Users\Ganyu\Documents\英语论文\_work\epsr_industrial_carbon_20260908\tmp\evidence_runtime\numpy\_core\fromnumeric.py:83: RuntimeWarning: invalid value encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+LP_SEED {'values': array([0.99233094, 0.98640317, 0.97573463, 0.98735234, 0.991893  ,
+       0.98612045, 0.99145205, 0.98734777, 0.98640317, 0.98640317,
+       1.01209531, 0.98021515, 0.97268981, 0.97573097, 0.99145205,
+       0.98149081, 0.98640317, 0.99324874, 0.98640317, 0.98082515,
+       0.97088343, 0.99700036, 0.98149907, 0.98612045, 0.99519913,
+       1.00704643, 0.98734777, 0.98858386, 1.00903573, 0.98927136,
+       0.991893  , 1.01209531, 1.00616754, 1.00903573, 1.00616754,
+       0.99145205, 0.97754791, 0.97268981, 0.98780076, 0.98149081]), 'cheap_metric_bounds': array([0.99084568, 0.98491715, 0.96477173, 0.98579615, 0.9829276 ,
+       0.97699908, 0.98996668, 0.98579615, 0.98491715, 0.98491715,
+       1.00900155, 0.95180413, 0.97268981, 0.96477173, 0.98996668,
+       0.97070026, 0.98491715, 0.99172468, 0.98491715, 0.96565073,
+       0.96389273, 0.9838066 , 0.97070026, 0.97699908, 0.99371423,
+       1.00395203, 0.98579615, 0.98709812, 1.00594158, 0.9877857 ,
+       0.9829276 , 1.00900155, 1.00307302, 1.00594158, 1.00307302,
+       0.98996668, 0.97754791, 0.97268981, 0.9678317 , 0.97070026]), 'lp_scenarios': [10, 31, 28, 33, 25, 32, 34, 24, 17, 0, 6, 14, 35, 29, 27, 7, 3, 26, 8, 9, 16, 18, 1, 21, 4, 30, 36, 5, 23, 12, 37, 22, 15, 39, 38, 19, 2, 13, 20, 11], 'selected': 10, 'elapsed_s': 9.628401900001336}
+SOLVE 2020-04-07 4 reuse True {'scenarios': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39], 'fixed_quota': False, 'status': 'optimal', 'value': 1.0122235569689049, 'bound': 1.0122235569689049, 'seconds': 0.9026866000203881, 'binaries': 1282, 'max_constraint_violation': 0.0, 'mip_nodes': 1, 'primal_start': {'supplied': False}}
+PRIMAL_CANDIDATE {'upper': 1.0122235569689049, 'elapsed_s': 1.2599292999948375, 'cells': 1282}
+C:\Users\Ganyu\Documents\英语论文\_work\epsr_industrial_carbon_20260908\scripts\benchmark_warm_v39.py:15: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  lp=linprog([0.]*self.groups+[1.],A_ub=np.column_stack([np.array(diff).T,-np.ones(3)]),b_ub=-constant,
+SOLVE 2020-04-07 4 reuse True {'scenarios': [10], 'fixed_quota': False, 'status': 'optimal', 'value': 1.0122235569689049, 'bound': 1.0122235569689049, 'seconds': 0.2572314999997616, 'binaries': 1313, 'max_constraint_violation': 1.2193024367945782e-13, 'mip_nodes': 1, 'primal_start': {'supplied': True, 'max_constraint_violation': 2.710505431213761e-20, 'objective': 1.0122235570689049}}
+FORMAL_RESULT {'status': 'optimal', 'objective': 1.0122235569689049, 'bound': 1.0122235569689049, 'all_scenario_witness_upper': 1.0122235569689046, 'date': '2020-04-07', 'regions': 4, 'parks': 24, 'scenarios': 40, 'method': 'reuse', 'elapsed_s': 12.141064800001914, 'MILP_calls': 2, 'LP_calls': 134, 'cache_hits': 42, 'initial_polish': {'sweeps': 3, 'elapsed_s': 0.329500799998641, 'upper': 1.0180343820670494, 'candidate_master': {'upper': 1.0122235569689049, 'elapsed_s': 1.2599292999948375, 'cells': 1282}}, 'cells': 86604, 'implementation': 'v39c proposed: adaptive valid lower bounds, candidate primal initialization and feasible MIP start', 'implementation_hashes': {'benchmark_candidate_v39.py': '3642c50b4da09413556d7a56533686bc1fcacb6c88bf3d57732a37b3d7ed0ace', 'benchmark_warm_v39.py': '737bfca9046ff26fe92fc7426cd2ecebd56f1e418d10ba68f5ad4738568593c1', 'highs_start_v39.py': '6bad6108c09c0f25a48a2777646736fc790cad4cbf2cc65a8802670103da8b9f'}}

@@ -1,0 +1,187 @@
+{
+  "date": "2020-11-29",
+  "optimization_scenarios": 5,
+  "held_out_scenarios": 12,
+  "training_days": [
+    "2020-10-30",
+    "2020-11-01",
+    "2020-11-02",
+    "2020-11-03",
+    "2020-11-04",
+    "2020-11-06",
+    "2020-11-07",
+    "2020-11-08",
+    "2020-11-09",
+    "2020-11-11",
+    "2020-11-12",
+    "2020-11-13",
+    "2020-11-14",
+    "2020-11-16",
+    "2020-11-17",
+    "2020-11-18",
+    "2020-11-19",
+    "2020-11-21",
+    "2020-11-22",
+    "2020-11-23",
+    "2020-11-24",
+    "2020-11-26",
+    "2020-11-27",
+    "2020-11-28",
+    "2020-12-01",
+    "2020-12-02",
+    "2020-12-03",
+    "2020-12-04",
+    "2020-12-06",
+    "2020-12-07",
+    "2020-12-08",
+    "2020-12-09",
+    "2020-12-11",
+    "2020-12-12",
+    "2020-12-13",
+    "2020-12-14",
+    "2020-12-16",
+    "2020-12-17",
+    "2020-12-18",
+    "2020-12-19",
+    "2020-12-21",
+    "2020-12-22",
+    "2020-12-23",
+    "2020-12-24",
+    "2020-12-26",
+    "2020-12-27",
+    "2020-12-28",
+    "2020-12-29"
+  ],
+  "gamma": 1978.0870510377813,
+  "medoid_mean_standardized_L1_distance": 0.31897654360808375,
+  "scenarios": [
+    {
+      "scenario_id": 0,
+      "error_donor_date": null,
+      "scenario_role": "optimization",
+      "normalized_error_budget": 0.0,
+      "physical_clipping_mwh": 0.0
+    },
+    {
+      "scenario_id": 1,
+      "error_donor_date": "2020-11-06",
+      "scenario_role": "optimization",
+      "normalized_error_budget": 1201.2084682622653,
+      "physical_clipping_mwh": 10285.224999999997
+    },
+    {
+      "scenario_id": 2,
+      "error_donor_date": "2020-11-14",
+      "scenario_role": "optimization",
+      "normalized_error_budget": 1483.1310694259041,
+      "physical_clipping_mwh": 3636.8083333333334
+    },
+    {
+      "scenario_id": 3,
+      "error_donor_date": "2020-12-09",
+      "scenario_role": "optimization",
+      "normalized_error_budget": 694.3519139957244,
+      "physical_clipping_mwh": 138.3083333333333
+    },
+    {
+      "scenario_id": 4,
+      "error_donor_date": "2020-12-19",
+      "scenario_role": "optimization",
+      "normalized_error_budget": 1978.0870510377813,
+      "physical_clipping_mwh": 2585.1333333333328
+    },
+    {
+      "scenario_id": 5,
+      "error_donor_date": "2020-10-31",
+      "scenario_role": "held_out_validation",
+      "normalized_error_budget": 964.3277729156451,
+      "physical_clipping_mwh": 557.1166666666663
+    },
+    {
+      "scenario_id": 6,
+      "error_donor_date": "2020-11-05",
+      "scenario_role": "held_out_validation",
+      "normalized_error_budget": 1158.8454037786207,
+      "physical_clipping_mwh": 4161.091666666666
+    },
+    {
+      "scenario_id": 7,
+      "error_donor_date": "2020-11-10",
+      "scenario_role": "held_out_validation",
+      "normalized_error_budget": 845.9131088581887,
+      "physical_clipping_mwh": 1042.2666666666667
+    },
+    {
+      "scenario_id": 8,
+      "error_donor_date": "2020-11-15",
+      "scenario_role": "held_out_validation",
+      "normalized_error_budget": 861.2416938600577,
+      "physical_clipping_mwh": 2843.9166666666665
+    },
+    {
+      "scenario_id": 9,
+      "error_donor_date": "2020-11-20",
+      "scenario_role": "held_out_validation",
+      "normalized_error_budget": 685.9587958282334,
+      "physical_clipping_mwh": 338.9083333333332
+    },
+    {
+      "scenario_id": 10,
+      "error_donor_date": "2020-11-25",
+      "scenario_role": "held_out_validation",
+      "normalized_error_budget": 1332.0599878268692,
+      "physical_clipping_mwh": 4122.791666666666
+    },
+    {
+      "scenario_id": 11,
+      "error_donor_date": "2020-11-30",
+      "scenario_role": "held_out_validation",
+      "normalized_error_budget": 1335.4996107908773,
+      "physical_clipping_mwh": 11791.516666666668
+    },
+    {
+      "scenario_id": 12,
+      "error_donor_date": "2020-12-05",
+      "scenario_role": "held_out_validation",
+      "normalized_error_budget": 680.7667904830358,
+      "physical_clipping_mwh": 30.608333333333334
+    },
+    {
+      "scenario_id": 13,
+      "error_donor_date": "2020-12-10",
+      "scenario_role": "held_out_validation",
+      "normalized_error_budget": 853.7068679797391,
+      "physical_clipping_mwh": 2820.891666666667
+    },
+    {
+      "scenario_id": 14,
+      "error_donor_date": "2020-12-15",
+      "scenario_role": "held_out_validation",
+      "normalized_error_budget": 1144.0536012491298,
+      "physical_clipping_mwh": 6702.9416666666675
+    },
+    {
+      "scenario_id": 15,
+      "error_donor_date": "2020-12-20",
+      "scenario_role": "held_out_validation",
+      "normalized_error_budget": 932.4224654553332,
+      "physical_clipping_mwh": 36.79166666666674
+    },
+    {
+      "scenario_id": 16,
+      "error_donor_date": "2020-12-25",
+      "scenario_role": "held_out_validation",
+      "normalized_error_budget": 1452.3943102585833,
+      "physical_clipping_mwh": 905.5916666666665
+    }
+  ],
+  "source_files_sha256": {
+    "RTS_Data\\timeseries_data_files\\Load\\DAY_AHEAD_regional_Load.csv": "7a9470d32d49068a91334cb36db54cceb2feb5cb1f702b0fa0847af8bac6cf21",
+    "RTS_Data\\timeseries_data_files\\Load\\REAL_TIME_regional_Load.csv": "462888ae357239ec63bd22b96863900259a9849743df0ca6711ceb5a6d53da57",
+    "RTS_Data\\timeseries_data_files\\WIND\\DAY_AHEAD_wind.csv": "6a1a8dc7d10a518523b3b319902ecc1ca1c400223832b26c6edb3a6e69d01dbc",
+    "RTS_Data\\timeseries_data_files\\WIND\\REAL_TIME_wind.csv": "fc88ecb030cec9e60a796dae9c6139855640c0fca1aa7cc76e821de24d38efb4",
+    "RTS_Data\\timeseries_data_files\\PV\\DAY_AHEAD_pv.csv": "bfede6e558df5ea0f244b6326940a4ee0b95138643aa8a062897c67134c9c185",
+    "RTS_Data\\timeseries_data_files\\PV\\REAL_TIME_pv.csv": "ae45e0114d88302520acae1c7bb278e3fdfd2691a932c13667f60a27145e0836"
+  },
+  "protocol_sha256": "d3d4f8a1bca5ed324f37262b4e000613b4c50c9643862f3f7bd1f7db5a89f3b9"
+}

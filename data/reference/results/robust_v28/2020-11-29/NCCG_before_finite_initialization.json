@@ -1,0 +1,274 @@
+{
+  "date": "2020-11-29",
+  "lower_ratio": 1.1188558756737956,
+  "upper_ratio": 1.1188558756737956,
+  "lower_usd": 2920706.4390156665,
+  "upper_usd": 2920706.4390156665,
+  "outer_trace": [
+    {
+      "iteration": 1,
+      "lower_ratio": 0.9672306514224948,
+      "upper_ratio": null,
+      "feasibility_scenario": 1,
+      "active_scenarios": [
+        0
+      ],
+      "elapsed_s": 0.1788970000052359
+    },
+    {
+      "iteration": 2,
+      "lower_ratio": 1.1188558756737956,
+      "upper_ratio": null,
+      "feasibility_scenario": 2,
+      "active_scenarios": [
+        0,
+        1
+      ],
+      "elapsed_s": 0.43163710000226274
+    },
+    {
+      "iteration": 3,
+      "lower_ratio": 1.1188558756737956,
+      "upper_ratio": 1.1188558756737956,
+      "relative_gap": 0.0,
+      "active_scenarios": [
+        0,
+        1,
+        2
+      ],
+      "worst_scenario": 1,
+      "inner_patterns": 3,
+      "elapsed_s": 3.961331999998947
+    }
+  ],
+  "inner_trace": [
+    {
+      "outer_iteration": 1,
+      "inner_iteration": 1,
+      "lower_ratio": 0.9672306514224948,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 1,
+      "patterns": 1,
+      "elapsed_s": 0.03240409999853
+    },
+    {
+      "outer_iteration": 2,
+      "inner_iteration": 1,
+      "lower_ratio": 0.9672306514224948,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 1,
+      "patterns": 1,
+      "elapsed_s": 0.030568599999241997
+    },
+    {
+      "outer_iteration": 2,
+      "inner_iteration": 2,
+      "lower_ratio": 1.1188558756737956,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 2,
+      "patterns": 2,
+      "elapsed_s": 0.06917410000460222
+    },
+    {
+      "outer_iteration": 3,
+      "inner_iteration": 1,
+      "lower_ratio": 0.9672306514224948,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 1,
+      "patterns": 1,
+      "elapsed_s": 0.03404030000092462
+    },
+    {
+      "outer_iteration": 3,
+      "inner_iteration": 2,
+      "lower_ratio": 1.1188558756737956,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 2,
+      "patterns": 2,
+      "elapsed_s": 0.06988139999884879
+    },
+    {
+      "outer_iteration": 3,
+      "inner_iteration": 3,
+      "lower_ratio": 1.1188558756737956,
+      "upper_ratio": 1.1188558756737956,
+      "upper_is_infinite": false,
+      "worst_scenario": 1,
+      "patterns": 3,
+      "elapsed_s": 0.1452052000022377
+    }
+  ],
+  "extensive_objective": 1.1188558756737956,
+  "extensive_gap_to_nccg": 0.0,
+  "scenarios": {
+    "0": {
+      "status": "optimal",
+      "value": 0.9672306514224948,
+      "bound": 0.9672306514224948,
+      "u": [
+        -0.04496073839496817,
+        0.07517255161007874,
+        0.0654372037965083,
+        -0.02012699822743147,
+        0.09219591284022632,
+        0.18563478572521097
+      ],
+      "selected": {
+        "0": {
+          "index": 131,
+          "key": [
+            "scenario_adaptive",
+            "scenario_adaptive_carbon",
+            "scenario_adaptive_carbon",
+            0.0,
+            0.0
+          ],
+          "alpha": 0.0,
+          "cell_id": 131
+        }
+      },
+      "max_constraint_violation": 0.0,
+      "runtime_s": 0.03987240000424208
+    },
+    "1": {
+      "status": "optimal",
+      "value": 1.1188558756737956,
+      "bound": 1.1188558756737956,
+      "u": [
+        -0.04496073839496817,
+        0.07517255161007874,
+        0.0654372037965083,
+        -0.02012699822743147,
+        0.09219591284022632,
+        0.18563478572521097
+      ],
+      "selected": {
+        "1": {
+          "index": 0,
+          "key": [
+            "scenario_adaptive",
+            "scenario_adaptive_carbon_cap_anchor",
+            "scenario_adaptive_carbon_cap_anchor",
+            0.0,
+            0.0
+          ],
+          "alpha": 0.0,
+          "cell_id": 0
+        }
+      },
+      "max_constraint_violation": 0.0,
+      "runtime_s": 0.01256670000293525
+    },
+    "2": {
+      "status": "optimal",
+      "value": 0.9751044625836796,
+      "bound": 0.9751044625836796,
+      "u": [
+        -0.04496073839496817,
+        0.07517255161007874,
+        0.0654372037965083,
+        -0.02012699822743147,
+        0.09219591284022632,
+        0.18563478572521097
+      ],
+      "selected": {
+        "2": {
+          "index": 566,
+          "key": [
+            "scenario_adaptive",
+            "scenario_adaptive_carbon",
+            "scenario_adaptive_carbon",
+            0.0,
+            0.0
+          ],
+          "alpha": 0.0,
+          "cell_id": 566
+        }
+      },
+      "max_constraint_violation": 0.0,
+      "runtime_s": 0.053440499999851454
+    },
+    "3": {
+      "status": "optimal",
+      "value": 0.9494216984941006,
+      "bound": 0.9494216984941006,
+      "u": [
+        -0.04496073839496817,
+        0.07517255161007874,
+        0.0654372037965083,
+        -0.02012699822743147,
+        0.09219591284022632,
+        0.18563478572521097
+      ],
+      "selected": {
+        "3": {
+          "index": 928,
+          "key": [
+            "scenario_adaptive",
+            "scenario_adaptive_price25",
+            "scenario_adaptive_carbon",
+            0.9921875,
+            1.0
+          ],
+          "alpha": 1.0,
+          "cell_id": 928
+        }
+      },
+      "max_constraint_violation": 0.0,
+      "runtime_s": 0.5887699000013527
+    },
+    "4": {
+      "status": "optimal",
+      "value": 0.8550735487365558,
+      "bound": 0.8550735487365558,
+      "u": [
+        -0.04496073839496817,
+        0.07517255161007874,
+        0.0654372037965083,
+        -0.02012699822743147,
+        0.09219591284022632,
+        0.18563478572521097
+      ],
+      "selected": {
+        "4": {
+          "index": 1116,
+          "key": [
+            "scenario_adaptive",
+            "scenario_adaptive_carbon",
+            "scenario_adaptive_curtailment",
+            0.0,
+            0.0078125
+          ],
+          "alpha": 0.0,
+          "cell_id": 1116
+        }
+      },
+      "max_constraint_violation": 0.0,
+      "runtime_s": 0.43343219999951543
+    }
+  },
+  "elapsed_s": 11.717950099999143,
+  "LP_calls": 50,
+  "MIP_calls": 17,
+  "cells_sha256": [
+    "6e5a4d96c83228dfff9986b135e3bbda061f1749f1c66bfd022c21d6971a4233",
+    "1348e6d829106609a425cced95a1cbd6c1cceef4b583ebd9f956c4b5e6c5ebcb",
+    "9d2597317d979e9b29b81e091202aca9b34a3003d0b5003dfae6781855eef1bb",
+    "485dfba3769cb137d400ed8b69307abfaba4cfd918ca0bc5c777351360a6d06d",
+    "8654617eadcc9adda822c39e5ec9f4c7446ae4960e47e292a10adc066aeabf98"
+  ],
+  "bound_scope": "Frozen finite certified polyhedral recourse model, not unrestricted nonlinear optimum.",
+  "_arrays_sha256": "8f25776e31392d0a3c3e327e5805671bf3fc5398b19897d4823b0f31a9c64bb5",
+  "equal_optimum_selection": {
+    "rule": "Minimize the sum of five scenario normalized objectives within primary optimum tolerance; applied identically to M1 and M4. No probabilities or new primary weights.",
+    "primary_tolerance": 1.1188558968200368e-09,
+    "secondary_objective": 4.865686236910626,
+    "secondary_bound": 4.865686236910626,
+    "elapsed_s": 5.7858629999973346
+  }
+}

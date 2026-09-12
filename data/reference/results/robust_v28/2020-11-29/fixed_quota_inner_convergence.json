@@ -1,0 +1,52 @@
+{
+  "trace": [
+    {
+      "inner_iteration": 1,
+      "lower_ratio": 0.9672306514224945,
+      "upper_ratio": 1.1188558756737956,
+      "solved_scenario": 0,
+      "patterns": 1,
+      "elapsed_s": 0.05671920000168029
+    },
+    {
+      "inner_iteration": 2,
+      "lower_ratio": 1.1188558756737956,
+      "upper_ratio": 1.1188558756737956,
+      "solved_scenario": 1,
+      "patterns": 2,
+      "elapsed_s": 0.07428120000258787
+    }
+  ],
+  "initial_feasible_plans": [
+    {
+      "scenario": 0,
+      "cell_id": 127,
+      "value": 0.9677421624655888
+    },
+    {
+      "scenario": 1,
+      "cell_id": 0,
+      "value": 1.1188558756737956
+    },
+    {
+      "scenario": 2,
+      "cell_id": 878,
+      "value": 0.9751055416779474
+    },
+    {
+      "scenario": 3,
+      "cell_id": 393,
+      "value": 0.9615142595448871
+    },
+    {
+      "scenario": 4,
+      "cell_id": 1,
+      "value": 0.8784722679287273
+    }
+  ],
+  "initial_upper": 1.1188558756737956,
+  "exact_all_scenario_value": 1.1188558756737956,
+  "elapsed_s": 0.9204832999967039,
+  "scope": "Additional complete inner solve at the final selected quota. A first admissible certified cell per scenario establishes the finite initial incumbent upper bound using exact LPs. Only the bound is retained; the pattern pool starts empty and grows through actual unrestricted subproblem solutions. This is separate from the total inner iterations used during the outer run.",
+  "_arrays_sha256": "115f183e35222d8ef6a0a6eae47f36a50a81c445b6e31715af40253172058131"
+}

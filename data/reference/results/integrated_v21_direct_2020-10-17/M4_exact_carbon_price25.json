@@ -1,0 +1,45 @@
+{
+  "status": "Solve_Succeeded",
+  "stages": [
+    {
+      "epsilon": 0.0,
+      "status": "Solve_Succeeded",
+      "iterations": 112,
+      "elapsed_s": 13.999547200000961
+    }
+  ],
+  "runtime_s": 14.0151079999996,
+  "generation_emission_t": 45289.17295341382,
+  "curtailment_mwh": 1.155713184273178e-08,
+  "objective_actual": 1454721.3849565329,
+  "carbon_balance_residual": 7.105427357601002e-14,
+  "attribution_conservation_residual": 2.8821409614465665e-06,
+  "primal_audit": {
+    "passed": true,
+    "tolerance": 1e-05,
+    "checks": {
+      "total_power_balance_mw": 3.0356087847849267e-06,
+      "nodal_dc_balance_mw": 3.035602276213467e-06,
+      "line_capacity_excess_mw": 0.0,
+      "generation_lower_excess_mw": 0.0,
+      "generation_upper_excess_mw": 0.0,
+      "generation_ramp_excess_mw": 0.0,
+      "renewable_lower_excess_mw": 1.6955394198990794e-11,
+      "renewable_upper_excess_mw": 0.0,
+      "library_interface_error_mw": 0.0,
+      "weight_sum_error": 0.0,
+      "weight_bound_excess": -0.0,
+      "inadmissible_branch_weight": 0.0,
+      "commitment_integrality_error": 0.0,
+      "branch_integrality_error": 0.0
+    },
+    "integral_required": true,
+    "weight_fractionality": 0.0
+  },
+  "native_nlp_constraint_violation": 2.2502854335471056e-07,
+  "budget_violation_t": 0.0,
+  "carbon_feasible": true,
+  "maximum_complementarity": 0.0,
+  "dual_flow_implementation": "exact analytical elimination",
+  "_arrays_sha256": "b8eb13ee8956324acec9581fa708ed80675c9af71544beae2ac5b2f88b1d345c"
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "site": 5,
+    "date": "2020-10-17",
+    "label": "priority_v21_carbon_step10000",
+    "rhs_relative_error": 3.187238297295981e-16,
+    "minimum_temperature_c": 940.4923654461859,
+    "maximum_temperature_c": 977.430426923765,
+    "minimum_ledge_m": 0.04508130388454758,
+    "maximum_ledge_m": 0.22749238917801945,
+    "minimum_current_ka": 130.01364485756523,
+    "maximum_current_ka": 211.6076013798526,
+    "terminal_temperature_error_c": 1.4972750669805919,
+    "terminal_ledge_error_m": 0.01299594874096903,
+    "maximum_temperature_difference_c": 0.30940347793159617,
+    "maximum_ledge_difference_m": 0.0011707750575067483,
+    "maximum_cell_mean_power_difference_w": 667.2063772798283,
+    "production_kg": [
+      1362.693736838081,
+      1362.69373668874,
+      1362.6937366855702
+    ],
+    "production_error_kg": 9.017837783176219e-07,
+    "thermal_passed": true,
+    "modal": {
+      "series_bounds": [
+        1.1915203070219713,
+        1.240589560054652,
+        1.261507055314597
+      ],
+      "reachability_upper_bound": 1.261507055314597,
+      "sampled_bound": 1.075939301962786,
+      "sufficient_check_passed": false
+    },
+    "certified": false,
+    "runtime_s": 26.17860799999835
+  },
+  {
+    "site": 5,
+    "date": "2020-10-17",
+    "label": "priority_v21_carbon_step07500",
+    "rhs_relative_error": 3.187238297295981e-16,
+    "minimum_temperature_c": 942.8466922406243,
+    "maximum_temperature_c": 974.6200662064766,
+    "minimum_ledge_m": 0.05320342797511221,
+    "maximum_ledge_m": 0.21929214817917136,
+    "minimum_current_ka": 142.51023364317393,
+    "maximum_current_ka": 195.2470017248181,
+    "terminal_temperature_error_c": 0.9830445630032045,
+    "terminal_ledge_error_m": 0.010156527501564233,
+    "maximum_temperature_difference_c": 0.2362823180981195,
+    "maximum_ledge_difference_m": 0.0008591896805575372,
+    "maximum_cell_mean_power_difference_w": 467.56735703349113,
+    "production_kg": [
+      1362.6937370159271,
+      1362.6937370030444,
+      1362.6937370021599
+    ],
+    "production_error_kg": 5.851941295986762e-07,
+    "thermal_passed": true,
+    "modal": {
+      "series_bounds": [
+        0.007707496024442493,
+        0.007707496024442493,
+        0.007707496024442493
+      ],
+      "reachability_upper_bound": 0.007707496024442493,
+      "sampled_bound": 0.006722287447058024,
+      "sufficient_check_passed": true
+    },
+    "certified": true,
+    "runtime_s": 25.96039529999689
+  }
+]

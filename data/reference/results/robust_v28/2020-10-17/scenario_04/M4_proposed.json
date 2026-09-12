@@ -1,0 +1,83 @@
+{
+  "generation_emission_t": 51524.905660203825,
+  "curtailment_mwh": 46.790085539155,
+  "objective_actual": 1740352.3372649774,
+  "carbon_balance_residual": 1.1368683772161603e-13,
+  "attribution_conservation_residual": 8.640199666842818e-12,
+  "primal_audit": {
+    "passed": true,
+    "tolerance": 1e-05,
+    "checks": {
+      "total_power_balance_mw": 4.575895218295045e-12,
+      "nodal_dc_balance_mw": 9.407585821463726e-12,
+      "line_capacity_excess_mw": 1.9895196601282805e-13,
+      "generation_lower_excess_mw": -0.0,
+      "generation_upper_excess_mw": 0.0,
+      "generation_ramp_excess_mw": 0.0,
+      "renewable_lower_excess_mw": 0.0,
+      "renewable_upper_excess_mw": 1.4210854715202004e-14,
+      "library_interface_error_mw": 0.0,
+      "weight_sum_error": 0.0,
+      "weight_bound_excess": -0.0,
+      "inadmissible_branch_weight": 0.0,
+      "commitment_integrality_error": 0.0,
+      "branch_integrality_error": 0.0
+    },
+    "integral_required": true,
+    "weight_fractionality": 0.0
+  },
+  "contract_cost_usd": 5482.381619896314,
+  "actual_normalized_objective": 4.03809742497616,
+  "certified_normalized_objective": 4.03809742497616,
+  "carbon_budget_excess_t": 1.7053025658242404e-13,
+  "selected_cell": {
+    "cell_id": 39,
+    "pattern": "v28_library_curtailment",
+    "endpoints": [
+      "v28_library_curtailment",
+      "v28_library_curtailment"
+    ],
+    "left": 0.0,
+    "right": 0.0,
+    "allocation_upper": [
+      3257.0470674959142,
+      278.16235997789704,
+      3051.1290183531983,
+      1539.1841159344935,
+      887.9562636910401,
+      1082.1523700775622
+    ],
+    "allocation_lower": [
+      3257.0470674959142,
+      278.16235997789704,
+      3051.1290183531983,
+      1539.1841159344935,
+      887.9562636910401,
+      1082.1523700775622
+    ],
+    "metrics_left": [
+      1740352.3372649774,
+      51524.905660203825,
+      46.790085539155
+    ],
+    "metrics_right": [
+      1740352.3372649774,
+      51524.905660203825,
+      46.790085539155
+    ],
+    "certificate_error_t": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "neumann_norm": 0.0,
+    "kind": "exact_point"
+  },
+  "chart_alpha": 0.0,
+  "certificate_sample_excess_t": 4.547473508864641e-13,
+  "original_carbon_equation_residual": 1.1368683772161603e-13,
+  "_arrays_sha256": "82e5af0c8875dd60e95be1f63970db600e670fe35c7e9262b2cdf01fe87a3f5a"
+}

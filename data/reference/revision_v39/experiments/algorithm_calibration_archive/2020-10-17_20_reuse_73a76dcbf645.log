@@ -1,0 +1,11 @@
+LP_SEED {'values': array([45.33668987, 46.23010363, 31.14414274, 16.50480708, 46.16911359,
+       47.06252735, 75.06198643, 16.50480708, 46.23010363, 46.23010363,
+       60.36166072,  3.14468366, 30.31171902, 31.14414274, 75.06198643,
+       30.25072897, 46.23010363, 15.61139332, 46.23010363,  1.41884618]), 'selected': 6, 'elapsed_s': 2.5946174999990035}
+C:\Users\Ganyu\Documents\英语论文\_work\epsr_industrial_carbon_20260908\scripts\benchmark_clusters_v38.py:55: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  lp=linprog([0.]*self.groups+[1.],A_ub=matrix,b_ub=-a,bounds=[(0.,1.)]*self.groups+[(0.,None)],method='highs',options={'threads':1})
+INITIAL_POLISH {'sweeps': 2, 'elapsed_s': 0.09148780000396073, 'upper': 75.06198642616265}
+C:\Users\Ganyu\Documents\英语论文\_work\epsr_industrial_carbon_20260908\scripts\benchmark_warm_v39.py:15: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  lp=linprog([0.]*self.groups+[1.],A_ub=np.column_stack([np.array(diff).T,-np.ones(3)]),b_ub=-constant,
+SOLVE 2020-10-17 4 reuse True {'scenarios': [6], 'fixed_quota': False, 'status': 'optimal', 'value': 75.0619864261626, 'bound': 75.0619864261626, 'seconds': 0.8378185000037774, 'binaries': 1274, 'max_constraint_violation': 5.421010862427522e-20, 'mip_nodes': 1, 'primal_start': {'supplied': True, 'max_constraint_violation': 1.0842021724855044e-19, 'objective': 75.06198642626265}}
+FORMAL_RESULT {'status': 'optimal', 'objective': 75.06198642616265, 'bound': 75.0619864261626, 'all_scenario_witness_upper': 75.06198642616265, 'date': '2020-10-17', 'regions': 4, 'parks': 24, 'scenarios': 20, 'method': 'reuse', 'elapsed_s': 3.70476459999918, 'MILP_calls': 1, 'LP_calls': 66, 'cache_hits': 25, 'initial_polish': {'sweeps': 2, 'elapsed_s': 0.09148780000396073, 'upper': 75.06198642616265}, 'cells': 18271, 'implementation': 'v39b proposed: feasible primal start and incumbent cutoff', 'implementation_hashes': {'benchmark_warm_v39.py': '737bfca9046ff26fe92fc7426cd2ecebd56f1e418d10ba68f5ad4738568593c1', 'highs_start_v39.py': '6bad6108c09c0f25a48a2777646736fc790cad4cbf2cc65a8802670103da8b9f'}}

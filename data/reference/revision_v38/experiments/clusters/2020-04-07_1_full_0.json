@@ -1,0 +1,48 @@
+{
+  "status": "optimal",
+  "objective": 1.0566154101785459,
+  "bound": 1.0566154101785428,
+  "gap": 3.1086244689504383e-15,
+  "u": [
+    -0.07641779442973497,
+    0.19988897431741093,
+    -0.0027409545842775884,
+    -0.03165531025802671,
+    0.19904005356272236,
+    -0.005791034397642829
+  ],
+  "date": "2020-04-07",
+  "regions": 1,
+  "parks": 6,
+  "buses": 79,
+  "branches": 126,
+  "scenarios": 5,
+  "method": "full",
+  "repeat": 0,
+  "elapsed_s": 3.4281743000028655,
+  "cells": 2815,
+  "MILP_calls": 1,
+  "LP_calls": 0,
+  "cache_hits": 0,
+  "outer_trace": [],
+  "inner_trace": [],
+  "solver_events": [
+    {
+      "scenarios": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 1.0566154101785459,
+      "bound": 1.0566154101785428,
+      "seconds": 3.358921000006376,
+      "binaries": 2815,
+      "max_constraint_violation": 1.1457501614131615e-12,
+      "mip_nodes": 1
+    }
+  ]
+}

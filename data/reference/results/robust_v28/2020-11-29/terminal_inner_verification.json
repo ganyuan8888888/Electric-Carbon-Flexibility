@@ -1,0 +1,34 @@
+{
+  "trace": [
+    {
+      "outer_iteration": 2,
+      "inner_iteration": 1,
+      "lower_ratio": 0.9672306514224948,
+      "upper_ratio": 1.1188558756737956,
+      "upper_is_infinite": false,
+      "worst_scenario": 1,
+      "patterns": 5,
+      "elapsed_s": 0.08959290000348119
+    },
+    {
+      "outer_iteration": 2,
+      "inner_iteration": 2,
+      "lower_ratio": 1.1188558756737956,
+      "upper_ratio": 1.1188558756737956,
+      "upper_is_infinite": false,
+      "worst_scenario": 1,
+      "patterns": 5,
+      "elapsed_s": 0.12399010000081034
+    }
+  ],
+  "result": {
+    "infeasible": null,
+    "lower": 1.1188558756737956,
+    "upper": 1.1188558756737956,
+    "worst_scenario": 1,
+    "patterns": 5
+  },
+  "elapsed_s": 0.12401149999641348,
+  "scope": "Additional full inner verification at the final, tie-selected shared quota. Each scenario contributes its first budget-admissible certified pattern to a finite initial upper bound; then the same integer-pattern generation is executed. Shown separately from outer iterations; not concatenated from different quota vectors.",
+  "_arrays_sha256": "1cfbdba242dfcb5039613850b2b8dc90b15d7e29a1af218002bc46de84e08480"
+}

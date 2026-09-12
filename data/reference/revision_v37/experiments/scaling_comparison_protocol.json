@@ -1,0 +1,10 @@
+{
+  "comparison": "Full extensive MILP versus the proposed NCCG with and without cross-outer-iteration mode reuse. No-reuse clears only the mode and value pools at each inner call; quota screening, outer/inner stopping tolerances, final inner checks, and all model coefficients are identical.",
+  "reason": "Source inspection found the historical v26 solver also differed in stopping tolerances and terminal-check logic. It is unsuitable as a pure reuse ablation; preliminary timings are excluded. This correction precedes all final timing runs.",
+  "outer_relative_tolerance": 1e-08,
+  "inner_relative_tolerance": 1e-09,
+  "mip_relative_gap": 1e-09,
+  "mip_absolute_gap": 1e-10,
+  "threads": 1,
+  "repetitions": 3
+}

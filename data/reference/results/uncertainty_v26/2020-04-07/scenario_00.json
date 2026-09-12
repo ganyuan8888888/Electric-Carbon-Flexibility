@@ -1,0 +1,51 @@
+{
+  "dt_h": 0.5,
+  "date": "2020-04-07",
+  "source": "Paired RTS-GMLC day-ahead forecast and whole-day joint forecast error.",
+  "source_commit": "3ece0d3725c844056132393ee252b3083dd4eab4",
+  "direct_connection": {
+    "sources": [
+      [
+        "113_PV_1",
+        1.0,
+        0
+      ],
+      [
+        "119_PV_1",
+        1.0,
+        1
+      ],
+      [
+        "215_PV_1",
+        0.5,
+        2
+      ],
+      [
+        "215_PV_1",
+        0.5,
+        3
+      ],
+      [
+        "313_PV_1",
+        1.0,
+        4
+      ],
+      [
+        "319_PV_1",
+        1.0,
+        5
+      ]
+    ],
+    "grid_capacity_mw": 250.0,
+    "lossless": true,
+    "storage": false,
+    "source_energy_preserved": true,
+    "boundary": "operational generator emissions, physical attribution"
+  },
+  "scenario_id": 0,
+  "error_donor_date": null,
+  "scenario_role": "optimization",
+  "normalized_error_budget": 0.0,
+  "physical_clipping_mwh": 0.0,
+  "_arrays_sha256": "7d48c8f511e4b22bbce2ceca708af715f5e5b2647c7c9baf9fbf3b2c548debc9"
+}

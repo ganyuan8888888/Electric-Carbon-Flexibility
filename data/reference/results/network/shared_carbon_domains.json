@@ -1,0 +1,35 @@
+{
+  "clean_capacity_mw": 1.0,
+  "fossil_capacity_mw": 2.0,
+  "fossil_intensity_t_mwh": 1.0,
+  "duration_h": 1.0,
+  "exact_zero_budget_joint_area_mw2": 0.5,
+  "exact_zero_budget_independent_area_mw2": 1.0,
+  "records": [
+    {
+      "budget_t": 0,
+      "joint_grid_area_mw2": 0.5012515625,
+      "independent_exact_area_mw2": 1,
+      "maximum_power_grid_mw": 1.0
+    },
+    {
+      "budget_t": 0.05,
+      "joint_grid_area_mw2": 0.5718515625,
+      "independent_exact_area_mw2": 1.1025,
+      "maximum_power_grid_mw": 1.1
+    },
+    {
+      "budget_t": 0.1,
+      "joint_grid_area_mw2": 0.6486515625,
+      "independent_exact_area_mw2": 1.2100000000000002,
+      "maximum_power_grid_mw": 1.2
+    },
+    {
+      "budget_t": 0.2,
+      "joint_grid_area_mw2": 0.8172765625,
+      "independent_exact_area_mw2": 1.44,
+      "maximum_power_grid_mw": 1.4000000000000001
+    }
+  ],
+  "scope": "Exact conditional network-carbon projection; demonstrates shared-resource aggregation. It is not the full RTS industrial dynamic flexibility domain."
+}

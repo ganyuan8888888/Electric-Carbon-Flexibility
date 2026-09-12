@@ -1,0 +1,45 @@
+{
+  "status": "Maximum_CpuTime_Exceeded",
+  "stages": [
+    {
+      "epsilon": 0.0,
+      "status": "Maximum_CpuTime_Exceeded",
+      "iterations": 1524,
+      "elapsed_s": 240.42496329999994
+    }
+  ],
+  "runtime_s": 240.4402790000022,
+  "generation_emission_t": 51976.12958938141,
+  "curtailment_mwh": 1786.8085112413773,
+  "objective_actual": 2175284.679326971,
+  "carbon_balance_residual": 7.105427357601002e-14,
+  "attribution_conservation_residual": 2.3602412966283737e-06,
+  "primal_audit": {
+    "passed": true,
+    "tolerance": 1e-05,
+    "checks": {
+      "total_power_balance_mw": 2.487711952881e-06,
+      "nodal_dc_balance_mw": 2.4877156619140806e-06,
+      "line_capacity_excess_mw": 0.0,
+      "generation_lower_excess_mw": 0.0,
+      "generation_upper_excess_mw": 0.0,
+      "generation_ramp_excess_mw": 0.0,
+      "renewable_lower_excess_mw": 9.327455490959484e-11,
+      "renewable_upper_excess_mw": 1.9292445718328217e-11,
+      "library_interface_error_mw": 0.0,
+      "weight_sum_error": 0.0,
+      "weight_bound_excess": 0.0,
+      "inadmissible_branch_weight": 0.0,
+      "commitment_integrality_error": 0.0,
+      "branch_integrality_error": 0.0
+    },
+    "integral_required": true,
+    "weight_fractionality": 0.0
+  },
+  "native_nlp_constraint_violation": 5.437620150461198e-06,
+  "budget_violation_t": 0.0,
+  "carbon_feasible": true,
+  "maximum_complementarity": 0.0,
+  "dual_flow_implementation": "exact analytical elimination",
+  "_arrays_sha256": "0d7acc38a7df90463b7d6a2373ad8b75182264b48d0dd99f9370b2db0743970f"
+}

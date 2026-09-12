@@ -1,0 +1,47 @@
+{
+  "two_opposite": {
+    "series": 2,
+    "p0_mw": 260.0561511627907,
+    "p1_amplitude_mw": 0.0,
+    "p2_amplitude_mw": 2.0089883720930235,
+    "mean_modulation_loss_mw": 2.0089883720930235,
+    "quadratic_fourier_identity_error_mw": 1.1368683772161603e-13
+  },
+  "three_balanced": {
+    "series": 3,
+    "p0_mw": 390.084226744186,
+    "p1_amplitude_mw": 1.2809491335957507e-14,
+    "p2_amplitude_mw": 1.2008898127460164e-15,
+    "mean_modulation_loss_mw": 3.0134825581395353,
+    "quadratic_fourier_identity_error_mw": 1.7053025658242404e-13
+  },
+  "three_identical_phase": {
+    "series": 3,
+    "p0_mw": 390.084226744186,
+    "p1_amplitude_mw": 100.67358139534883,
+    "p2_amplitude_mw": 3.0134825581395353,
+    "mean_modulation_loss_mw": 3.0134825581395353,
+    "quadratic_fourier_identity_error_mw": 2.2737367544323206e-13
+  },
+  "exact_power_retraction": {
+    "p0_mw": 260.06713671558475,
+    "power_error_mw": 1.1368683772161603e-13,
+    "mean_current_error_ka": 1.3642420526593924e-12,
+    "floquet_exponents_normalized": [
+      0.2335397557917703,
+      0.2338363641857719
+    ],
+    "periodic_discrete_certificates": [
+      null,
+      null
+    ],
+    "compensating_current_first_5_harmonics_ka": [
+      30.109097231706876,
+      1.8091382389148412,
+      0.10929849295997092,
+      0.009893006295829097,
+      0.0009955500016235528
+    ],
+    "scope": "Power/production and reduced modal benchmark only. Thermal and converter feasibility still need verification."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "status": "Maximum_CpuTime_Exceeded",
+  "stages": [
+    {
+      "epsilon": 0.0,
+      "status": "Maximum_CpuTime_Exceeded",
+      "iterations": 1533,
+      "elapsed_s": 240.33055090000562
+    }
+  ],
+  "runtime_s": 240.35221110000566,
+  "generation_emission_t": 31814.041172962254,
+  "curtailment_mwh": 6890.433254845188,
+  "objective_actual": 2102793.9965527994,
+  "carbon_balance_residual": 5.684341886080802e-14,
+  "attribution_conservation_residual": 4.723460733657703e-09,
+  "primal_audit": {
+    "passed": true,
+    "tolerance": 1e-05,
+    "checks": {
+      "total_power_balance_mw": 5.6295448302989826e-09,
+      "nodal_dc_balance_mw": 5.624496424161407e-09,
+      "line_capacity_excess_mw": 0.0,
+      "generation_lower_excess_mw": 0.0,
+      "generation_upper_excess_mw": 0.0,
+      "generation_ramp_excess_mw": 0.0,
+      "renewable_lower_excess_mw": 4.015022045226282e-15,
+      "renewable_upper_excess_mw": 9.46533851699561e-15,
+      "library_interface_error_mw": 0.0,
+      "weight_sum_error": 0.0,
+      "weight_bound_excess": 0.0,
+      "inadmissible_branch_weight": 0.0,
+      "commitment_integrality_error": 0.0,
+      "branch_integrality_error": 0.0
+    },
+    "integral_required": true,
+    "weight_fractionality": 0.0
+  },
+  "native_nlp_constraint_violation": 4.616644986299434e-10,
+  "budget_violation_t": 0.0,
+  "carbon_feasible": true,
+  "maximum_complementarity": 0.0,
+  "dual_flow_implementation": "exact analytical elimination",
+  "checked_feasible": true,
+  "case_adaptation": "C-OPF C-ED specialization with fixed industrial demand and daily attributed-carbon cap B; no quota trading, q=0. Two common starts, same physical network and commitment. Local NLP result only.",
+  "_arrays_sha256": "136973e6bd7262a52e69423286d7757c7900c0bf80fb5ec154ad102fc783a11d"
+}

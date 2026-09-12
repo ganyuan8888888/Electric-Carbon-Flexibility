@@ -1,0 +1,140 @@
+{
+  "group": "pressure",
+  "index": 154,
+  "date": "2020-11-29",
+  "clipping_mwh": 3150.4302430183425,
+  "results": {
+    "M1": {
+      "status": "solver_error",
+      "error": "Solver 'HIGHS' failed. Try another solver, or solve with verbose=True for more information.",
+      "elapsed_s": 10.482979099993827,
+      "numerical_retry_attempts": [
+        {
+          "status": "solver_error",
+          "error": "Solver 'HIGHS' failed. Try another solver, or solve with verbose=True for more information.",
+          "elapsed_s": 10.568463700008579
+        },
+        {
+          "status": "solver_error",
+          "error": "Solver 'HIGHS' failed. Try another solver, or solve with verbose=True for more information.",
+          "elapsed_s": 10.482979099993827
+        }
+      ],
+      "quota_t": [
+        -38.342016044036775,
+        -35.09594071035926,
+        -64.56134216453533,
+        -52.96494834856864,
+        103.11308044221707,
+        -88.05420005513224
+      ]
+    },
+    "M4-N": {
+      "status": "solver_error",
+      "error": "Solver 'HIGHS' failed. Try another solver, or solve with verbose=True for more information.",
+      "elapsed_s": 9.051551699987613,
+      "numerical_retry_attempts": [
+        {
+          "status": "solver_error",
+          "error": "Solver 'HIGHS' failed. Try another solver, or solve with verbose=True for more information.",
+          "elapsed_s": 8.481285200017737
+        },
+        {
+          "status": "solver_error",
+          "error": "Solver 'HIGHS' failed. Try another solver, or solve with verbose=True for more information.",
+          "elapsed_s": 9.051551699987613
+        }
+      ],
+      "quota_t": [
+        -303.73435066683703,
+        -47.709943941478635,
+        -71.99165215084754,
+        -91.82816787215432,
+        71.83032306623541,
+        -78.92407436559901
+      ]
+    },
+    "M4": {
+      "status": "original_constraints_verified",
+      "witness_found": true,
+      "iteration": 0,
+      "mode": 0,
+      "allocation_t": [
+        2014.15873282644,
+        45.59306350455035,
+        2231.206387785057,
+        1256.2645791376426,
+        901.7185819532402,
+        740.6948944647863
+      ],
+      "carbon_excess_t": 0.0,
+      "carbon_excess_ratio": 0.0,
+      "cost_usd": 2030112.361535331,
+      "source_emission_t": 37197.32610323688,
+      "curtailment_mwh": 4984.896149048524,
+      "balance_residual_mw": 2.8117597139498685e-10,
+      "line_excess_mw": 3.979039320256561e-13,
+      "ramp_excess_mw": 0.0,
+      "source_limit_excess_mw": 0.0,
+      "objective": 1.0389627150711263,
+      "elapsed_s": 3.6734209999849554,
+      "iterations": [
+        {
+          "iteration": -1,
+          "mode": 0,
+          "allocation_t": [
+            2036.0998337265403,
+            25.592118662858695,
+            2022.7519046667005,
+            1284.42857785316,
+            912.1451581207127,
+            564.0340918681934
+          ],
+          "carbon_excess_t": 0.0,
+          "carbon_excess_ratio": 0.0,
+          "cost_usd": 1324073.9336465967,
+          "source_emission_t": 33991.545621496545,
+          "curtailment_mwh": 945.0152594852299,
+          "balance_residual_mw": 103.27951898208937,
+          "line_excess_mw": 5.2194441756206515,
+          "ramp_excess_mw": 0.0,
+          "source_limit_excess_mw": 535.1333333333333,
+          "objective": 0.9494216984941006
+        },
+        {
+          "iteration": 0,
+          "mode": 0,
+          "allocation_t": [
+            2014.15873282644,
+            45.59306350455035,
+            2231.206387785057,
+            1256.2645791376426,
+            901.7185819532402,
+            740.6948944647863
+          ],
+          "carbon_excess_t": 0.0,
+          "carbon_excess_ratio": 0.0,
+          "cost_usd": 2030112.361535331,
+          "source_emission_t": 37197.32610323688,
+          "curtailment_mwh": 4984.896149048524,
+          "balance_residual_mw": 2.8117597139498685e-10,
+          "line_excess_mw": 3.979039320256561e-13,
+          "ramp_excess_mw": 0.0,
+          "source_limit_excess_mw": 0.0,
+          "objective": 1.0389627150711263
+        }
+      ],
+      "plan": null,
+      "plans": null,
+      "quota_t": [
+        -121.70260832859425,
+        4.9161743774984705,
+        139.34716272005952,
+        -27.207976173224836,
+        76.27672043580928,
+        120.28221157702932
+      ]
+    }
+  },
+  "numerical_retry_only": true
+}

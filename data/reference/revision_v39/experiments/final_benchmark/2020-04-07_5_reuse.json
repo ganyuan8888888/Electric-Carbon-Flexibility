@@ -1,0 +1,415 @@
+{
+  "status": "optimal",
+  "objective": 0.9927410005511648,
+  "bound": 0.9927410005511648,
+  "u": [
+    -0.07641779442973394,
+    0.19988897431741037,
+    -0.0027409545842773555,
+    -0.032902181958974756,
+    0.19971337850722537,
+    -0.005791034397640116,
+    -0.08101273077585458,
+    0.19391937743025922,
+    -0.007702442372414676,
+    -0.03771361388952155,
+    0.1937446552310676,
+    -0.0107373476593432,
+    -0.08556217270270683,
+    0.1880088854627826,
+    -0.002061660495189237,
+    -0.06617754951306887,
+    0.18805937157426472,
+    -0.015634687522416035,
+    -0.09006679254160421,
+    0.18215662494325838,
+    -0.006977612906542752,
+    -0.07077766010659584,
+    0.18220686235468686,
+    -0.020483777731648528
+  ],
+  "all_scenario_witness_upper": 0.9927410005511649,
+  "witness_keys": [
+    [
+      [
+        "v28_pattern1_carbon",
+        "v28_pattern1_carbon",
+        "v28_pattern1_carbon",
+        0.0,
+        0.0
+      ],
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_cost",
+        "scenario_adaptive_price25",
+        0.62890625,
+        0.630859375
+      ],
+      [
+        "v28_library_price25",
+        "v28_library_price25",
+        "v28_library_price25",
+        0.0,
+        0.0
+      ],
+      [
+        "recovery_v21",
+        "recovery_v21_cost",
+        "recovery_v21_price25",
+        0.705078125,
+        0.70703125
+      ]
+    ],
+    [
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_cost",
+        "scenario_adaptive_price25",
+        0.62890625,
+        0.630859375
+      ],
+      [
+        "v28_pattern0_price25",
+        "v28_pattern0_price25",
+        "v28_pattern0_price25",
+        0.0,
+        0.0
+      ],
+      [
+        "recovery_v21",
+        "recovery_v21_cost",
+        "recovery_v21_price25",
+        0.705078125,
+        0.70703125
+      ],
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_carbon",
+        "scenario_adaptive_curtailment",
+        0.04296875,
+        0.044921875
+      ]
+    ],
+    [
+      [
+        "constant",
+        "constant_cost",
+        "constant_price25",
+        0.92578125,
+        0.927734375
+      ],
+      [
+        "recovery_v20",
+        "recovery_v20_carbon",
+        "recovery_v20_curtailment",
+        0.470703125,
+        0.47265625
+      ],
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_price25",
+        "scenario_adaptive_carbon",
+        0.15234375,
+        0.154296875
+      ],
+      [
+        "constant",
+        "constant_price25",
+        "constant_carbon",
+        0.703125,
+        0.7109375
+      ]
+    ],
+    [
+      [
+        "recovery_v20",
+        "recovery_v20_carbon",
+        "recovery_v20_curtailment",
+        0.470703125,
+        0.47265625
+      ],
+      [
+        "recovery_v20",
+        "recovery_v20_price25",
+        "recovery_v20_carbon",
+        0.984375,
+        1.0
+      ],
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_price25",
+        "scenario_adaptive_carbon",
+        0.9375,
+        0.9453125
+      ],
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_cost",
+        "scenario_adaptive_price25",
+        0.62890625,
+        0.630859375
+      ]
+    ],
+    [
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_price25",
+        "scenario_adaptive_carbon",
+        0.5703125,
+        0.578125
+      ],
+      [
+        "v28_pattern0_price25",
+        "v28_pattern0_price25",
+        "v28_pattern0_price25",
+        0.0,
+        0.0
+      ],
+      [
+        "scenario_adaptive",
+        "scenario_adaptive_cost",
+        "scenario_adaptive_price25",
+        0.62890625,
+        0.630859375
+      ],
+      [
+        "v28_pattern0_price25",
+        "v28_pattern0_price25",
+        "v28_pattern0_price25",
+        0.0,
+        0.0
+      ]
+    ]
+  ],
+  "scenario_values": [
+    0.9924566817129228,
+    0.9887136673885696,
+    0.9843108214954278,
+    0.9921858021463285,
+    0.9927410005511649
+  ],
+  "date": "2020-04-07",
+  "regions": 4,
+  "parks": 24,
+  "scenarios": 5,
+  "method": "reuse",
+  "elapsed_s": 62.52798630000325,
+  "MILP_calls": 5,
+  "LP_calls": 53,
+  "cache_hits": 28,
+  "solver_events": [
+    {
+      "scenarios": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 0.9940054337289903,
+      "bound": 0.9940054337289903,
+      "seconds": 0.8588417999853846,
+      "binaries": 163,
+      "max_constraint_violation": 0.0,
+      "mip_nodes": 4,
+      "primal_start": {
+        "supplied": false
+      },
+      "phase": "candidate_only_primal_initialization"
+    },
+    {
+      "scenarios": [
+        0
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 0.9924566817129227,
+      "bound": 0.9924566817129227,
+      "seconds": 1.2305420000047889,
+      "binaries": 1620,
+      "max_constraint_violation": 5.748179709996748e-14,
+      "mip_nodes": 1,
+      "primal_start": {
+        "supplied": true,
+        "max_constraint_violation": 2.710505431213761e-20,
+        "objective": 0.9940054338289903
+      }
+    },
+    {
+      "scenarios": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 0.9924566817129227,
+      "bound": 0.9924566817129226,
+      "seconds": 10.838756699988153,
+      "binaries": 8961,
+      "max_constraint_violation": 2.220446049250313e-16,
+      "mip_nodes": 1,
+      "primal_start": {
+        "supplied": true,
+        "max_constraint_violation": 2.710505431213761e-20,
+        "objective": 0.9940054338289903
+      }
+    },
+    {
+      "scenarios": [
+        4
+      ],
+      "fixed_quota": true,
+      "status": "optimal",
+      "value": 12.714119100407409,
+      "bound": 12.714119100407409,
+      "seconds": 0.2812841999984812,
+      "binaries": 1512,
+      "max_constraint_violation": 1.1102230246251565e-16,
+      "mip_nodes": 1,
+      "primal_start": {
+        "supplied": false
+      }
+    },
+    {
+      "scenarios": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fixed_quota": false,
+      "status": "optimal",
+      "value": 0.9927410005511648,
+      "bound": 0.9927410005511648,
+      "seconds": 47.775952800002415,
+      "binaries": 11260,
+      "max_constraint_violation": 3.1086244689504383e-15,
+      "mip_nodes": 60,
+      "primal_start": {
+        "supplied": true,
+        "max_constraint_violation": 2.710505431213761e-20,
+        "objective": 0.9940054338289903
+      }
+    }
+  ],
+  "outer_trace": [
+    {
+      "iteration": 1,
+      "lower": 0.9924566817129227,
+      "upper": 0.9940054337289903,
+      "active": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "feasibility_scenarios": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "iteration": 2,
+      "lower": 0.9924566817129227,
+      "upper": 0.9940054337289903,
+      "active": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "elapsed_s": 14.58806559999357
+    }
+  ],
+  "inner_trace": [
+    {
+      "outer": 2,
+      "inner": 1,
+      "lower": 12.714119100407409,
+      "upper": 12.714119100407402,
+      "scenario": 4,
+      "patterns": 16,
+      "reused": 10
+    }
+  ],
+  "relaxation_info": {
+    "values": [
+      0.9923309436878925,
+      0.9864031686535771,
+      0.9757346340238479,
+      0.9873523402803968,
+      0.9918930039967572
+    ],
+    "cheap_metric_bounds": [
+      0.9908456786137502,
+      0.9849171524724273,
+      0.9647717301429638,
+      0.9857961548247931,
+      0.982927602299773
+    ],
+    "lp_scenarios": [
+      0,
+      3,
+      1,
+      4,
+      2
+    ],
+    "selected": 0,
+    "elapsed_s": 1.2248655000003055
+  },
+  "initial_polish": {
+    "sweeps": 6,
+    "elapsed_s": 0.07593089999863878,
+    "upper": 0.9970525156660361,
+    "candidate_master": {
+      "upper": 0.9940054337289903,
+      "elapsed_s": 0.8976466000021901,
+      "cells": 163
+    }
+  },
+  "combinations": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      2,
+      3,
+      4,
+      0
+    ],
+    [
+      3,
+      4,
+      0,
+      1
+    ],
+    [
+      4,
+      0,
+      1,
+      2
+    ]
+  ],
+  "cells": 11260,
+  "implementation": "v39c proposed: adaptive valid lower bounds, candidate primal initialization and feasible MIP start",
+  "implementation_hashes": {
+    "benchmark_candidate_v39.py": "3642c50b4da09413556d7a56533686bc1fcacb6c88bf3d57732a37b3d7ed0ace",
+    "benchmark_warm_v39.py": "737bfca9046ff26fe92fc7426cd2ecebd56f1e418d10ba68f5ad4738568593c1",
+    "highs_start_v39.py": "6bad6108c09c0f25a48a2777646736fc790cad4cbf2cc65a8802670103da8b9f"
+  }
+}

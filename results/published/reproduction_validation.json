@@ -1,0 +1,155 @@
+{
+  "environment": "Fresh Python 3.12 virtual environment; packages installed from requirements.txt; no original PYTHONPATH or private runtime paths.",
+  "task_records": {
+    "quick": {
+      "task": "quick",
+      "elapsed_s": 56.54124419996515,
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "arguments": {
+        "task": "quick",
+        "date": "2020-04-07",
+        "depth": 5,
+        "regions": 1,
+        "scenarios": 5,
+        "method": "all",
+        "time_limit": 600.0
+      }
+    },
+    "ac": {
+      "task": "ac",
+      "elapsed_s": 25.12639400002081,
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "arguments": {
+        "task": "ac",
+        "date": "2020-04-07",
+        "depth": 5,
+        "regions": 1,
+        "scenarios": 5,
+        "method": "all",
+        "time_limit": 600.0
+      }
+    },
+    "figures": {
+      "task": "figures",
+      "elapsed_s": 20.815486799983773,
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "arguments": {
+        "task": "figures",
+        "date": "2020-04-07",
+        "depth": 5,
+        "regions": 1,
+        "scenarios": 5,
+        "method": "all",
+        "time_limit": 600.0
+      }
+    },
+    "solve": {
+      "task": "solve",
+      "elapsed_s": 14.84779269999126,
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "arguments": {
+        "task": "solve",
+        "date": "2020-04-07",
+        "depth": 5,
+        "regions": 1,
+        "scenarios": 5,
+        "method": "all",
+        "time_limit": 600.0
+      }
+    }
+  },
+  "file_integrity": {
+    "passed": true,
+    "verified_files": 5127,
+    "readable_nonobject_arrays": 15112
+  },
+  "nominal_metrics": {
+    "passed": true,
+    "nominal_records": 12,
+    "region_charts": 7,
+    "archived_timing_records": 36,
+    "high_renewable_reductions": {
+      "date": "2020-11-29",
+      "operating_cost_usd_reduction_percent": 3.0678213977980446,
+      "source_emissions_t_reduction_percent": 1.9172872146722915,
+      "renewable_curtailment_mwh_reduction_percent": 5.832863940703588
+    },
+    "scope": "Operating metrics recomputed from saved dispatch; region grid counts reconstructed from saved boundaries. Historical timings are observations, not new runtimes."
+  },
+  "process": {
+    "seed": 20260908,
+    "n_independent_floquet_checks": 80,
+    "max_exponent_error": 2.2712660664877225e-08,
+    "power_tracking_max_abs_mw": 1.1368683772161603e-13,
+    "naive_equal_current_peak_power_error_mw": 1.6990560000000414,
+    "compensating_current_min_ka": 157.6870696011482,
+    "compensating_current_max_ka": 199.0009739740992,
+    "scope": "Synthetic potline parameters; power equality verified; this test does not certify both potlines stability."
+  },
+  "region": {
+    "passed": true,
+    "date": "2020-04-07",
+    "chart": 0,
+    "depth": 5,
+    "grid_points": 101,
+    "intervals": 32,
+    "enclosed_intervals": 21,
+    "max_carbon_balance_residual": 1.1723955140041653e-13,
+    "max_sample_enclosure_excess_t": -1.3990355410155644,
+    "scope": "One fixed complete-trajectory chart; coverage is not a volume ratio for the unrestricted nonlinear feasible region."
+  },
+  "ac": {
+    "passed": true,
+    "days": 15,
+    "operating_points": 720,
+    "industrial_and_renewable_active_schedules_identical": true,
+    "first_stage_quota_identical": true,
+    "original_branch_parameters_and_ratings_identical": true,
+    "original_voltage_and_generator_limits_preserved": true,
+    "max_flow_reconstruction_residual_mva": 3.7694292132073315e-12,
+    "max_power_balance_residual_mva": 1.0035291463783105e-07,
+    "max_carbon_balance_residual_tph": 1.2789769243681803e-13,
+    "max_ramp_excess_mw": 0.0,
+    "max_daily_quota_excess_t": -2.3225000240323368e-05
+  },
+  "fresh_optimization": [
+    {
+      "method": "full",
+      "status": "optimal",
+      "value": 1.0566154101785428,
+      "bound": 1.0566154101785428,
+      "elapsed_s": 3.8627943000174128,
+      "regions": 1,
+      "scenarios": 5,
+      "MILP_calls": 1,
+      "LP_calls": 0
+    },
+    {
+      "method": "no_reuse",
+      "status": "optimal",
+      "value": 1.0566154101785428,
+      "bound": 1.0566154101785428,
+      "elapsed_s": 6.879011899989564,
+      "regions": 1,
+      "scenarios": 5,
+      "MILP_calls": 6,
+      "LP_calls": 17
+    },
+    {
+      "method": "reuse",
+      "status": "optimal",
+      "value": 1.0566154101785428,
+      "bound": 1.0566154102785428,
+      "elapsed_s": 0.4884506999514997,
+      "regions": 1,
+      "scenarios": 5,
+      "MILP_calls": 2,
+      "LP_calls": 11
+    }
+  ],
+  "validation_scope": "The documented quick tasks, all archived AC points, three regenerated figures and one fresh six-park five-scenario comparison were tested. The complete 36-run large-scale benchmark and complete trajectory/scenario generation were not rerun during packaging."
+}

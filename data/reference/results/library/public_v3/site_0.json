@@ -1,0 +1,787 @@
+{
+  "parameters": {
+    "nx": 4,
+    "ny": 3,
+    "length": 11.0,
+    "width": 2.7,
+    "bath_depth": 0.2,
+    "nominal_current": 180.0,
+    "nominal_acd": 0.043,
+    "nominal_temperature": 960.0,
+    "nominal_liquidus": 950.0,
+    "ambient": 25.0,
+    "bath_density": 2100.0,
+    "bath_cp": 1500.0,
+    "metal_mass": 11200.0,
+    "metal_cp": 1100.0,
+    "shell_capacity_total": 9600000.0,
+    "ledge_density": 2100.0,
+    "fusion_heat": 450000.0,
+    "ledge_conductivity": 1.3,
+    "wall_resistance": 0.01,
+    "bath_ledge_h": 600.0,
+    "shell_h": 22.0,
+    "effective_conductivity": 1000.0,
+    "v_reversible": 1.75,
+    "resistance_mohm": 0.01296,
+    "external_resistance_mohm": 0.0005,
+    "temperature_resistivity": 0.0025,
+    "current_efficiency": 0.94,
+    "spatial_loss_variation": 0.04
+  },
+  "records": [
+    {
+      "template": "constant",
+      "date": null,
+      "block_periods": 0,
+      "amplitude_ka": 0,
+      "thermal_only_passed": true,
+      "certified": true,
+      "execution": {
+        "series_bounds": [
+          0.011499177573241317,
+          0.011499177573241317,
+          0.011499177573241317
+        ],
+        "reachability_upper_bound": 0.011499177573241317,
+        "sampled_bound": 0.009913091679229824,
+        "sufficient_check_passed": true
+      },
+      "phase_summaries": [
+        {
+          "minimum_temperature_c": 956.5880743744374,
+          "maximum_temperature_c": 962.7574871203735,
+          "minimum_ledge_m": 0.10869350520330372,
+          "maximum_ledge_m": 0.15329607376783685,
+          "terminal_temperature_error_c": 2.426077116979286e-10,
+          "terminal_ledge_error_m": 4.585790081002017e-12,
+          "maximum_spatial_temperature_range_c": 6.1694127459361425,
+          "maximum_energy_balance_residual_j": 1.2683849490713328e-06,
+          "maximum_scaled_equation_residual": 9.816236949215332e-14,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 956.5880743744374,
+          "maximum_temperature_c": 962.7574871203735,
+          "minimum_ledge_m": 0.10869350520330372,
+          "maximum_ledge_m": 0.15329607376783685,
+          "terminal_temperature_error_c": 2.426077116979286e-10,
+          "terminal_ledge_error_m": 4.585790081002017e-12,
+          "maximum_spatial_temperature_range_c": 6.1694127459361425,
+          "maximum_energy_balance_residual_j": 1.2683849490713328e-06,
+          "maximum_scaled_equation_residual": 9.816236949215332e-14,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 956.5880743744374,
+          "maximum_temperature_c": 962.7574871203735,
+          "minimum_ledge_m": 0.10869350520330372,
+          "maximum_ledge_m": 0.15329607376783685,
+          "terminal_temperature_error_c": 2.426077116979286e-10,
+          "terminal_ledge_error_m": 4.585790081002017e-12,
+          "maximum_spatial_temperature_range_c": 6.1694127459361425,
+          "maximum_energy_balance_residual_j": 1.2683849490713328e-06,
+          "maximum_scaled_equation_residual": 9.816236949215332e-14,
+          "production_kg": 1362.693737587354
+        }
+      ]
+    },
+    {
+      "template": "regional_net_demand",
+      "date": "2020-04-07",
+      "area": 1,
+      "block_periods": 4,
+      "amplitude_ka": 9,
+      "delay_periods": 0,
+      "thermal_only_passed": true,
+      "certified": true,
+      "execution": {
+        "series_bounds": [
+          0.017702829332169847,
+          0.017702829332169847,
+          0.017702829332169847
+        ],
+        "reachability_upper_bound": 0.017702829332169847,
+        "sampled_bound": 0.01517516994539486,
+        "sufficient_check_passed": true
+      },
+      "phase_summaries": [
+        {
+          "minimum_temperature_c": 954.3154996931936,
+          "maximum_temperature_c": 965.1040603366207,
+          "minimum_ledge_m": 0.10540026792210573,
+          "maximum_ledge_m": 0.15685893533996834,
+          "terminal_temperature_error_c": 0.09454424920977544,
+          "terminal_ledge_error_m": 0.0008332088614017158,
+          "maximum_spatial_temperature_range_c": 6.204860403766816,
+          "maximum_energy_balance_residual_j": 0.00031030355967232026,
+          "maximum_scaled_equation_residual": 1.7096501930306354e-11,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 954.3154996931936,
+          "maximum_temperature_c": 965.1040603366207,
+          "minimum_ledge_m": 0.10540026792210573,
+          "maximum_ledge_m": 0.15685893533996834,
+          "terminal_temperature_error_c": 0.09454424920977544,
+          "terminal_ledge_error_m": 0.0008332088614017158,
+          "maximum_spatial_temperature_range_c": 6.204860403766816,
+          "maximum_energy_balance_residual_j": 0.00031030355967232026,
+          "maximum_scaled_equation_residual": 1.7096501930306354e-11,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 954.3154996931936,
+          "maximum_temperature_c": 965.1040603366207,
+          "minimum_ledge_m": 0.10540026792210573,
+          "maximum_ledge_m": 0.15685893533996834,
+          "terminal_temperature_error_c": 0.09454424920977544,
+          "terminal_ledge_error_m": 0.0008332088614017158,
+          "maximum_spatial_temperature_range_c": 6.204860403766816,
+          "maximum_energy_balance_residual_j": 0.00031030355967232026,
+          "maximum_scaled_equation_residual": 1.7096501930306354e-11,
+          "production_kg": 1362.693737587354
+        }
+      ]
+    },
+    {
+      "template": "regional_net_demand",
+      "date": "2020-04-07",
+      "area": 1,
+      "block_periods": 4,
+      "amplitude_ka": 18,
+      "delay_periods": 0,
+      "thermal_only_passed": true,
+      "certified": false,
+      "execution": {
+        "series_bounds": [
+          0.6488686072013052,
+          0.6593866363606352,
+          0.6646586785948916
+        ],
+        "reachability_upper_bound": 0.6646586785948916,
+        "sampled_bound": 0.5627175665034356,
+        "sufficient_check_passed": false
+      },
+      "phase_summaries": [
+        {
+          "minimum_temperature_c": 952.1760287574884,
+          "maximum_temperature_c": 967.7629277076497,
+          "minimum_ledge_m": 0.10096116964038858,
+          "maximum_ledge_m": 0.15946110551886067,
+          "terminal_temperature_error_c": 0.11771481171501819,
+          "terminal_ledge_error_m": 0.0007850283564616589,
+          "maximum_spatial_temperature_range_c": 6.20947255617034,
+          "maximum_energy_balance_residual_j": 0.0006146281957626343,
+          "maximum_scaled_equation_residual": 2.770999344647862e-11,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 952.175517945647,
+          "maximum_temperature_c": 967.7613864738763,
+          "minimum_ledge_m": 0.10096401350414391,
+          "maximum_ledge_m": 0.15946350326594222,
+          "terminal_temperature_error_c": 0.11797109266342432,
+          "terminal_ledge_error_m": 0.0007879336991505892,
+          "maximum_spatial_temperature_range_c": 6.209510144978822,
+          "maximum_energy_balance_residual_j": 0.000614020973443985,
+          "maximum_scaled_equation_residual": 2.7637797757051884e-11,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 952.1760847776758,
+          "maximum_temperature_c": 967.7637619342637,
+          "minimum_ledge_m": 0.1009627640850758,
+          "maximum_ledge_m": 0.1594623725516448,
+          "terminal_temperature_error_c": 0.11776601759663663,
+          "terminal_ledge_error_m": 0.0007858379489721068,
+          "maximum_spatial_temperature_range_c": 6.209555275387061,
+          "maximum_energy_balance_residual_j": 0.0006143581122159958,
+          "maximum_scaled_equation_residual": 2.774619133560918e-11,
+          "production_kg": 1362.693737587354
+        }
+      ]
+    },
+    {
+      "template": "regional_net_demand",
+      "date": "2020-04-07",
+      "area": 1,
+      "block_periods": 8,
+      "amplitude_ka": 9,
+      "delay_periods": 0,
+      "thermal_only_passed": true,
+      "certified": true,
+      "execution": {
+        "series_bounds": [
+          0.017702829332169847,
+          0.017702829332169847,
+          0.017702829332169847
+        ],
+        "reachability_upper_bound": 0.017702829332169847,
+        "sampled_bound": 0.01517516994539486,
+        "sufficient_check_passed": true
+      },
+      "phase_summaries": [
+        {
+          "minimum_temperature_c": 954.8101168653972,
+          "maximum_temperature_c": 965.0300151325076,
+          "minimum_ledge_m": 0.10335923350260773,
+          "maximum_ledge_m": 0.15794551388304612,
+          "terminal_temperature_error_c": 0.1630584380776554,
+          "terminal_ledge_error_m": 0.0015051576219607676,
+          "maximum_spatial_temperature_range_c": 6.247992915385225,
+          "maximum_energy_balance_residual_j": 0.0006386635359376669,
+          "maximum_scaled_equation_residual": 2.555079117882997e-11,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 954.8101168653972,
+          "maximum_temperature_c": 965.0300151325076,
+          "minimum_ledge_m": 0.10335923350260773,
+          "maximum_ledge_m": 0.15794551388304612,
+          "terminal_temperature_error_c": 0.1630584380776554,
+          "terminal_ledge_error_m": 0.0015051576219607676,
+          "maximum_spatial_temperature_range_c": 6.247992915385225,
+          "maximum_energy_balance_residual_j": 0.0006386635359376669,
+          "maximum_scaled_equation_residual": 2.555079117882997e-11,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 954.8101168653972,
+          "maximum_temperature_c": 965.0300151325076,
+          "minimum_ledge_m": 0.10335923350260773,
+          "maximum_ledge_m": 0.15794551388304612,
+          "terminal_temperature_error_c": 0.1630584380776554,
+          "terminal_ledge_error_m": 0.0015051576219607676,
+          "maximum_spatial_temperature_range_c": 6.247992915385225,
+          "maximum_energy_balance_residual_j": 0.0006386635359376669,
+          "maximum_scaled_equation_residual": 2.555079117882997e-11,
+          "production_kg": 1362.693737587354
+        }
+      ]
+    },
+    {
+      "template": "regional_net_demand",
+      "date": "2020-04-07",
+      "area": 1,
+      "block_periods": 8,
+      "amplitude_ka": 18,
+      "delay_periods": 0,
+      "thermal_only_passed": true,
+      "certified": false,
+      "execution": {
+        "series_bounds": [
+          0.6488686072013052,
+          0.6593866363606352,
+          0.6646586785948916
+        ],
+        "reachability_upper_bound": 0.6646586785948916,
+        "sampled_bound": 0.5627175665034356,
+        "sufficient_check_passed": false
+      },
+      "phase_summaries": [
+        {
+          "minimum_temperature_c": 953.0761658906349,
+          "maximum_temperature_c": 967.3386947183105,
+          "minimum_ledge_m": 0.09709218593410504,
+          "maximum_ledge_m": 0.1625996649268946,
+          "terminal_temperature_error_c": 0.29265710675917944,
+          "terminal_ledge_error_m": 0.0025802571430829924,
+          "maximum_spatial_temperature_range_c": 6.318325932848779,
+          "maximum_energy_balance_residual_j": 0.0006082653999328613,
+          "maximum_scaled_equation_residual": 2.323238489528497e-11,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 953.0760544756423,
+          "maximum_temperature_c": 967.3431371427805,
+          "minimum_ledge_m": 0.09709423240916563,
+          "maximum_ledge_m": 0.16260068644777623,
+          "terminal_temperature_error_c": 0.2927745367553598,
+          "terminal_ledge_error_m": 0.0025816773973318663,
+          "maximum_spatial_temperature_range_c": 6.318342425998139,
+          "maximum_energy_balance_residual_j": 0.000608246773481369,
+          "maximum_scaled_equation_residual": 2.3339797432223955e-11,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 953.0761437201068,
+          "maximum_temperature_c": 967.3339355030624,
+          "minimum_ledge_m": 0.09709226668691953,
+          "maximum_ledge_m": 0.16259992620071384,
+          "terminal_temperature_error_c": 0.2926756787978775,
+          "terminal_ledge_error_m": 0.0025805496234731357,
+          "maximum_spatial_temperature_range_c": 6.318359031064119,
+          "maximum_energy_balance_residual_j": 0.0006080344319343567,
+          "maximum_scaled_equation_residual": 2.3091056694587073e-11,
+          "production_kg": 1362.693737587354
+        }
+      ]
+    },
+    {
+      "template": "regional_net_demand",
+      "date": "2020-10-17",
+      "area": 1,
+      "block_periods": 4,
+      "amplitude_ka": 9,
+      "delay_periods": 0,
+      "thermal_only_passed": true,
+      "certified": true,
+      "execution": {
+        "series_bounds": [
+          0.009522210009584888,
+          0.009522210009584888,
+          0.009522210009584888
+        ],
+        "reachability_upper_bound": 0.009522210009584888,
+        "sampled_bound": 0.00824453944344404,
+        "sufficient_check_passed": true
+      },
+      "phase_summaries": [
+        {
+          "minimum_temperature_c": 954.3277129272404,
+          "maximum_temperature_c": 965.382206805839,
+          "minimum_ledge_m": 0.10426774486443816,
+          "maximum_ledge_m": 0.1564101645448298,
+          "terminal_temperature_error_c": 0.03520527187993139,
+          "terminal_ledge_error_m": 0.0002482305132364693,
+          "maximum_spatial_temperature_range_c": 6.220410824070086,
+          "maximum_energy_balance_residual_j": 6.512714026030153e-05,
+          "maximum_scaled_equation_residual": 1.0415271390229464e-11,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 954.3277129272404,
+          "maximum_temperature_c": 965.382206805839,
+          "minimum_ledge_m": 0.10426774486443816,
+          "maximum_ledge_m": 0.1564101645448298,
+          "terminal_temperature_error_c": 0.03520527187993139,
+          "terminal_ledge_error_m": 0.0002482305132364693,
+          "maximum_spatial_temperature_range_c": 6.220410824070086,
+          "maximum_energy_balance_residual_j": 6.512714026030153e-05,
+          "maximum_scaled_equation_residual": 1.0415271390229464e-11,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 954.3277129272404,
+          "maximum_temperature_c": 965.382206805839,
+          "minimum_ledge_m": 0.10426774486443816,
+          "maximum_ledge_m": 0.1564101645448298,
+          "terminal_temperature_error_c": 0.03520527187993139,
+          "terminal_ledge_error_m": 0.0002482305132364693,
+          "maximum_spatial_temperature_range_c": 6.220410824070086,
+          "maximum_energy_balance_residual_j": 6.512714026030153e-05,
+          "maximum_scaled_equation_residual": 1.0415271390229464e-11,
+          "production_kg": 1362.693737587354
+        }
+      ]
+    },
+    {
+      "template": "regional_net_demand",
+      "date": "2020-10-17",
+      "area": 1,
+      "block_periods": 4,
+      "amplitude_ka": 18,
+      "delay_periods": 0,
+      "thermal_only_passed": true,
+      "certified": false,
+      "execution": {
+        "series_bounds": [
+          0.05182190671528732,
+          0.06045273721772854,
+          0.05959275682913569
+        ],
+        "reachability_upper_bound": 0.06045273721772854,
+        "sampled_bound": 0.05118088166327199,
+        "sufficient_check_passed": false
+      },
+      "phase_summaries": [
+        {
+          "minimum_temperature_c": 952.3466138456515,
+          "maximum_temperature_c": 968.1817331199339,
+          "minimum_ledge_m": 0.09915806111131797,
+          "maximum_ledge_m": 0.15908828966722244,
+          "terminal_temperature_error_c": 0.1722858672521852,
+          "terminal_ledge_error_m": 0.0016179499294701194,
+          "maximum_spatial_temperature_range_c": 6.269244027279115,
+          "maximum_energy_balance_residual_j": 0.0008461102843284607,
+          "maximum_scaled_equation_residual": 3.416882464080118e-11,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 952.3457514265679,
+          "maximum_temperature_c": 968.178671994209,
+          "minimum_ledge_m": 0.09915811636074469,
+          "maximum_ledge_m": 0.15908828966722244,
+          "terminal_temperature_error_c": 0.17205490539117818,
+          "terminal_ledge_error_m": 0.0016154446886900153,
+          "maximum_spatial_temperature_range_c": 6.269263826617703,
+          "maximum_energy_balance_residual_j": 0.0008477941155433655,
+          "maximum_scaled_equation_residual": 3.430691322137136e-11,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 952.3468028289856,
+          "maximum_temperature_c": 968.1841521085145,
+          "minimum_ledge_m": 0.09916096915296332,
+          "maximum_ledge_m": 0.15908828966722244,
+          "terminal_temperature_error_c": 0.17223394030770578,
+          "terminal_ledge_error_m": 0.0016173564314469757,
+          "maximum_spatial_temperature_range_c": 6.269243793089913,
+          "maximum_energy_balance_residual_j": 0.000844217836856842,
+          "maximum_scaled_equation_residual": 3.406591531529557e-11,
+          "production_kg": 1362.693737587354
+        }
+      ]
+    },
+    {
+      "template": "regional_net_demand",
+      "date": "2020-10-17",
+      "area": 1,
+      "block_periods": 8,
+      "amplitude_ka": 9,
+      "delay_periods": 0,
+      "thermal_only_passed": true,
+      "certified": true,
+      "execution": {
+        "series_bounds": [
+          0.009083265145660366,
+          0.009083265145660366,
+          0.009083265145660366
+        ],
+        "reachability_upper_bound": 0.009083265145660366,
+        "sampled_bound": 0.007874192832407886,
+        "sufficient_check_passed": true
+      },
+      "phase_summaries": [
+        {
+          "minimum_temperature_c": 953.9704159231587,
+          "maximum_temperature_c": 965.4587772547076,
+          "minimum_ledge_m": 0.10091836625448394,
+          "maximum_ledge_m": 0.16033664225735617,
+          "terminal_temperature_error_c": 0.12306999124484719,
+          "terminal_ledge_error_m": 0.0010501793161287742,
+          "maximum_spatial_temperature_range_c": 6.285591930930764,
+          "maximum_energy_balance_residual_j": 0.00021878816187381744,
+          "maximum_scaled_equation_residual": 8.822554567207893e-12,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 953.9704159231587,
+          "maximum_temperature_c": 965.4587772547076,
+          "minimum_ledge_m": 0.10091836625448394,
+          "maximum_ledge_m": 0.16033664225735617,
+          "terminal_temperature_error_c": 0.12306999124484719,
+          "terminal_ledge_error_m": 0.0010501793161287742,
+          "maximum_spatial_temperature_range_c": 6.285591930930764,
+          "maximum_energy_balance_residual_j": 0.00021878816187381744,
+          "maximum_scaled_equation_residual": 8.822554567207893e-12,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 953.9704159231587,
+          "maximum_temperature_c": 965.4587772547076,
+          "minimum_ledge_m": 0.10091836625448394,
+          "maximum_ledge_m": 0.16033664225735617,
+          "terminal_temperature_error_c": 0.12306999124484719,
+          "terminal_ledge_error_m": 0.0010501793161287742,
+          "maximum_spatial_temperature_range_c": 6.285591930930764,
+          "maximum_energy_balance_residual_j": 0.00021878816187381744,
+          "maximum_scaled_equation_residual": 8.822554567207893e-12,
+          "production_kg": 1362.693737587354
+        }
+      ]
+    },
+    {
+      "template": "regional_net_demand",
+      "date": "2020-10-17",
+      "area": 1,
+      "block_periods": 8,
+      "amplitude_ka": 18,
+      "delay_periods": 0,
+      "thermal_only_passed": true,
+      "certified": false,
+      "execution": {
+        "series_bounds": [
+          0.057844177910430915,
+          0.05967432211489294,
+          0.05907796758124803
+        ],
+        "reachability_upper_bound": 0.05967432211489294,
+        "sampled_bound": 0.05052185490788052,
+        "sufficient_check_passed": false
+      },
+      "phase_summaries": [
+        {
+          "minimum_temperature_c": 951.4869081238488,
+          "maximum_temperature_c": 968.2396501747264,
+          "minimum_ledge_m": 0.09267511603410149,
+          "maximum_ledge_m": 0.16705503056427382,
+          "terminal_temperature_error_c": 0.32215709660101766,
+          "terminal_ledge_error_m": 0.0029172060689494073,
+          "maximum_spatial_temperature_range_c": 6.39016428309958,
+          "maximum_energy_balance_residual_j": 0.000722493976354599,
+          "maximum_scaled_equation_residual": 7.455539162037894e-11,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 951.4869081238488,
+          "maximum_temperature_c": 968.23784405947,
+          "minimum_ledge_m": 0.09267614587979543,
+          "maximum_ledge_m": 0.16705503056427382,
+          "terminal_temperature_error_c": 0.32199292964855886,
+          "terminal_ledge_error_m": 0.0029159214114578003,
+          "maximum_spatial_temperature_range_c": 6.390153726993958,
+          "maximum_energy_balance_residual_j": 0.0007248744368553162,
+          "maximum_scaled_equation_residual": 7.509614079026505e-11,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 951.4869081238488,
+          "maximum_temperature_c": 968.2411861787814,
+          "minimum_ledge_m": 0.09267492346434152,
+          "maximum_ledge_m": 0.16705503056427382,
+          "terminal_temperature_error_c": 0.3221896505458517,
+          "terminal_ledge_error_m": 0.002917172460983858,
+          "maximum_spatial_temperature_range_c": 6.390183186576678,
+          "maximum_energy_balance_residual_j": 0.000719461590051651,
+          "maximum_scaled_equation_residual": 7.398398338409606e-11,
+          "production_kg": 1362.693737587354
+        }
+      ]
+    },
+    {
+      "template": "regional_net_demand",
+      "date": "2020-11-29",
+      "area": 1,
+      "block_periods": 4,
+      "amplitude_ka": 9,
+      "delay_periods": 0,
+      "thermal_only_passed": true,
+      "certified": true,
+      "execution": {
+        "series_bounds": [
+          0.010576123841955647,
+          0.010576123841955647,
+          0.010576123841955647
+        ],
+        "reachability_upper_bound": 0.010576123841955647,
+        "sampled_bound": 0.009134390651102891,
+        "sufficient_check_passed": true
+      },
+      "phase_summaries": [
+        {
+          "minimum_temperature_c": 954.2708416257116,
+          "maximum_temperature_c": 964.7722233789527,
+          "minimum_ledge_m": 0.10413789241632497,
+          "maximum_ledge_m": 0.15620029023795126,
+          "terminal_temperature_error_c": 0.09329467855582152,
+          "terminal_ledge_error_m": 0.0008731383997399311,
+          "maximum_spatial_temperature_range_c": 6.229147119023196,
+          "maximum_energy_balance_residual_j": 0.0004063267260789871,
+          "maximum_scaled_equation_residual": 2.3042433895170688e-11,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 954.2708416257116,
+          "maximum_temperature_c": 964.7722233789527,
+          "minimum_ledge_m": 0.10413789241632497,
+          "maximum_ledge_m": 0.15620029023795126,
+          "terminal_temperature_error_c": 0.09329467855582152,
+          "terminal_ledge_error_m": 0.0008731383997399311,
+          "maximum_spatial_temperature_range_c": 6.229147119023196,
+          "maximum_energy_balance_residual_j": 0.0004063267260789871,
+          "maximum_scaled_equation_residual": 2.3042433895170688e-11,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 954.2708416257116,
+          "maximum_temperature_c": 964.7722233789527,
+          "minimum_ledge_m": 0.10413789241632497,
+          "maximum_ledge_m": 0.15620029023795126,
+          "terminal_temperature_error_c": 0.09329467855582152,
+          "terminal_ledge_error_m": 0.0008731383997399311,
+          "maximum_spatial_temperature_range_c": 6.229147119023196,
+          "maximum_energy_balance_residual_j": 0.0004063267260789871,
+          "maximum_scaled_equation_residual": 2.3042433895170688e-11,
+          "production_kg": 1362.693737587354
+        }
+      ]
+    },
+    {
+      "template": "regional_net_demand",
+      "date": "2020-11-29",
+      "area": 1,
+      "block_periods": 4,
+      "amplitude_ka": 18,
+      "delay_periods": 0,
+      "thermal_only_passed": true,
+      "certified": false,
+      "execution": {
+        "series_bounds": [
+          0.1280788241305885,
+          0.12692561594742707,
+          0.12745179573771803
+        ],
+        "reachability_upper_bound": 0.1280788241305885,
+        "sampled_bound": 0.10843491036293856,
+        "sufficient_check_passed": false
+      },
+      "phase_summaries": [
+        {
+          "minimum_temperature_c": 952.2842722166342,
+          "maximum_temperature_c": 966.9778652856239,
+          "minimum_ledge_m": 0.09871212732347488,
+          "maximum_ledge_m": 0.15872243243031325,
+          "terminal_temperature_error_c": 0.29892927144874193,
+          "terminal_ledge_error_m": 0.0029679294170851522,
+          "maximum_spatial_temperature_range_c": 6.272864240240551,
+          "maximum_energy_balance_residual_j": 0.0004958286881446838,
+          "maximum_scaled_equation_residual": 2.8411732273525558e-11,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 952.2835836056136,
+          "maximum_temperature_c": 966.9811026562928,
+          "minimum_ledge_m": 0.09871339693651857,
+          "maximum_ledge_m": 0.15872278647424373,
+          "terminal_temperature_error_c": 0.2986720760461594,
+          "terminal_ledge_error_m": 0.002965316262326073,
+          "maximum_spatial_temperature_range_c": 6.272869526596423,
+          "maximum_energy_balance_residual_j": 0.0004956722259521484,
+          "maximum_scaled_equation_residual": 2.8456033760448917e-11,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 952.2843918949262,
+          "maximum_temperature_c": 966.9733653953582,
+          "minimum_ledge_m": 0.09871441266841897,
+          "maximum_ledge_m": 0.15872465318824072,
+          "terminal_temperature_error_c": 0.29887983203013846,
+          "terminal_ledge_error_m": 0.0029672161128438124,
+          "maximum_spatial_temperature_range_c": 6.272938029533293,
+          "maximum_energy_balance_residual_j": 0.0004952475428581238,
+          "maximum_scaled_equation_residual": 2.8393610591592732e-11,
+          "production_kg": 1362.693737587354
+        }
+      ]
+    },
+    {
+      "template": "regional_net_demand",
+      "date": "2020-11-29",
+      "area": 1,
+      "block_periods": 8,
+      "amplitude_ka": 9,
+      "delay_periods": 0,
+      "thermal_only_passed": true,
+      "certified": true,
+      "execution": {
+        "series_bounds": [
+          0.01002299328500213,
+          0.01002299328500213,
+          0.01002299328500213
+        ],
+        "reachability_upper_bound": 0.01002299328500213,
+        "sampled_bound": 0.008667404600367341,
+        "sufficient_check_passed": true
+      },
+      "phase_summaries": [
+        {
+          "minimum_temperature_c": 954.5250587314704,
+          "maximum_temperature_c": 965.0388327606873,
+          "minimum_ledge_m": 0.10303150513937699,
+          "maximum_ledge_m": 0.15934171538239883,
+          "terminal_temperature_error_c": 0.08472161117197174,
+          "terminal_ledge_error_m": 0.0009046971795637626,
+          "maximum_spatial_temperature_range_c": 6.250516720934456,
+          "maximum_energy_balance_residual_j": 0.0001123725960496813,
+          "maximum_scaled_equation_residual": 4.4646925137688715e-12,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 954.5250587314704,
+          "maximum_temperature_c": 965.0388327606873,
+          "minimum_ledge_m": 0.10303150513937699,
+          "maximum_ledge_m": 0.15934171538239883,
+          "terminal_temperature_error_c": 0.08472161117197174,
+          "terminal_ledge_error_m": 0.0009046971795637626,
+          "maximum_spatial_temperature_range_c": 6.250516720934456,
+          "maximum_energy_balance_residual_j": 0.0001123725960496813,
+          "maximum_scaled_equation_residual": 4.4646925137688715e-12,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 954.5250587314704,
+          "maximum_temperature_c": 965.0388327606873,
+          "minimum_ledge_m": 0.10303150513937699,
+          "maximum_ledge_m": 0.15934171538239883,
+          "terminal_temperature_error_c": 0.08472161117197174,
+          "terminal_ledge_error_m": 0.0009046971795637626,
+          "maximum_spatial_temperature_range_c": 6.250516720934456,
+          "maximum_energy_balance_residual_j": 0.0001123725960496813,
+          "maximum_scaled_equation_residual": 4.4646925137688715e-12,
+          "production_kg": 1362.693737587354
+        }
+      ]
+    },
+    {
+      "template": "regional_net_demand",
+      "date": "2020-11-29",
+      "area": 1,
+      "block_periods": 8,
+      "amplitude_ka": 18,
+      "delay_periods": 0,
+      "thermal_only_passed": true,
+      "certified": true,
+      "execution": {
+        "series_bounds": [
+          0.03723830834970141,
+          0.03787641292759285,
+          0.03795836207359505
+        ],
+        "reachability_upper_bound": 0.03795836207359505,
+        "sampled_bound": 0.032136550416621425,
+        "sufficient_check_passed": true
+      },
+      "phase_summaries": [
+        {
+          "minimum_temperature_c": 952.5544574642429,
+          "maximum_temperature_c": 967.6007334017474,
+          "minimum_ledge_m": 0.0962211743507449,
+          "maximum_ledge_m": 0.16547826081622807,
+          "terminal_temperature_error_c": 0.23891572147738316,
+          "terminal_ledge_error_m": 0.0026035906509216666,
+          "maximum_spatial_temperature_range_c": 6.324821364955483,
+          "maximum_energy_balance_residual_j": 0.0006315838545560837,
+          "maximum_scaled_equation_residual": 2.5367389753228052e-11,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 952.5540378524147,
+          "maximum_temperature_c": 967.6006463278245,
+          "minimum_ledge_m": 0.09622136308201235,
+          "maximum_ledge_m": 0.16547826081622807,
+          "terminal_temperature_error_c": 0.23877459565960635,
+          "terminal_ledge_error_m": 0.0026020584252515466,
+          "maximum_spatial_temperature_range_c": 6.324809015022197,
+          "maximum_energy_balance_residual_j": 0.0006346898153424263,
+          "maximum_scaled_equation_residual": 2.5354638637509197e-11,
+          "production_kg": 1362.693737587354
+        },
+        {
+          "minimum_temperature_c": 952.5545990567074,
+          "maximum_temperature_c": 967.6007401655241,
+          "minimum_ledge_m": 0.09622353003687242,
+          "maximum_ledge_m": 0.16547826081622807,
+          "terminal_temperature_error_c": 0.2388765649071729,
+          "terminal_ledge_error_m": 0.0026031423221388184,
+          "maximum_spatial_temperature_range_c": 6.32484742480824,
+          "maximum_energy_balance_residual_j": 0.0006282646209001541,
+          "maximum_scaled_equation_residual": 2.5309382181148977e-11,
+          "production_kg": 1362.693737587354
+        }
+      ]
+    }
+  ],
+  "initial_equilibrium_residual_w": 5.066876838100143e-07
+}

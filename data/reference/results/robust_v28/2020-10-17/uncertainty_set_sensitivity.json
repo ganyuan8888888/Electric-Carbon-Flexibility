@@ -1,0 +1,69 @@
+{
+  "rows": [
+    {
+      "scenarios": [
+        0
+      ],
+      "scenario_count": 1,
+      "gamma_fraction": 0.0,
+      "objective_ratio": 0.9945375485571728,
+      "lower_bound_ratio": 0.9945375485571728,
+      "q_t": [
+        -152.2473782385578,
+        -314.1641224444778,
+        -156.6108864319755,
+        -124.14502697727873,
+        151.4642845960217,
+        -559.766290464697
+      ],
+      "recourse_feasible_scenarios": 3,
+      "runtime_s": 0.024142800000845455
+    },
+    {
+      "scenarios": [
+        0,
+        3,
+        2
+      ],
+      "scenario_count": 3,
+      "gamma_fraction": 0.7259336062081297,
+      "objective_ratio": 119.36562859050544,
+      "lower_bound_ratio": 119.36562859050544,
+      "q_t": [
+        41.318469105868346,
+        -194.304350736483,
+        -152.5916709389714,
+        158.7143770027575,
+        149.96837619018686,
+        -552.6707860416063
+      ],
+      "recourse_feasible_scenarios": 5,
+      "runtime_s": 0.6737477999995463
+    },
+    {
+      "scenarios": [
+        0,
+        3,
+        2,
+        4,
+        1
+      ],
+      "scenario_count": 5,
+      "gamma_fraction": 1.0,
+      "objective_ratio": 119.36562859050694,
+      "lower_bound_ratio": 119.36562859050694,
+      "q_t": [
+        403.9565270144183,
+        -121.62152805130506,
+        -43.758044641800396,
+        194.1341065914233,
+        144.87638611349686,
+        -489.21012096125196
+      ],
+      "recourse_feasible_scenarios": 5,
+      "runtime_s": 0.8947838000021875
+    }
+  ],
+  "scope": "Nested subsets of the five frozen joint trajectories. Recourse coverage concerns only this certified finite model; not a statistical out-of-sample guarantee.",
+  "_arrays_sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85"
+}

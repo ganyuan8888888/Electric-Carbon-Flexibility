@@ -1,0 +1,105 @@
+{
+  "date": "2020-11-29",
+  "outer_iterations": 2,
+  "original_finite_inner_records": 1,
+  "complete_inner_iterations": 2,
+  "inner_iterations_by_outer": {
+    "1": 2,
+    "2": 0
+  },
+  "infeasible_inner_exits": 1,
+  "inner_trace": [
+    {
+      "outer_iteration": 1,
+      "inner_iteration": 1,
+      "lower_ratio": 0.9672306514224945,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 1,
+      "patterns": 1,
+      "elapsed_s": 0.02749739999853773,
+      "status": "optimal",
+      "quota_normalized": [
+        -0.13487329551685734,
+        -0.7295262429400842,
+        -0.033807164218379815,
+        -0.06792954243358806,
+        0.08580763731434704,
+        -0.12180565556059786
+      ]
+    },
+    {
+      "outer_iteration": 1,
+      "inner_iteration": 2,
+      "lower_ratio": null,
+      "upper_ratio": null,
+      "upper_is_infinite": true,
+      "worst_scenario": 1,
+      "status": "infeasible",
+      "meaning": "The fixed quota has no admissible recourse for this scenario; a feasibility scenario is returned. No finite robust objective exists at this quota.",
+      "quota_normalized": [
+        -0.13487329551685734,
+        -0.7295262429400842,
+        -0.033807164218379815,
+        -0.06792954243358806,
+        0.08580763731434704,
+        -0.12180565556059786
+      ]
+    }
+  ],
+  "oracle_events": [
+    {
+      "outer_iteration": 1,
+      "scenarios": [
+        0
+      ],
+      "status": "optimal",
+      "value": 0.9672306514224945,
+      "bound": 0.9672306514224945
+    },
+    {
+      "outer_iteration": 1,
+      "scenarios": [
+        1
+      ],
+      "status": "infeasible",
+      "value": null,
+      "bound": null
+    }
+  ],
+  "outer_trace": [
+    {
+      "iteration": 1,
+      "lower_ratio": 0.9672306514224945,
+      "upper_ratio": 1.1188558756737956,
+      "feasibility_scenario": 1,
+      "active_scenarios": [
+        0
+      ],
+      "elapsed_s": 0.18587790000310633
+    },
+    {
+      "iteration": 2,
+      "lower_ratio": 1.1188558756737956,
+      "upper_ratio": 1.1188558756737956,
+      "relative_gap": 0.0,
+      "active_scenarios": [
+        0,
+        1
+      ],
+      "stopping_reason": "Existing all-scenario feasible incumbent and new master bound close the gap.",
+      "elapsed_s": 0.3007759000029182
+    }
+  ],
+  "refs": [
+    2610440.274317515,
+    35802.36861598098,
+    9281.610181980757
+  ],
+  "LP_calls": 10,
+  "MIP_calls": 10,
+  "extensive_gap": 0.0,
+  "matches_saved_optimum": true,
+  "replay_seconds": 16.088938599998073,
+  "scope": "Same five-scenario frozen certified recourse model; no change of initialization, tolerance, candidate cells, or algorithm. Counts include infeasible oracle exits, exclude final tie-break and additional terminal verification. Outer bound closure may avoid an inner call."
+}

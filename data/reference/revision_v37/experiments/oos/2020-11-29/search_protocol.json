@@ -1,0 +1,5 @@
+{
+  "historical": "Up to five sequential MILP candidates in the frozen full mode pool.",
+  "pressure": "Nearest optimization trajectory in capacity-scaled joint load/renewable distance selects a complete certified recovery mode; five sequential LP candidates for network recourse. M4-N and M4 use the same selected mode and differ only in frozen first-stage quotas.",
+  "change_reason": "Separate full-library historical validation and computationally bounded mode-policy stress evaluation; pilot showed repeated full-library MIPs dominate runtime. Applied before any generated pressure case is evaluated."
+}

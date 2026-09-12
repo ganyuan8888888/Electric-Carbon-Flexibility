@@ -1,0 +1,31 @@
+{
+  "version": 37,
+  "baseline_version": 36,
+  "dates": [
+    "2020-04-07",
+    "2020-10-17",
+    "2020-11-29"
+  ],
+  "seed": 2026091201,
+  "frozen_sections": "Abstract, introduction, Sections II-IV, existing equation objects, existing numerical comparisons and references.",
+  "holdout": "12 donor-day errors per target day; excluded from v26 medoid selection. Do not claim independence across overlapping seasonal windows.",
+  "pressure": "200 complete-day source/load trajectories per target day. Draw one training donor jointly for all sources and 48 periods; multiply its entire error vector by an independent lognormal multiplier with mean 1 and log-sd 0.15. This is a model-based stress test, not 600 independent observed days.",
+  "recourse": "Freeze existing first-stage allowances and commitment. Search original full-day industrial trajectories; validate original carbon balance, carbon caps and electrical limits. Solver failure is not a proof of nonlinear infeasibility.",
+  "region": "Same complete 24h industrial trajectory, original RTS network and nonlinear carbon equations; two-dimensional chart-coordinate/carbon-budget section. Separate chart certification loss from trajectory-library coverage.",
+  "region_grid": [
+    101,
+    201
+  ],
+  "region_depths": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "ac": "All 15 original M4 plans x 48 periods. Original RTS R/X/B/taps and generator Q limits; declared 0.98 lagging industrial power factor, existing lossless PCC X=0.02. No load shedding or post-hoc network reinforcement.",
+  "scaling": "Nested 5/10/20/40 scenario experiments; identical finite cells across solvers, one thread, common tolerances. Preprocessing separately measured.",
+  "reporting": "Preserve all attempted cases and distinguish certified, rejected, unresolved and timed-out records; no outcome-driven filtering."
+}

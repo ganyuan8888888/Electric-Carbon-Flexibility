@@ -1,0 +1,55 @@
+{
+  "generation_emission_t": 46238.034346099885,
+  "curtailment_mwh": -3.289035710452026e-14,
+  "objective_actual": 1918303.2615233387,
+  "carbon_balance_residual": 5.684341886080802e-14,
+  "attribution_conservation_residual": 6.366462912410498e-12,
+  "primal_audit": {
+    "passed": true,
+    "tolerance": 1e-05,
+    "checks": {
+      "total_power_balance_mw": 5.6843418860808015e-12,
+      "nodal_dc_balance_mw": 7.716494110354688e-12,
+      "line_capacity_excess_mw": 1.4210854715202004e-13,
+      "generation_lower_excess_mw": 2.842170943040401e-14,
+      "generation_upper_excess_mw": 0.0,
+      "generation_ramp_excess_mw": 2.842170943040401e-14,
+      "renewable_lower_excess_mw": 0.0,
+      "renewable_upper_excess_mw": 1.4210854715202004e-14,
+      "library_interface_error_mw": 0.0,
+      "weight_sum_error": 0.0,
+      "weight_bound_excess": -0.0,
+      "inadmissible_branch_weight": 0.0,
+      "commitment_integrality_error": 0.0,
+      "branch_integrality_error": 0.0
+    },
+    "integral_required": true,
+    "weight_fractionality": 0.0
+  },
+  "date": "2020-04-07",
+  "scenario": 0,
+  "benchmarks": {
+    "M1_constant": [
+      1912699.176602583,
+      46541.78292587991,
+      0.0
+    ],
+    "M2_native": [
+      1911947.0094422149,
+      46084.825722660105,
+      -3.622102617839573e-14
+    ],
+    "M3_native": [
+      2003965.400756802,
+      51735.589815317646,
+      692.6404204393668
+    ]
+  },
+  "status": "optimal",
+  "runtime_s": 24.121144799995818,
+  "scope": "Common original certified industrial library, same source-load scenario and commitment. Maximize minimum relative improvement of positive benchmark metrics; preserve zero curtailment where present. Original industrial carbon caps are checked after candidate generation.",
+  "uniform_gain": -0.003324491761379378,
+  "carbon_cap_excess_t": -36.62899839838255,
+  "solver_minimization_dual_bound": 0.003324491761379378,
+  "_arrays_sha256": "876fe41a2f11cd1a2fdf54280bc429f852fd95bc956ac67e1df4e5ed612690aa"
+}
